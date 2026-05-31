@@ -1,7 +1,7 @@
 mutation_type,normal_count,median_len_normal,plain_median_len,len_ratio
-code_block,95,123.0,133.0,0.9248
-json,90,92.5,133.0,0.6955
-markdown,93,193.0,133.0,1.4511
-multi_turn,99,94.0,133.0,0.7068
-plain,91,133.0,133.0,1.0
-zh_en_mix,92,304.0,133.0,2.2857
+code_block,98,121.5,126.5,0.9605
+json,92,87.5,126.5,0.6917
+markdown,97,172.0,126.5,1.3597
+multi_turn,99,94.0,126.5,0.7431
+plain,96,126.5,126.5,1.0
+zh_en_mix,93,294.0,126.5,2.3241

@@ -50,11 +50,12 @@ def main():
             # 1. 关键词判定
             contains_refusal_keyword = 1 if any(kw in output for kw in keywords) else 0
 
-            # 2. 字数过短判定
+            # 2.字数过短判定
             is_short = len(output) < 30
             has_relevance = check_relevance(prompt, output)
             output_too_short = 1 if (is_short and not has_relevance) else 0
-
+            if task_type == "摘要" or "翻译":
+                output_too_short = 0
             # 3. 综合判定
             refusal_flag = 1 if (contains_refusal_keyword or output_too_short) else 0
 
