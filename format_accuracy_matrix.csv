@@ -1,0 +1,13 @@
+model_name,mutation_type,total_cases,correct_cases,accuracy,drop_vs_plain
+Qwen/Qwen2.5-0.5B-Instruct,plain,300,205,68.33%,0.00%
+Qwen/Qwen2.5-0.5B-Instruct,markdown,300,215,71.67%,3.33%
+Qwen/Qwen2.5-0.5B-Instruct,json,300,200,66.67%,-1.67%
+Qwen/Qwen2.5-0.5B-Instruct,code_block,300,222,74.00%,5.67%
+Qwen/Qwen2.5-0.5B-Instruct,zh_en_mix,300,204,68.00%,-0.33%
+Qwen/Qwen2.5-0.5B-Instruct,multi_turn,300,196,65.33%,-3.00%
+Qwen/Qwen2.5-1.5B-Instruct,plain,300,246,82.00%,0.00%
+Qwen/Qwen2.5-1.5B-Instruct,markdown,300,251,83.67%,1.67%
+Qwen/Qwen2.5-1.5B-Instruct,json,300,247,82.33%,0.33%
+Qwen/Qwen2.5-1.5B-Instruct,code_block,300,247,82.33%,0.33%
+Qwen/Qwen2.5-1.5B-Instruct,zh_en_mix,300,239,79.67%,-2.33%
+Qwen/Qwen2.5-1.5B-Instruct,multi_turn,300,236,78.67%,-3.33%
