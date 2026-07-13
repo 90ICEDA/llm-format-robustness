@@ -1,0 +1,13 @@
+model_name,mutation_type,accuracy,right_turn_false_rate,false_turn_right_rate,total_flip_rate,net_change
+Qwen/Qwen2.5-0.5B-Instruct,plain,65.99%,0.0%,0.0%,0.0%,0.0%
+Qwen/Qwen2.5-0.5B-Instruct,markdown,64.09%,10.44%,8.08%,18.52%,-2.36%
+Qwen/Qwen2.5-0.5B-Instruct,json,68.01%,7.41%,9.09%,16.5%,1.68%
+Qwen/Qwen2.5-0.5B-Instruct,code_block,67.68%,7.07%,8.75%,15.82%,1.68%
+Qwen/Qwen2.5-0.5B-Instruct,zh_en_mix,57.91%,15.15%,7.07%,22.22%,-8.08%
+Qwen/Qwen2.5-0.5B-Instruct,multi_turn,67.57%,8.08%,9.43%,17.51%,1.35%
+Qwen/Qwen2.5-1.5B-Instruct,plain,87.21%,0.0%,0.0%,0.0%,0.0%
+Qwen/Qwen2.5-1.5B-Instruct,markdown,86.87%,4.38%,3.7%,8.08%,-0.68%
+Qwen/Qwen2.5-1.5B-Instruct,json,87.21%,5.05%,5.05%,10.1%,0.0%
+Qwen/Qwen2.5-1.5B-Instruct,code_block,87.76%,3.37%,4.04%,7.41%,0.67%
+Qwen/Qwen2.5-1.5B-Instruct,zh_en_mix,76.09%,14.14%,3.03%,17.17%,-11.11%
+Qwen/Qwen2.5-1.5B-Instruct,multi_turn,86.44%,5.72%,4.71%,10.43%,-1.01%
