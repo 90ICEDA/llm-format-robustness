@@ -11,16 +11,16 @@ os.environ["CUDA_VISIBLE_DEVICES"] = "-1"
 
 # ===================== 全局配置（一键切换参数） =====================
 # 模型选择：测试用0.5B，正式用7B
-MODEL_NAME = "Qwen/Qwen2.5-0.5B-Instruct"
-# MODEL_NAME = "Qwen/Qwen2.5-7B-Instruct"
+# MODEL_NAME = "Qwen/Qwen2.5-0.5B-Instruct"
+MODEL_NAME = "Qwen/Qwen2.5-7B-Instruct"
 
 INPUT_JSONL = "mutated_prompts.jsonl"
 OUTPUT_JSONL = "model_generation_logprob.jsonl" 
 OUTPUT_CSV = "confidence_stats.csv"
 
 # 测试模式开关：TEST_NUM=20 仅跑前20条；TEST_NUM=None 全量运行
-TEST_NUM = 20
-# TEST_NUM = None
+#TEST_NUM = 20
+TEST_NUM = None
 
 # 生成参数
 MAX_NEW_TOKENS = 256
