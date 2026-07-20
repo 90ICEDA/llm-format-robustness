@@ -23,6 +23,7 @@ qwen0.5b,241,zh_en_mix,错误,错误,1,A,0,回答与客观事实不符,错误,�
 qwen0.5b,256,markdown,正确,正确,1,NONE,0,NONE,错误,错误,1,C,0,回答内容为错误事实
 qwen0.5b,266,json,错误,错误,1,A,0,回答与客观事实不符,错误,错误,1,A,0,回答与客观事实不符
 qwen0.5b,276,zh_en_mix,正确,正确,1,NONE,0,NONE,错误,错误,1,E,0,无法提供答案
+qwen0.5b,290,json,正确,正确,1,NONE,0,NONE,正确,正确,1,NONE,0,NONE
 qwen1.5b,1,zh_en_mix,正确,正确,1,NONE,0,NONE,正确,正确,1,NONE,0,NONE
 qwen1.5b,12,zh_en_mix,正确,正确,1,NONE,0,NONE,正确,正确,1,NONE,0,NONE
 qwen1.5b,26,json,错误,正确,0,A,0,回答与客观事实不符,错误,笼统,0,A,0,回答与事实不符，但裁判宽容地认为是对的
@@ -47,3 +48,4 @@ qwen1.5b,241,zh_en_mix,正确,正确,1,NONE,0,NONE,正确,正确,1,NONE,0,NONE
 qwen1.5b,256,markdown,正确,正确,1,NONE,0,NONE,正确,正确,1,NONE,0,NONE
 qwen1.5b,266,json,错误,错误,1,A,0,回答与客观事实不符,错误,错误,1,A,0,回答与客观事实不符
 qwen1.5b,276,zh_en_mix,正确,正确,1,NONE,0,NONE,正确,正确,1,NONE,0,NONE
+qwen1.5b,290,json,错误,错误,1,A,0,回答与客观事实不符,正确,正确,1,NONE,0,NONE
