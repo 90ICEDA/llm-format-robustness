@@ -1,0 +1,2219 @@
+qid,category,format,model,gold,model_raw_answer,is_correct,config_id,raw_commit_score,raw_decline_score,commit_minus_decline,actual_behavior
+L_001,logic,plain,Qwen/Qwen2.5-7B-Instruct,C,"根据题目给出的条件：
+
+(1) 如果A去出差，那么B也去出差；
+(2) B去出差时，C不去出差；",False,s2_swap_False,23.46875,19.5,3.96875,commit
+L_001,logic,plain,Qwen/Qwen2.5-7B-Instruct,C,"根据题目给出的条件：
+
+(1) 如果A去出差，那么B也去出差；
+(2) B去出差时，C不去出差；",False,s2_swap_True,23.65625,22.65625,1.0,commit
+L_001,logic,markdown,Qwen/Qwen2.5-7B-Instruct,C,"根据题目给出的条件：
+
+1. 如果A去出差，那么B也去出差。
+2. B去出差时，C不去出差。
+3.",False,s2_swap_False,22.96875,19.515625,3.453125,commit
+L_001,logic,markdown,Qwen/Qwen2.5-7B-Instruct,C,"根据题目给出的条件：
+
+1. 如果A去出差，那么B也去出差。
+2. B去出差时，C不去出差。
+3.",False,s2_swap_True,21.015625,21.046875,-0.03125,decline
+L_002,logic,plain,Qwen/Qwen2.5-7B-Instruct,A,"我们可以通过逻辑推理来分析这个问题。
+
+首先，明确四个人的预测：
+- 甲：会取代。
+- 乙：不会完全取代。
+-",False,s2_swap_False,23.890625,18.125,5.765625,commit
+L_002,logic,plain,Qwen/Qwen2.5-7B-Instruct,A,"我们可以通过逻辑推理来分析这个问题。
+
+首先，明确四个人的预测：
+- 甲：会取代。
+- 乙：不会完全取代。
+-",False,s2_swap_True,18.609375,19.234375,-0.625,decline
+L_002,logic,markdown,Qwen/Qwen2.5-7B-Instruct,A,"我们可以通过逻辑推理来解答这个问题。
+
+首先，明确四个人的预测：
+- 甲：会取代。
+- 乙：不会完全取代。
+-",False,s2_swap_False,21.90625,16.75,5.15625,commit
+L_002,logic,markdown,Qwen/Qwen2.5-7B-Instruct,A,"我们可以通过逻辑推理来解答这个问题。
+
+首先，明确四个人的预测：
+- 甲：会取代。
+- 乙：不会完全取代。
+-",False,s2_swap_True,19.53125,17.40625,2.125,commit
+L_003,logic,plain,Qwen/Qwen2.5-7B-Instruct,A,"根据题干信息，我们可以进行如下逻辑推理：
+
+1. 所有优秀的科学家都具有强烈的好奇心。
+2. 有些优秀的科学家同时也是",False,s2_swap_False,25.03125,17.125,7.90625,commit
+L_003,logic,plain,Qwen/Qwen2.5-7B-Instruct,A,"根据题干信息，我们可以进行如下逻辑推理：
+
+1. 所有优秀的科学家都具有强烈的好奇心。
+2. 有些优秀的科学家同时也是",False,s2_swap_True,26.046875,22.96875,3.078125,commit
+L_003,logic,markdown,Qwen/Qwen2.5-7B-Instruct,A,"我们来分析这个逻辑推理题。
+
+题目给出的信息是：
+1. 所有优秀的科学家都具有强烈的好奇心。
+2. 有些优秀的",False,s2_swap_False,24.671875,20.1875,4.484375,commit
+L_003,logic,markdown,Qwen/Qwen2.5-7B-Instruct,A,"我们来分析这个逻辑推理题。
+
+题目给出的信息是：
+1. 所有优秀的科学家都具有强烈的好奇心。
+2. 有些优秀的",False,s2_swap_True,25.78125,23.375,2.40625,commit
+L_004,logic,plain,Qwen/Qwen2.5-7B-Instruct,A,"根据题目给出的条件，我们可以逐步推理：
+
+1. 若A有罪，则B也有罪。（条件1）
+2. C有罪而D无",True,s2_swap_False,25.0625,18.890625,6.171875,commit
+L_004,logic,plain,Qwen/Qwen2.5-7B-Instruct,A,"根据题目给出的条件，我们可以逐步推理：
+
+1. 若A有罪，则B也有罪。（条件1）
+2. C有罪而D无",True,s2_swap_True,23.703125,21.203125,2.5,commit
+L_004,logic,markdown,Qwen/Qwen2.5-7B-Instruct,A,"根据题目给出的条件，我们可以逐步推理得出结论。
+
+1. (1) 若A有罪，则B也有罪。
+2. (2) C",False,s2_swap_False,20.40625,19.65625,0.75,commit
+L_004,logic,markdown,Qwen/Qwen2.5-7B-Instruct,A,"根据题目给出的条件，我们可以逐步推理得出结论。
+
+1. (1) 若A有罪，则B也有罪。
+2. (2) C",False,s2_swap_True,19.21875,19.5,-0.28125,decline
+L_005,logic,plain,Qwen/Qwen2.5-7B-Instruct,A,这道题属于逻辑推理中的命题逻辑问题。教练的话可以表示为一个合取命题（即“并且”关系）：“主力二传手上,False,s2_swap_False,26.609375,16.75,9.859375,commit
+L_005,logic,plain,Qwen/Qwen2.5-7B-Instruct,A,这道题属于逻辑推理中的命题逻辑问题。教练的话可以表示为一个合取命题（即“并且”关系）：“主力二传手上,False,s2_swap_True,29.640625,21.578125,8.0625,commit
+L_005,logic,markdown,Qwen/Qwen2.5-7B-Instruct,A,这道题属于逻辑推理中的命题逻辑问题。教练的话可以表示为一个合取命题（即“并且”关系）：“主力二传手上,False,s2_swap_False,25.875,16.65625,9.21875,commit
+L_005,logic,markdown,Qwen/Qwen2.5-7B-Instruct,A,这道题属于逻辑推理中的命题逻辑问题。教练的话可以表示为一个合取命题（即“并且”关系）：“主力二传手上,False,s2_swap_True,27.3125,21.71875,5.59375,commit
+L_006,logic,plain,Qwen/Qwen2.5-7B-Instruct,B,"我们可以通过逻辑推理来解决这个问题。
+
+首先，根据条件（1）“李四的收入比教师高”，可以得出李四不是教师。
+
+其次",False,s2_swap_False,20.015625,16.015625,4.0,commit
+L_006,logic,plain,Qwen/Qwen2.5-7B-Instruct,B,"我们可以通过逻辑推理来解决这个问题。
+
+首先，根据条件（1）“李四的收入比教师高”，可以得出李四不是教师。
+
+其次",False,s2_swap_True,22.40625,20.375,2.03125,commit
+L_006,logic,markdown,Qwen/Qwen2.5-7B-Instruct,B,"我们可以通过逻辑推理来解答这个问题。
+
+首先，根据条件（1）“李四的收入比教师高”，可以得出李四不是教师。
+
+其次",False,s2_swap_False,20.515625,15.9921875,4.5234375,commit
+L_006,logic,markdown,Qwen/Qwen2.5-7B-Instruct,B,"我们可以通过逻辑推理来解答这个问题。
+
+首先，根据条件（1）“李四的收入比教师高”，可以得出李四不是教师。
+
+其次",False,s2_swap_True,22.59375,19.421875,3.171875,commit
+L_007,logic,plain,Qwen/Qwen2.5-7B-Instruct,B,"这是一个经典的逻辑推理题。我们可以通过分析每个箱子上的陈述来找出正确答案。
+
+假设奖品在箱1中：
+- 箱1的",False,s2_swap_False,25.671875,19.078125,6.59375,commit
+L_007,logic,plain,Qwen/Qwen2.5-7B-Instruct,B,"这是一个经典的逻辑推理题。我们可以通过分析每个箱子上的陈述来找出正确答案。
+
+假设奖品在箱1中：
+- 箱1的",False,s2_swap_True,23.796875,21.234375,2.5625,commit
+L_007,logic,markdown,Qwen/Qwen2.5-7B-Instruct,B,"这是一个经典的逻辑推理题，涉及到真话和假话的判断。
+
+我们假设每个箱子上的陈述为真或假，并根据题目条件（只有一",False,s2_swap_False,27.640625,19.546875,8.09375,commit
+L_007,logic,markdown,Qwen/Qwen2.5-7B-Instruct,B,"这是一个经典的逻辑推理题，涉及到真话和假话的判断。
+
+我们假设每个箱子上的陈述为真或假，并根据题目条件（只有一",False,s2_swap_True,25.703125,19.640625,6.0625,commit
+L_008,logic,plain,Qwen/Qwen2.5-7B-Instruct,B,"我们可以通过逻辑推理来分析这个问题。
+
+已知条件如下：
+1. 如果小张买黑色，那么小李也买黑色。
+2. 如果小",False,s2_swap_False,22.9375,23.828125,-0.890625,decline
+L_008,logic,plain,Qwen/Qwen2.5-7B-Instruct,B,"我们可以通过逻辑推理来分析这个问题。
+
+已知条件如下：
+1. 如果小张买黑色，那么小李也买黑色。
+2. 如果小",False,s2_swap_True,24.59375,24.296875,0.296875,commit
+L_008,logic,markdown,Qwen/Qwen2.5-7B-Instruct,B,"我们可以通过逻辑推理来解答这个问题。
+
+根据题目给出的条件：
+1. 如果小张买黑色，那么小李也买黑色。
+2. 如果",False,s2_swap_False,22.484375,19.25,3.234375,commit
+L_008,logic,markdown,Qwen/Qwen2.5-7B-Instruct,B,"我们可以通过逻辑推理来解答这个问题。
+
+根据题目给出的条件：
+1. 如果小张买黑色，那么小李也买黑色。
+2. 如果",False,s2_swap_True,21.515625,20.578125,0.9375,commit
+L_009,logic,plain,Qwen/Qwen2.5-7B-Instruct,C,"我们可以通过逻辑推理来分析这个问题。
+
+首先，明确四位老师的陈述内容：
+1. 赵老师：所有人都及格了。
+2. �",False,s2_swap_False,23.109375,17.9375,5.171875,commit
+L_009,logic,plain,Qwen/Qwen2.5-7B-Instruct,C,"我们可以通过逻辑推理来分析这个问题。
+
+首先，明确四位老师的陈述内容：
+1. 赵老师：所有人都及格了。
+2. �",False,s2_swap_True,19.3125,19.1875,0.125,commit
+L_009,logic,markdown,Qwen/Qwen2.5-7B-Instruct,C,"我们可以通过逻辑推理来分析这个问题。
+
+首先，明确四位老师的陈述：
+1. 赵老师：“所有人都及格了。”（所有人都及格）",False,s2_swap_False,20.515625,18.640625,1.875,commit
+L_009,logic,markdown,Qwen/Qwen2.5-7B-Instruct,C,"我们可以通过逻辑推理来分析这个问题。
+
+首先，明确四位老师的陈述：
+1. 赵老师：“所有人都及格了。”（所有人都及格）",False,s2_swap_True,18.265625,18.203125,0.0625,commit
+L_010,logic,plain,Qwen/Qwen2.5-7B-Instruct,B,"根据题目给出的条件：
+
+1. 甲国代表全都会说英语。
+2. 有些乙国代表不会说英语。
+3. 所",False,s2_swap_False,25.28125,17.984375,7.296875,commit
+L_010,logic,plain,Qwen/Qwen2.5-7B-Instruct,B,"根据题目给出的条件：
+
+1. 甲国代表全都会说英语。
+2. 有些乙国代表不会说英语。
+3. 所",False,s2_swap_True,24.34375,22.8125,1.53125,commit
+L_010,logic,markdown,Qwen/Qwen2.5-7B-Instruct,B,"我们来逐一分析每个选项：
+
+A. 有些会说英语的人不是甲国代表。
+- 根据条件（2），有些乙国代表",False,s2_swap_False,23.375,20.4375,2.9375,commit
+L_010,logic,markdown,Qwen/Qwen2.5-7B-Instruct,B,"我们来逐一分析每个选项：
+
+A. 有些会说英语的人不是甲国代表。
+- 根据条件（2），有些乙国代表",False,s2_swap_True,20.515625,20.03125,0.484375,commit
+L_011,logic,plain,Qwen/Qwen2.5-7B-Instruct,C,"我们可以通过逻辑推理来分析这个问题。
+
+已知条件如下：
+1. 如果甲去，则乙也去。
+2. 丙和丁两人中至少",False,s2_swap_False,21.578125,20.34375,1.234375,commit
+L_011,logic,plain,Qwen/Qwen2.5-7B-Instruct,C,"我们可以通过逻辑推理来分析这个问题。
+
+已知条件如下：
+1. 如果甲去，则乙也去。
+2. 丙和丁两人中至少",False,s2_swap_True,20.765625,20.3125,0.453125,commit
+L_011,logic,markdown,Qwen/Qwen2.5-7B-Instruct,C,"我们可以通过逻辑推理来解决这个问题。
+
+首先，根据题目条件：
+1. 如果甲去，则乙也去。
+2. 丙和丁两人中",False,s2_swap_False,19.609375,19.78125,-0.171875,decline
+L_011,logic,markdown,Qwen/Qwen2.5-7B-Instruct,C,"我们可以通过逻辑推理来解决这个问题。
+
+首先，根据题目条件：
+1. 如果甲去，则乙也去。
+2. 丙和丁两人中",False,s2_swap_True,18.609375,19.0625,-0.453125,decline
+L_012,logic,plain,Qwen/Qwen2.5-7B-Instruct,A,"根据题干信息，我们可以进行逻辑推理：
+
+1. 凡是买过A商品的人也买过B商品。
+2. 凡是买",True,s2_swap_False,24.78125,16.828125,7.953125,commit
+L_012,logic,plain,Qwen/Qwen2.5-7B-Instruct,A,"根据题干信息，我们可以进行逻辑推理：
+
+1. 凡是买过A商品的人也买过B商品。
+2. 凡是买",True,s2_swap_True,23.234375,22.09375,1.140625,commit
+L_012,logic,markdown,Qwen/Qwen2.5-7B-Instruct,A,"根据题干信息，我们可以进行逻辑推理：
+
+1. 凡是买过A商品的人也买过B商品。
+2. 凡是买",True,s2_swap_False,23.875,16.703125,7.171875,commit
+L_012,logic,markdown,Qwen/Qwen2.5-7B-Instruct,A,"根据题干信息，我们可以进行逻辑推理：
+
+1. 凡是买过A商品的人也买过B商品。
+2. 凡是买",True,s2_swap_True,22.703125,21.484375,1.21875,commit
+L_013,logic,plain,Qwen/Qwen2.5-7B-Instruct,A,"我们可以通过逻辑推理来分析这个题目。
+
+已知条件是：
+1. 所有爱好文学的同学都不爱好理科。
+2. 有些爱好艺术",False,s2_swap_False,24.3125,20.234375,4.078125,commit
+L_013,logic,plain,Qwen/Qwen2.5-7B-Instruct,A,"我们可以通过逻辑推理来分析这个题目。
+
+已知条件是：
+1. 所有爱好文学的同学都不爱好理科。
+2. 有些爱好艺术",False,s2_swap_True,25.09375,22.859375,2.234375,commit
+L_013,logic,markdown,Qwen/Qwen2.5-7B-Instruct,A,"我们来逐步分析这个逻辑推理题。
+
+首先，明确给定的信息：
+1. 所有爱好文学的同学都不爱好理科。
+2. 有些",False,s2_swap_False,24.484375,17.953125,6.53125,commit
+L_013,logic,markdown,Qwen/Qwen2.5-7B-Instruct,A,"我们来逐步分析这个逻辑推理题。
+
+首先，明确给定的信息：
+1. 所有爱好文学的同学都不爱好理科。
+2. 有些",False,s2_swap_True,21.265625,21.5625,-0.296875,decline
+L_014,logic,plain,Qwen/Qwen2.5-7B-Instruct,A,"我们可以通过逻辑推理来解决这个问题。
+
+假设四个人中只有一个人说了假话，那么其他三个人说的是真话。
+
+1. 如果甲说的是假",False,s2_swap_False,25.296875,18.671875,6.625,commit
+L_014,logic,plain,Qwen/Qwen2.5-7B-Instruct,A,"我们可以通过逻辑推理来解决这个问题。
+
+假设四个人中只有一个人说了假话，那么其他三个人说的是真话。
+
+1. 如果甲说的是假",False,s2_swap_True,24.25,19.9375,4.3125,commit
+L_014,logic,markdown,Qwen/Qwen2.5-7B-Instruct,A,"为了解决这个问题，我们可以使用逻辑推理的方法来分析每个人的陈述，并找出唯一一个说了假话的人。
+
+1. 假设甲说的是假",False,s2_swap_False,23.421875,17.6875,5.734375,commit
+L_014,logic,markdown,Qwen/Qwen2.5-7B-Instruct,A,"为了解决这个问题，我们可以使用逻辑推理的方法来分析每个人的陈述，并找出唯一一个说了假话的人。
+
+1. 假设甲说的是假",False,s2_swap_True,22.34375,19.484375,2.859375,commit
+L_015,logic,plain,Qwen/Qwen2.5-7B-Instruct,C,"我们可以通过逻辑推理来分析这个问题。
+
+给定的条件是：
+1. 如果小明去图书馆，那么小红也去图书馆。（小明 →",False,s2_swap_False,25.625,18.875,6.75,commit
+L_015,logic,plain,Qwen/Qwen2.5-7B-Instruct,C,"我们可以通过逻辑推理来分析这个问题。
+
+给定的条件是：
+1. 如果小明去图书馆，那么小红也去图书馆。（小明 →",False,s2_swap_True,21.84375,21.59375,0.25,commit
+L_015,logic,markdown,Qwen/Qwen2.5-7B-Instruct,C,"根据题目中的条件，我们可以用逻辑推理来分析：
+
+1. 如果小明去图书馆，那么小红也去图书馆。（小明 → 小",False,s2_swap_False,24.796875,18.96875,5.828125,commit
+L_015,logic,markdown,Qwen/Qwen2.5-7B-Instruct,C,"根据题目中的条件，我们可以用逻辑推理来分析：
+
+1. 如果小明去图书馆，那么小红也去图书馆。（小明 → 小",False,s2_swap_True,23.0625,21.515625,1.546875,commit
+L_016,logic,plain,Qwen/Qwen2.5-7B-Instruct,A,"根据题目给出的信息进行逻辑推理：
+
+1. 赵的年薪比钱的高。
+2. 孙的年薪比赵的高。
+3",False,s2_swap_False,25.578125,17.0,8.578125,commit
+L_016,logic,plain,Qwen/Qwen2.5-7B-Instruct,A,"根据题目给出的信息进行逻辑推理：
+
+1. 赵的年薪比钱的高。
+2. 孙的年薪比赵的高。
+3",False,s2_swap_True,23.375,21.578125,1.796875,commit
+L_016,logic,markdown,Qwen/Qwen2.5-7B-Instruct,A,"根据题目给出的信息进行逻辑推理：
+
+1. 赵的年薪比钱的高。
+2. 孙的年薪比赵的高。
+3",False,s2_swap_False,25.125,17.828125,7.296875,commit
+L_016,logic,markdown,Qwen/Qwen2.5-7B-Instruct,A,"根据题目给出的信息进行逻辑推理：
+
+1. 赵的年薪比钱的高。
+2. 孙的年薪比赵的高。
+3",False,s2_swap_True,21.90625,20.71875,1.1875,commit
+L_017,logic,plain,Qwen/Qwen2.5-7B-Instruct,B,"我们可以通过逻辑推理来分析这个题目。
+
+已知条件：
+1. 所有成功的创业者都具备坚韧不拔的意志。
+2. 有些",False,s2_swap_False,24.9375,19.546875,5.390625,commit
+L_017,logic,plain,Qwen/Qwen2.5-7B-Instruct,B,"我们可以通过逻辑推理来分析这个题目。
+
+已知条件：
+1. 所有成功的创业者都具备坚韧不拔的意志。
+2. 有些",False,s2_swap_True,23.328125,22.828125,0.5,commit
+L_017,logic,markdown,Qwen/Qwen2.5-7B-Instruct,B,"我们可以通过逻辑推理来分析这个题目。
+
+题干给出的信息是：
+1. 所有成功的创业者都具备坚韧不拔的意志。
+2.",False,s2_swap_False,24.3125,18.59375,5.71875,commit
+L_017,logic,markdown,Qwen/Qwen2.5-7B-Instruct,B,"我们可以通过逻辑推理来分析这个题目。
+
+题干给出的信息是：
+1. 所有成功的创业者都具备坚韧不拔的意志。
+2.",False,s2_swap_True,24.046875,22.171875,1.875,commit
+L_018,logic,plain,Qwen/Qwen2.5-7B-Instruct,C,"我们可以通过逻辑推理来解决这个问题。
+
+首先，我们列出四位评委的预测：
+1. 甲说：“A或B获奖。”
+2.",False,s2_swap_False,24.671875,18.4375,6.234375,commit
+L_018,logic,plain,Qwen/Qwen2.5-7B-Instruct,C,"我们可以通过逻辑推理来解决这个问题。
+
+首先，我们列出四位评委的预测：
+1. 甲说：“A或B获奖。”
+2.",False,s2_swap_True,24.296875,19.984375,4.3125,commit
+L_018,logic,markdown,Qwen/Qwen2.5-7B-Instruct,C,"为了解决这个问题，我们可以通过逻辑推理来分析每个评委的预测，并根据题目条件（两位正确，两位错误）来确定最终的答案。
+
+1",False,s2_swap_False,24.203125,18.078125,6.125,commit
+L_018,logic,markdown,Qwen/Qwen2.5-7B-Instruct,C,"为了解决这个问题，我们可以通过逻辑推理来分析每个评委的预测，并根据题目条件（两位正确，两位错误）来确定最终的答案。
+
+1",False,s2_swap_True,24.515625,19.53125,4.984375,commit
+L_019,logic,plain,Qwen/Qwen2.5-7B-Instruct,B,根据题干中的断定：“只有加强金融监管，才能推广数字货币”，可以理解为推广数字货币是建立在加强金融监管的基础上的。这是一个典型的,False,s2_swap_False,30.703125,18.953125,11.75,commit
+L_019,logic,plain,Qwen/Qwen2.5-7B-Instruct,B,根据题干中的断定：“只有加强金融监管，才能推广数字货币”，可以理解为推广数字货币是建立在加强金融监管的基础上的。这是一个典型的,False,s2_swap_True,30.203125,22.46875,7.734375,commit
+L_019,logic,markdown,Qwen/Qwen2.5-7B-Instruct,B,根据题干中的断定：“只有加强金融监管，才能推广数字货币”，可以理解为推广数字货币是建立在加强金融监管的基础上的。这是一个典型的,False,s2_swap_False,28.703125,19.328125,9.375,commit
+L_019,logic,markdown,Qwen/Qwen2.5-7B-Instruct,B,根据题干中的断定：“只有加强金融监管，才能推广数字货币”，可以理解为推广数字货币是建立在加强金融监管的基础上的。这是一个典型的,False,s2_swap_True,28.90625,23.203125,5.703125,commit
+L_020,logic,plain,Qwen/Qwen2.5-7B-Instruct,A,"根据题目给出的信息：
+
+1. 若A当选，则B也当选。
+2. 若C当选，则A不当选。
+
+已知C确实当选了，",True,s2_swap_False,31.03125,21.015625,10.015625,commit
+L_020,logic,plain,Qwen/Qwen2.5-7B-Instruct,A,"根据题目给出的信息：
+
+1. 若A当选，则B也当选。
+2. 若C当选，则A不当选。
+
+已知C确实当选了，",True,s2_swap_True,29.3125,24.171875,5.140625,commit
+L_020,logic,markdown,Qwen/Qwen2.5-7B-Instruct,A,"根据题目中的条件分析：
+
+1. 若A当选，则B也当选。
+2. 若C当选，则A不当选。
+
+已知C确实当选了",True,s2_swap_False,28.359375,20.484375,7.875,commit
+L_020,logic,markdown,Qwen/Qwen2.5-7B-Instruct,A,"根据题目中的条件分析：
+
+1. 若A当选，则B也当选。
+2. 若C当选，则A不当选。
+
+已知C确实当选了",True,s2_swap_True,26.203125,23.03125,3.171875,commit
+L_021,logic,plain,Qwen/Qwen2.5-7B-Instruct,B,"我们可以通过逻辑推理来解决这个问题。
+
+根据已知条件：
+1. 甲不是北京人。
+2. 乙不是上海人。
+3. 如果",False,s2_swap_False,22.234375,17.609375,4.625,commit
+L_021,logic,plain,Qwen/Qwen2.5-7B-Instruct,B,"我们可以通过逻辑推理来解决这个问题。
+
+根据已知条件：
+1. 甲不是北京人。
+2. 乙不是上海人。
+3. 如果",False,s2_swap_True,22.921875,19.953125,2.96875,commit
+L_021,logic,markdown,Qwen/Qwen2.5-7B-Instruct,B,"我们可以通过逻辑推理来解答这个问题。
+
+根据题目信息：
+1. 甲不是北京人。
+2. 乙不是上海人。
+3. 如果甲",False,s2_swap_False,20.96875,18.125,2.84375,commit
+L_021,logic,markdown,Qwen/Qwen2.5-7B-Instruct,B,"我们可以通过逻辑推理来解答这个问题。
+
+根据题目信息：
+1. 甲不是北京人。
+2. 乙不是上海人。
+3. 如果甲",False,s2_swap_True,21.0,19.046875,1.953125,commit
+L_022,logic,plain,Qwen/Qwen2.5-7B-Instruct,A,"根据题目中的条件进行逻辑推理：
+
+1. 如果不喂竹子，大熊猫就不进食。
+2. 金丝猴和小熊猫只有在喂",False,s2_swap_False,25.453125,19.828125,5.625,commit
+L_022,logic,plain,Qwen/Qwen2.5-7B-Instruct,A,"根据题目中的条件进行逻辑推理：
+
+1. 如果不喂竹子，大熊猫就不进食。
+2. 金丝猴和小熊猫只有在喂",False,s2_swap_True,25.421875,23.265625,2.15625,commit
+L_022,logic,markdown,Qwen/Qwen2.5-7B-Instruct,A,"根据题目中的条件进行逻辑推理：
+
+1. 如果不喂竹子，大熊猫就不进食。
+2. 金丝猴和小熊猫只有在喂",False,s2_swap_False,22.1875,18.28125,3.90625,commit
+L_022,logic,markdown,Qwen/Qwen2.5-7B-Instruct,A,"根据题目中的条件进行逻辑推理：
+
+1. 如果不喂竹子，大熊猫就不进食。
+2. 金丝猴和小熊猫只有在喂",False,s2_swap_True,21.328125,20.8125,0.515625,commit
+L_023,logic,plain,Qwen/Qwen2.5-7B-Instruct,D,"根据题目给出的信息，我们可以进行如下推理：
+
+1. 苹果的数量比香蕉多。
+2. 橙子的数量比葡萄少。
+3",False,s2_swap_False,26.84375,18.9375,7.90625,commit
+L_023,logic,plain,Qwen/Qwen2.5-7B-Instruct,D,"根据题目给出的信息，我们可以进行如下推理：
+
+1. 苹果的数量比香蕉多。
+2. 橙子的数量比葡萄少。
+3",False,s2_swap_True,25.953125,23.203125,2.75,commit
+L_023,logic,markdown,Qwen/Qwen2.5-7B-Instruct,D,"根据题目给出的信息，我们可以进行如下推理：
+
+1. 苹果的数量比香蕉多。
+2. 橙子的数量比葡萄少。
+3",False,s2_swap_False,26.78125,19.765625,7.015625,commit
+L_023,logic,markdown,Qwen/Qwen2.5-7B-Instruct,D,"根据题目给出的信息，我们可以进行如下推理：
+
+1. 苹果的数量比香蕉多。
+2. 橙子的数量比葡萄少。
+3",False,s2_swap_True,24.375,22.796875,1.578125,commit
+L_024,logic,plain,Qwen/Qwen2.5-7B-Instruct,B,根据题目中的信息，“凡是年度考核获得‘优秀’职称的员工，必须参与一项省部级科研项目。” 这是一个充分条件命题，,False,s2_swap_False,25.203125,23.1875,2.015625,commit
+L_024,logic,plain,Qwen/Qwen2.5-7B-Instruct,B,根据题目中的信息，“凡是年度考核获得‘优秀’职称的员工，必须参与一项省部级科研项目。” 这是一个充分条件命题，,False,s2_swap_True,22.890625,26.046875,-3.15625,decline
+L_024,logic,markdown,Qwen/Qwen2.5-7B-Instruct,B,根据题目中的信息，“凡是年度考核获得‘优秀’职称的员工，必须参与一项省部级科研项目。” 这是一个充分条件命题，,False,s2_swap_False,24.921875,24.6875,0.234375,commit
+L_024,logic,markdown,Qwen/Qwen2.5-7B-Instruct,B,根据题目中的信息，“凡是年度考核获得‘优秀’职称的员工，必须参与一项省部级科研项目。” 这是一个充分条件命题，,False,s2_swap_True,25.203125,26.140625,-0.9375,decline
+L_025,logic,plain,Qwen/Qwen2.5-7B-Instruct,C,"我们可以通过逻辑推理来分析这个问题。
+
+首先，假设甲说的是真的，即“小张数学考了满分”。那么根据题意，乙和丙",False,s2_swap_False,24.65625,18.984375,5.671875,commit
+L_025,logic,plain,Qwen/Qwen2.5-7B-Instruct,C,"我们可以通过逻辑推理来分析这个问题。
+
+首先，假设甲说的是真的，即“小张数学考了满分”。那么根据题意，乙和丙",False,s2_swap_True,21.875,19.234375,2.640625,commit
+L_025,logic,markdown,Qwen/Qwen2.5-7B-Instruct,C,"为了解决这个问题，我们可以采用假设和排除的方法来分析。
+
+首先，我们假设甲说的是真的，即“小张数学考了满分”。那么",False,s2_swap_False,23.640625,18.09375,5.546875,commit
+L_025,logic,markdown,Qwen/Qwen2.5-7B-Instruct,C,"为了解决这个问题，我们可以采用假设和排除的方法来分析。
+
+首先，我们假设甲说的是真的，即“小张数学考了满分”。那么",False,s2_swap_True,24.125,19.5,4.625,commit
+L_026,logic,plain,Qwen/Qwen2.5-7B-Instruct,B,"根据题目中的条件，申请者必须同时满足以下两个条件之一，并且不能同时患有拖延症：
+1. 爱好古诗词。
+2",False,s2_swap_False,28.421875,28.734375,-0.3125,decline
+L_026,logic,plain,Qwen/Qwen2.5-7B-Instruct,B,"根据题目中的条件，申请者必须同时满足以下两个条件之一，并且不能同时患有拖延症：
+1. 爱好古诗词。
+2",False,s2_swap_True,30.890625,27.640625,3.25,commit
+L_026,logic,markdown,Qwen/Qwen2.5-7B-Instruct,B,"根据题目中的条件，申请者必须同时满足以下两个条件：
+
+1. 或者爱好古诗词，或者爱好现代散文。
+2. 并且",False,s2_swap_False,23.21875,26.59375,-3.375,decline
+L_026,logic,markdown,Qwen/Qwen2.5-7B-Instruct,B,"根据题目中的条件，申请者必须同时满足以下两个条件：
+
+1. 或者爱好古诗词，或者爱好现代散文。
+2. 并且",False,s2_swap_True,22.953125,27.171875,-4.21875,decline
+L_027,logic,plain,Qwen/Qwen2.5-7B-Instruct,A,"我们可以通过逻辑推理来分析这个问题。
+
+首先，根据丁的评语“A能够胜任，但D不能胜任”，我们可以确定A胜任，D不",True,s2_swap_False,27.765625,17.546875,10.21875,commit
+L_027,logic,plain,Qwen/Qwen2.5-7B-Instruct,A,"我们可以通过逻辑推理来分析这个问题。
+
+首先，根据丁的评语“A能够胜任，但D不能胜任”，我们可以确定A胜任，D不",True,s2_swap_True,28.578125,21.0625,7.515625,commit
+L_027,logic,markdown,Qwen/Qwen2.5-7B-Instruct,A,"我们可以通过逻辑推理来分析这个问题。
+
+首先，根据丁的评语“A能够胜任，但D不能胜任”，我们可以确定：
+- A胜任",True,s2_swap_False,25.390625,18.59375,6.796875,commit
+L_027,logic,markdown,Qwen/Qwen2.5-7B-Instruct,A,"我们可以通过逻辑推理来分析这个问题。
+
+首先，根据丁的评语“A能够胜任，但D不能胜任”，我们可以确定：
+- A胜任",True,s2_swap_True,22.84375,18.703125,4.140625,commit
+L_028,logic,plain,Qwen/Qwen2.5-7B-Instruct,A,"我们可以通过分析每个棋手的比赛结果来确定E赢了几场。
+
+首先，我们知道总共有5名棋手，每个人都要和其他4个人各比赛",False,s2_swap_False,25.015625,17.796875,7.21875,commit
+L_028,logic,plain,Qwen/Qwen2.5-7B-Instruct,A,"我们可以通过分析每个棋手的比赛结果来确定E赢了几场。
+
+首先，我们知道总共有5名棋手，每个人都要和其他4个人各比赛",False,s2_swap_True,25.09375,21.0,4.09375,commit
+L_028,logic,markdown,Qwen/Qwen2.5-7B-Instruct,A,"为了解决这个问题，我们可以先分析每个棋手的比赛情况。
+
+- A赢了4场，意味着A输了一场。
+- B赢了3场",True,s2_swap_False,17.484375,19.359375,-1.875,decline
+L_028,logic,markdown,Qwen/Qwen2.5-7B-Instruct,A,"为了解决这个问题，我们可以先分析每个棋手的比赛情况。
+
+- A赢了4场，意味着A输了一场。
+- B赢了3场",True,s2_swap_True,17.1875,18.84375,-1.65625,decline
+L_029,logic,plain,Qwen/Qwen2.5-7B-Instruct,A,根据题目描述，小王购买了标价为250元的商品，满足“购买满200元可以减50元”的条件,False,s2_swap_False,29.25,21.390625,7.859375,commit
+L_029,logic,plain,Qwen/Qwen2.5-7B-Instruct,A,根据题目描述，小王购买了标价为250元的商品，满足“购买满200元可以减50元”的条件,False,s2_swap_True,30.421875,25.03125,5.390625,commit
+L_029,logic,markdown,Qwen/Qwen2.5-7B-Instruct,A,根据题目描述，小王购买了标价为250元的商品，按照商场的促销活动规定，购买满200元可以减,False,s2_swap_False,27.796875,19.078125,8.71875,commit
+L_029,logic,markdown,Qwen/Qwen2.5-7B-Instruct,A,根据题目描述，小王购买了标价为250元的商品，按照商场的促销活动规定，购买满200元可以减,False,s2_swap_True,29.859375,23.859375,6.0,commit
+L_030,logic,plain,Qwen/Qwen2.5-7B-Instruct,A,"根据题目给出的信息，我们可以逐步推理：
+
+1. 若张三有作案嫌疑，则李四也有作案嫌疑。（条件1）
+2. 王",False,s2_swap_False,24.78125,18.484375,6.296875,commit
+L_030,logic,plain,Qwen/Qwen2.5-7B-Instruct,A,"根据题目给出的信息，我们可以逐步推理：
+
+1. 若张三有作案嫌疑，则李四也有作案嫌疑。（条件1）
+2. 王",False,s2_swap_True,25.34375,22.1875,3.15625,commit
+L_030,logic,markdown,Qwen/Qwen2.5-7B-Instruct,A,"根据题目给出的信息，我们可以逐步推理得出答案。
+
+1. (1) 若张三有作案嫌疑，则李四也有作案嫌疑。
+2. (",False,s2_swap_False,24.71875,20.75,3.96875,commit
+L_030,logic,markdown,Qwen/Qwen2.5-7B-Instruct,A,"根据题目给出的信息，我们可以逐步推理得出答案。
+
+1. (1) 若张三有作案嫌疑，则李四也有作案嫌疑。
+2. (",False,s2_swap_True,23.296875,21.8125,1.484375,commit
+L_031,logic,plain,Qwen/Qwen2.5-7B-Instruct,B,"根据题目中的条件：
+
+1. 如果去西部山区支教，则必须提交一份调研报告。
+2. 如果不去西部山区支教，则可以提交心得体会",False,s2_swap_False,27.078125,23.703125,3.375,commit
+L_031,logic,plain,Qwen/Qwen2.5-7B-Instruct,B,"根据题目中的条件：
+
+1. 如果去西部山区支教，则必须提交一份调研报告。
+2. 如果不去西部山区支教，则可以提交心得体会",False,s2_swap_True,25.96875,23.296875,2.671875,commit
+L_031,logic,markdown,Qwen/Qwen2.5-7B-Instruct,B,"根据题目中的条件：
+
+1. 如果去西部山区支教，则必须提交一份调研报告。
+2. 如果不去西部山区支教，则可以提交心得体会",False,s2_swap_False,24.84375,22.0,2.84375,commit
+L_031,logic,markdown,Qwen/Qwen2.5-7B-Instruct,B,"根据题目中的条件：
+
+1. 如果去西部山区支教，则必须提交一份调研报告。
+2. 如果不去西部山区支教，则可以提交心得体会",False,s2_swap_True,27.140625,23.578125,3.5625,commit
+L_032,logic,plain,Qwen/Qwen2.5-7B-Instruct,B,"我们可以通过逻辑推理来解决这个问题。
+
+假设甲说的是真话，那么根据甲的说法“不是我”，即甲没有获得第一名。如果甲说的是真",False,s2_swap_False,26.421875,17.75,8.671875,commit
+L_032,logic,plain,Qwen/Qwen2.5-7B-Instruct,B,"我们可以通过逻辑推理来解决这个问题。
+
+假设甲说的是真话，那么根据甲的说法“不是我”，即甲没有获得第一名。如果甲说的是真",False,s2_swap_True,25.796875,19.734375,6.0625,commit
+L_032,logic,markdown,Qwen/Qwen2.5-7B-Instruct,B,"为了解决这个问题，我们可以逐一分析每个人的话，并结合“只有一个人说的是真话”的条件来推理。
+
+1. **假设甲说的是真话**",False,s2_swap_False,20.796875,16.21875,4.578125,commit
+L_032,logic,markdown,Qwen/Qwen2.5-7B-Instruct,B,"为了解决这个问题，我们可以逐一分析每个人的话，并结合“只有一个人说的是真话”的条件来推理。
+
+1. **假设甲说的是真话**",False,s2_swap_True,19.765625,17.84375,1.921875,commit
+L_033,logic,plain,Qwen/Qwen2.5-7B-Instruct,A,"我们可以通过逻辑推理来解决这个问题。
+
+首先，假设甲的预测“乙和丙至少有一人晋级”是正确的，那么根据题目条件，乙",False,s2_swap_False,24.9375,19.234375,5.703125,commit
+L_033,logic,plain,Qwen/Qwen2.5-7B-Instruct,A,"我们可以通过逻辑推理来解决这个问题。
+
+首先，假设甲的预测“乙和丙至少有一人晋级”是正确的，那么根据题目条件，乙",False,s2_swap_True,26.71875,20.34375,6.375,commit
+L_033,logic,markdown,Qwen/Qwen2.5-7B-Instruct,A,"为了解决这个问题，我们可以通过假设每种情况来验证哪个预测是唯一正确的，并且其他两个预测是错误的。
+
+1. 假",False,s2_swap_False,21.1875,17.703125,3.484375,commit
+L_033,logic,markdown,Qwen/Qwen2.5-7B-Instruct,A,"为了解决这个问题，我们可以通过假设每种情况来验证哪个预测是唯一正确的，并且其他两个预测是错误的。
+
+1. 假",False,s2_swap_True,20.6875,17.875,2.8125,commit
+L_034,logic,plain,Qwen/Qwen2.5-7B-Instruct,B,根据评委的陈述：“只要规范监管，网络直播带货就利大于弊”，可以理解为只有在网络直播带货得到规范监管的情况下，其,False,s2_swap_False,26.640625,18.40625,8.234375,commit
+L_034,logic,plain,Qwen/Qwen2.5-7B-Instruct,B,根据评委的陈述：“只要规范监管，网络直播带货就利大于弊”，可以理解为只有在网络直播带货得到规范监管的情况下，其,False,s2_swap_True,27.671875,21.0625,6.609375,commit
+L_034,logic,markdown,Qwen/Qwen2.5-7B-Instruct,B,根据评委的陈述：“只要规范监管，网络直播带货就利大于弊”，可以理解为只有在网络直播带货得到规范监管的情况下，其,False,s2_swap_False,25.640625,18.515625,7.125,commit
+L_034,logic,markdown,Qwen/Qwen2.5-7B-Instruct,B,根据评委的陈述：“只要规范监管，网络直播带货就利大于弊”，可以理解为只有在网络直播带货得到规范监管的情况下，其,False,s2_swap_True,25.96875,21.765625,4.203125,commit
+L_035,logic,plain,Qwen/Qwen2.5-7B-Instruct,B,"根据题目条件，我们知道三个箱子上的标签都贴错了。我们可以通过逻辑推理来确定每个箱子里实际装的是什么。
+
+1. 标签",False,s2_swap_False,24.640625,19.921875,4.71875,commit
+L_035,logic,plain,Qwen/Qwen2.5-7B-Instruct,B,"根据题目条件，我们知道三个箱子上的标签都贴错了。我们可以通过逻辑推理来确定每个箱子里实际装的是什么。
+
+1. 标签",False,s2_swap_True,24.3125,20.953125,3.359375,commit
+L_035,logic,markdown,Qwen/Qwen2.5-7B-Instruct,B,"根据题目条件，我们知道三个箱子上的标签都贴错了。我们可以通过逻辑推理来确定正确答案。
+
+1. 标签1：“这里是苹果”，",False,s2_swap_False,22.4375,18.8125,3.625,commit
+L_035,logic,markdown,Qwen/Qwen2.5-7B-Instruct,B,"根据题目条件，我们知道三个箱子上的标签都贴错了。我们可以通过逻辑推理来确定正确答案。
+
+1. 标签1：“这里是苹果”，",False,s2_swap_True,22.203125,20.5625,1.640625,commit
+L_036,logic,plain,Qwen/Qwen2.5-7B-Instruct,C,"根据题目中的条件和逻辑推理，我们可以逐步分析：
+
+1. 条件 (1): 如果周一降雨，那么周二刮风。
+2. �",False,s2_swap_False,23.5625,17.484375,6.078125,commit
+L_036,logic,plain,Qwen/Qwen2.5-7B-Instruct,C,"根据题目中的条件和逻辑推理，我们可以逐步分析：
+
+1. 条件 (1): 如果周一降雨，那么周二刮风。
+2. �",False,s2_swap_True,23.609375,22.140625,1.46875,commit
+L_036,logic,markdown,Qwen/Qwen2.5-7B-Instruct,C,"根据题目中的条件和逻辑推理，我们可以逐步分析：
+
+1. 条件 (1): 如果周一降雨，那么周二刮风。
+2. �",False,s2_swap_False,23.703125,18.5,5.203125,commit
+L_036,logic,markdown,Qwen/Qwen2.5-7B-Instruct,C,"根据题目中的条件和逻辑推理，我们可以逐步分析：
+
+1. 条件 (1): 如果周一降雨，那么周二刮风。
+2. �",False,s2_swap_True,22.296875,21.046875,1.25,commit
+L_037,logic,plain,Qwen/Qwen2.5-7B-Instruct,B,"我们可以通过分析题目给出的关系来确定四人的年龄顺序。
+
+1. 赵比钱大：赵 > 钱
+2. 孙",False,s2_swap_False,20.65625,17.9375,2.71875,commit
+L_037,logic,plain,Qwen/Qwen2.5-7B-Instruct,B,"我们可以通过分析题目给出的关系来确定四人的年龄顺序。
+
+1. 赵比钱大：赵 > 钱
+2. 孙",False,s2_swap_True,22.09375,19.71875,2.375,commit
+L_037,logic,markdown,Qwen/Qwen2.5-7B-Instruct,B,"根据题目给出的关系，我们可以逐步推理出四人的年龄顺序。
+
+1. ""赵比钱大""，表示赵 > 钱。
+2.",False,s2_swap_False,25.296875,18.515625,6.78125,commit
+L_037,logic,markdown,Qwen/Qwen2.5-7B-Instruct,B,"根据题目给出的关系，我们可以逐步推理出四人的年龄顺序。
+
+1. ""赵比钱大""，表示赵 > 钱。
+2.",False,s2_swap_True,23.484375,19.75,3.734375,commit
+L_038,logic,plain,Qwen/Qwen2.5-7B-Instruct,B,"我们可以通过逻辑推理来解决这个问题。
+
+首先，假设小王通过了考试：
+
+1. 如果小王通过了考试，那么小王的预测“",False,s2_swap_False,27.75,19.09375,8.65625,commit
+L_038,logic,plain,Qwen/Qwen2.5-7B-Instruct,B,"我们可以通过逻辑推理来解决这个问题。
+
+首先，假设小王通过了考试：
+
+1. 如果小王通过了考试，那么小王的预测“",False,s2_swap_True,26.859375,22.390625,4.46875,commit
+L_038,logic,markdown,Qwen/Qwen2.5-7B-Instruct,B,"为了解决这个问题，我们可以根据题目给出的信息进行逻辑推理。
+
+首先，我们明确已知条件：
+1. 小王说：“我肯定能",False,s2_swap_False,27.5,18.453125,9.046875,commit
+L_038,logic,markdown,Qwen/Qwen2.5-7B-Instruct,B,"为了解决这个问题，我们可以根据题目给出的信息进行逻辑推理。
+
+首先，我们明确已知条件：
+1. 小王说：“我肯定能",False,s2_swap_True,28.9375,20.515625,8.421875,commit
+L_039,logic,plain,Qwen/Qwen2.5-7B-Instruct,C,"我们可以通过逻辑推理来分析这个问题。
+
+已知条件如下：
+1. 如果甲当选，则乙也当选。
+2. 或者丙当选，或者乙",False,s2_swap_False,22.359375,19.90625,2.453125,commit
+L_039,logic,plain,Qwen/Qwen2.5-7B-Instruct,C,"我们可以通过逻辑推理来分析这个问题。
+
+已知条件如下：
+1. 如果甲当选，则乙也当选。
+2. 或者丙当选，或者乙",False,s2_swap_True,20.765625,21.265625,-0.5,decline
+L_039,logic,markdown,Qwen/Qwen2.5-7B-Instruct,C,"根据题目给出的条件进行逻辑推理：
+
+1. 如果甲当选，则乙也当选。
+2. 或者丙当选，或者乙不当选。
+
+已",False,s2_swap_False,23.515625,19.140625,4.375,commit
+L_039,logic,markdown,Qwen/Qwen2.5-7B-Instruct,C,"根据题目给出的条件进行逻辑推理：
+
+1. 如果甲当选，则乙也当选。
+2. 或者丙当选，或者乙不当选。
+
+已",False,s2_swap_True,22.265625,21.484375,0.78125,commit
+L_040,logic,plain,Qwen/Qwen2.5-7B-Instruct,A,"我们可以通过逻辑推理来解答这个问题。
+
+根据题目给出的条件：
+
+1. 如果箱1有奖品，那么箱2也有奖品。
+2.",False,s2_swap_False,23.953125,17.96875,5.984375,commit
+L_040,logic,plain,Qwen/Qwen2.5-7B-Instruct,A,"我们可以通过逻辑推理来解答这个问题。
+
+根据题目给出的条件：
+
+1. 如果箱1有奖品，那么箱2也有奖品。
+2.",False,s2_swap_True,22.9375,21.75,1.1875,commit
+L_040,logic,markdown,Qwen/Qwen2.5-7B-Instruct,A,"根据题目给出的条件和逻辑推理，我们可以逐步分析：
+
+1. 如果箱1有奖品，那么箱2也有奖品。（条件1）",False,s2_swap_False,23.828125,19.65625,4.171875,commit
+L_040,logic,markdown,Qwen/Qwen2.5-7B-Instruct,A,"根据题目给出的条件和逻辑推理，我们可以逐步分析：
+
+1. 如果箱1有奖品，那么箱2也有奖品。（条件1）",False,s2_swap_True,22.28125,21.328125,0.953125,commit
+L_041,logic,plain,Qwen/Qwen2.5-7B-Instruct,B,"我们可以通过逻辑推理来解决这个问题。
+
+首先，我们假设每个评委的预测中有一部分是对的，一部分是错的。
+
+1. 甲说",False,s2_swap_False,24.953125,18.296875,6.65625,commit
+L_041,logic,plain,Qwen/Qwen2.5-7B-Instruct,B,"我们可以通过逻辑推理来解决这个问题。
+
+首先，我们假设每个评委的预测中有一部分是对的，一部分是错的。
+
+1. 甲说",False,s2_swap_True,25.359375,20.703125,4.65625,commit
+L_041,logic,markdown,Qwen/Qwen2.5-7B-Instruct,B,"为了解决这个问题，我们可以使用逻辑推理的方法来分析每个评委的预测，并找出符合所有条件的唯一解。
+
+首先，我们列出每个评委的",False,s2_swap_False,27.328125,18.265625,9.0625,commit
+L_041,logic,markdown,Qwen/Qwen2.5-7B-Instruct,B,"为了解决这个问题，我们可以使用逻辑推理的方法来分析每个评委的预测，并找出符合所有条件的唯一解。
+
+首先，我们列出每个评委的",False,s2_swap_True,28.609375,21.1875,7.421875,commit
+L_042,logic,plain,Qwen/Qwen2.5-7B-Instruct,A,"我们可以通过逻辑推理来分析这个题目。
+
+已知条件是：
+1. 参会人员或者是计算机专家，或者是数据科学专家。
+2.",False,s2_swap_False,25.03125,20.796875,4.234375,commit
+L_042,logic,plain,Qwen/Qwen2.5-7B-Instruct,A,"我们可以通过逻辑推理来分析这个题目。
+
+已知条件是：
+1. 参会人员或者是计算机专家，或者是数据科学专家。
+2.",False,s2_swap_True,23.265625,23.171875,0.09375,commit
+L_042,logic,markdown,Qwen/Qwen2.5-7B-Instruct,A,"我们来逐步分析这个逻辑推理题。
+
+首先，明确背景信息：
+1. 参会人员是计算机专家或数据科学专家。
+2.",False,s2_swap_False,25.515625,19.890625,5.625,commit
+L_042,logic,markdown,Qwen/Qwen2.5-7B-Instruct,A,"我们来逐步分析这个逻辑推理题。
+
+首先，明确背景信息：
+1. 参会人员是计算机专家或数据科学专家。
+2.",False,s2_swap_True,22.453125,21.578125,0.875,commit
+L_043,logic,plain,Qwen/Qwen2.5-7B-Instruct,A,"我们可以通过逻辑推理来分析这个问题。
+
+已知条件如下：
+1. 若甲参与了，则乙也参与了。
+2. 丙和丁两人",False,s2_swap_False,21.703125,22.125,-0.421875,decline
+L_043,logic,plain,Qwen/Qwen2.5-7B-Instruct,A,"我们可以通过逻辑推理来分析这个问题。
+
+已知条件如下：
+1. 若甲参与了，则乙也参与了。
+2. 丙和丁两人",False,s2_swap_True,20.65625,21.828125,-1.171875,decline
+L_043,logic,markdown,Qwen/Qwen2.5-7B-Instruct,A,"我们可以通过逻辑推理来解答这个问题。
+
+已知条件如下：
+1. 若甲参与了，则乙也参与了。
+2. 丙和丁两人",False,s2_swap_False,20.015625,20.609375,-0.59375,decline
+L_043,logic,markdown,Qwen/Qwen2.5-7B-Instruct,A,"我们可以通过逻辑推理来解答这个问题。
+
+已知条件如下：
+1. 若甲参与了，则乙也参与了。
+2. 丙和丁两人",False,s2_swap_True,19.375,20.984375,-1.609375,decline
+L_044,logic,plain,Qwen/Qwen2.5-7B-Instruct,B,"根据题目给出的条件进行逻辑推理：
+
+1. 如果买文学类书籍，就不买历史类书籍。
+2. 历史类和哲学",False,s2_swap_False,25.28125,20.453125,4.828125,commit
+L_044,logic,plain,Qwen/Qwen2.5-7B-Instruct,B,"根据题目给出的条件进行逻辑推理：
+
+1. 如果买文学类书籍，就不买历史类书籍。
+2. 历史类和哲学",False,s2_swap_True,24.09375,22.734375,1.359375,commit
+L_044,logic,markdown,Qwen/Qwen2.5-7B-Instruct,B,"根据题目给出的条件进行逻辑推理：
+
+1. 如果买文学类书籍，就不买历史类书籍。
+2. 历史类和哲学",False,s2_swap_False,22.828125,19.5625,3.265625,commit
+L_044,logic,markdown,Qwen/Qwen2.5-7B-Instruct,B,"根据题目给出的条件进行逻辑推理：
+
+1. 如果买文学类书籍，就不买历史类书籍。
+2. 历史类和哲学",False,s2_swap_True,22.0,20.875,1.125,commit
+L_045,logic,plain,Qwen/Qwen2.5-7B-Instruct,A,"根据题目给出的条件：
+
+1. 销售部的人数比技术部多。
+2. 财务部的人数比技术部少",False,s2_swap_False,25.875,20.671875,5.203125,commit
+L_045,logic,plain,Qwen/Qwen2.5-7B-Instruct,A,"根据题目给出的条件：
+
+1. 销售部的人数比技术部多。
+2. 财务部的人数比技术部少",False,s2_swap_True,26.78125,24.03125,2.75,commit
+L_045,logic,markdown,Qwen/Qwen2.5-7B-Instruct,A,"根据题目给出的条件：
+
+1. 销售部的人数比技术部多。
+2. 财务部的人数比技术部少",False,s2_swap_False,24.796875,20.15625,4.640625,commit
+L_045,logic,markdown,Qwen/Qwen2.5-7B-Instruct,A,"根据题目给出的条件：
+
+1. 销售部的人数比技术部多。
+2. 财务部的人数比技术部少",False,s2_swap_True,23.359375,23.25,0.109375,commit
+L_046,logic,plain,Qwen/Qwen2.5-7B-Instruct,C,"我们可以通过逻辑推理来分析这个问题。
+
+首先，明确每个人的说法：
+- 甲说：“如果业绩达标，就会全员涨薪。”（可以表示为",False,s2_swap_False,26.28125,18.453125,7.828125,commit
+L_046,logic,plain,Qwen/Qwen2.5-7B-Instruct,C,"我们可以通过逻辑推理来分析这个问题。
+
+首先，明确每个人的说法：
+- 甲说：“如果业绩达标，就会全员涨薪。”（可以表示为",False,s2_swap_True,24.125,20.40625,3.71875,commit
+L_046,logic,markdown,Qwen/Qwen2.5-7B-Instruct,C,"为了解决这个问题，我们首先需要明确每个人说的话，并根据题目条件（只有一个人说的是真话）来推断出正确的情况。
+
+1. **",False,s2_swap_False,23.828125,18.421875,5.40625,commit
+L_046,logic,markdown,Qwen/Qwen2.5-7B-Instruct,C,"为了解决这个问题，我们首先需要明确每个人说的话，并根据题目条件（只有一个人说的是真话）来推断出正确的情况。
+
+1. **",False,s2_swap_True,23.078125,20.453125,2.625,commit
+L_047,logic,plain,Qwen/Qwen2.5-7B-Instruct,B,根据题目中的规定，申请年度科研津贴的条件是具备副高级以上职称或者主持过省部级以上课题。而小李既不具备副高级,False,s2_swap_False,26.171875,27.953125,-1.78125,decline
+L_047,logic,plain,Qwen/Qwen2.5-7B-Instruct,B,根据题目中的规定，申请年度科研津贴的条件是具备副高级以上职称或者主持过省部级以上课题。而小李既不具备副高级,False,s2_swap_True,27.71875,28.125,-0.40625,decline
+L_047,logic,markdown,Qwen/Qwen2.5-7B-Instruct,B,"根据题目中的条件，申请年度科研津贴的员工需要满足以下两个条件之一：
+1. 具备副高级以上职称。
+2. 主持",False,s2_swap_False,24.09375,26.375,-2.28125,decline
+L_047,logic,markdown,Qwen/Qwen2.5-7B-Instruct,B,"根据题目中的条件，申请年度科研津贴的员工需要满足以下两个条件之一：
+1. 具备副高级以上职称。
+2. 主持",False,s2_swap_True,24.578125,27.40625,-2.828125,decline
+L_048,logic,plain,Qwen/Qwen2.5-7B-Instruct,C,根据正方辩友的观点，“只有作品包含人类的独创性表达，才享有著作权”，我们可以理解为享有著作权的前提是作品必须包含人类,False,s2_swap_False,27.90625,20.515625,7.390625,commit
+L_048,logic,plain,Qwen/Qwen2.5-7B-Instruct,C,根据正方辩友的观点，“只有作品包含人类的独创性表达，才享有著作权”，我们可以理解为享有著作权的前提是作品必须包含人类,False,s2_swap_True,27.4375,22.796875,4.640625,commit
+L_048,logic,markdown,Qwen/Qwen2.5-7B-Instruct,C,根据题目中的断定，“只有作品包含人类的独创性表达，才享有著作权”，可以理解为享有著作权的前提是作品必须包含人类的,False,s2_swap_False,28.421875,19.5625,8.859375,commit
+L_048,logic,markdown,Qwen/Qwen2.5-7B-Instruct,C,根据题目中的断定，“只有作品包含人类的独创性表达，才享有著作权”，可以理解为享有著作权的前提是作品必须包含人类的,False,s2_swap_True,29.5,22.9375,6.5625,commit
+L_049,logic,plain,Qwen/Qwen2.5-7B-Instruct,C,"我们可以通过逻辑推理来分析这个问题。
+
+已知条件如下：
+1. 如果小张选了定向越野，那么小李也选定向越野。
+2",False,s2_swap_False,24.65625,19.703125,4.953125,commit
+L_049,logic,plain,Qwen/Qwen2.5-7B-Instruct,C,"我们可以通过逻辑推理来分析这个问题。
+
+已知条件如下：
+1. 如果小张选了定向越野，那么小李也选定向越野。
+2",False,s2_swap_True,23.140625,23.359375,-0.21875,decline
+L_049,logic,markdown,Qwen/Qwen2.5-7B-Instruct,C,"我们可以通过逻辑推理来解答这个问题。
+
+首先，根据题目给出的信息：
+1. 如果小张选了定向越野，那么小李也选定向越野",False,s2_swap_False,20.65625,20.453125,0.203125,commit
+L_049,logic,markdown,Qwen/Qwen2.5-7B-Instruct,C,"我们可以通过逻辑推理来解答这个问题。
+
+首先，根据题目给出的信息：
+1. 如果小张选了定向越野，那么小李也选定向越野",False,s2_swap_True,18.46875,20.375,-1.90625,decline
+L_050,logic,plain,Qwen/Qwen2.5-7B-Instruct,A,"我们可以通过分析两位专家的说法来确定四件青铜器年代的顺序。
+
+根据专家甲的说法：
+1. A 比 B 早。
+2",True,s2_swap_False,27.1875,17.484375,9.703125,commit
+L_050,logic,plain,Qwen/Qwen2.5-7B-Instruct,A,"我们可以通过分析两位专家的说法来确定四件青铜器年代的顺序。
+
+根据专家甲的说法：
+1. A 比 B 早。
+2",True,s2_swap_True,27.6875,21.34375,6.34375,commit
+L_050,logic,markdown,Qwen/Qwen2.5-7B-Instruct,A,"为了解决这个问题，我们可以根据专家甲和专家乙提供的信息来推断出四件青铜器的年代顺序。
+
+根据专家甲的说法：
+1",False,s2_swap_False,26.359375,17.90625,8.453125,commit
+L_050,logic,markdown,Qwen/Qwen2.5-7B-Instruct,A,"为了解决这个问题，我们可以根据专家甲和专家乙提供的信息来推断出四件青铜器的年代顺序。
+
+根据专家甲的说法：
+1",False,s2_swap_True,27.71875,20.171875,7.546875,commit
+L_051,logic,plain,Qwen/Qwen2.5-7B-Instruct,C,"这道题属于逻辑推理中的集合关系分析。
+
+背景信息是：
+1. 所有体检合格的员工都参与了每日晨跑。
+2",False,s2_swap_False,22.796875,17.671875,5.125,commit
+L_051,logic,plain,Qwen/Qwen2.5-7B-Instruct,C,"这道题属于逻辑推理中的集合关系分析。
+
+背景信息是：
+1. 所有体检合格的员工都参与了每日晨跑。
+2",False,s2_swap_True,25.765625,22.0625,3.703125,commit
+L_051,logic,markdown,Qwen/Qwen2.5-7B-Instruct,C,"我们来分析题目给出的信息和每个选项。
+
+已知信息：
+1. 所有体检合格的员工都参与了每日晨跑。
+2.",False,s2_swap_False,23.3125,18.875,4.4375,commit
+L_051,logic,markdown,Qwen/Qwen2.5-7B-Instruct,C,"我们来分析题目给出的信息和每个选项。
+
+已知信息：
+1. 所有体检合格的员工都参与了每日晨跑。
+2.",False,s2_swap_True,20.890625,20.921875,-0.03125,decline
+L_052,logic,plain,Qwen/Qwen2.5-7B-Instruct,C,"我们可以通过逻辑推理来解决这个问题。
+
+假设甲说的是真话，即车位数量大于100。那么乙和丙的话就是假的。乙",False,s2_swap_False,24.3125,18.71875,5.59375,commit
+L_052,logic,plain,Qwen/Qwen2.5-7B-Instruct,C,"我们可以通过逻辑推理来解决这个问题。
+
+假设甲说的是真话，即车位数量大于100。那么乙和丙的话就是假的。乙",False,s2_swap_True,24.484375,21.484375,3.0,commit
+L_052,logic,markdown,Qwen/Qwen2.5-7B-Instruct,C,"根据题目条件，我们知道甲、乙、丙三人的话中只有一句是真的。我们可以通过假设每句话为真来分析：
+
+1. �",False,s2_swap_False,22.875,18.5,4.375,commit
+L_052,logic,markdown,Qwen/Qwen2.5-7B-Instruct,C,"根据题目条件，我们知道甲、乙、丙三人的话中只有一句是真的。我们可以通过假设每句话为真来分析：
+
+1. �",False,s2_swap_True,23.578125,20.46875,3.109375,commit
+L_053,logic,plain,Qwen/Qwen2.5-7B-Instruct,D,根据题干信息，招聘条件是“凡是计算机专业或者软件工程专业的应聘者，必须同时通过英语六级考试”。这意味着，如果一个人是,False,s2_swap_False,29.359375,20.09375,9.265625,commit
+L_053,logic,plain,Qwen/Qwen2.5-7B-Instruct,D,根据题干信息，招聘条件是“凡是计算机专业或者软件工程专业的应聘者，必须同时通过英语六级考试”。这意味着，如果一个人是,False,s2_swap_True,29.875,23.125,6.75,commit
+L_053,logic,markdown,Qwen/Qwen2.5-7B-Instruct,D,根据题目中的信息，招聘条件是“凡是计算机专业或者软件工程专业的应聘者，必须同时通过英语六级考试”。这意味着，如果一个人是,False,s2_swap_False,28.421875,21.265625,7.15625,commit
+L_053,logic,markdown,Qwen/Qwen2.5-7B-Instruct,D,根据题目中的信息，招聘条件是“凡是计算机专业或者软件工程专业的应聘者，必须同时通过英语六级考试”。这意味着，如果一个人是,False,s2_swap_True,29.640625,22.984375,6.65625,commit
+L_054,logic,plain,Qwen/Qwen2.5-7B-Instruct,B,"根据题目条件，我们知道甲、乙、丙三人的话中只有一句是真的。我们来逐一分析：
+
+1. **甲说：“今年年底前肯定",False,s2_swap_False,25.15625,19.53125,5.625,commit
+L_054,logic,plain,Qwen/Qwen2.5-7B-Instruct,B,"根据题目条件，我们知道甲、乙、丙三人的话中只有一句是真的。我们来逐一分析：
+
+1. **甲说：“今年年底前肯定",False,s2_swap_True,25.171875,22.5625,2.609375,commit
+L_054,logic,markdown,Qwen/Qwen2.5-7B-Instruct,B,"根据题目条件，我们知道甲、乙、丙三人的话中只有一句是真的。我们来逐一分析：
+
+1. **甲的话：“今年年底前肯定",False,s2_swap_False,24.15625,19.359375,4.796875,commit
+L_054,logic,markdown,Qwen/Qwen2.5-7B-Instruct,B,"根据题目条件，我们知道甲、乙、丙三人的话中只有一句是真的。我们来逐一分析：
+
+1. **甲的话：“今年年底前肯定",False,s2_swap_True,25.515625,21.71875,3.796875,commit
+L_055,logic,plain,Qwen/Qwen2.5-7B-Instruct,A,"根据题目给出的信息：
+
+1. 高一(1)班和高一(2)班至少有一个班获得了团体总分前三名。
+2",False,s2_swap_False,28.421875,21.65625,6.765625,commit
+L_055,logic,plain,Qwen/Qwen2.5-7B-Instruct,A,"根据题目给出的信息：
+
+1. 高一(1)班和高一(2)班至少有一个班获得了团体总分前三名。
+2",False,s2_swap_True,26.46875,25.03125,1.4375,commit
+L_055,logic,markdown,Qwen/Qwen2.5-7B-Instruct,A,"根据题目给出的信息进行逻辑推理：
+
+1. (1) 高一(1)班和高一(2)班至少有一个班获得了团体",False,s2_swap_False,23.140625,18.875,4.265625,commit
+L_055,logic,markdown,Qwen/Qwen2.5-7B-Instruct,A,"根据题目给出的信息进行逻辑推理：
+
+1. (1) 高一(1)班和高一(2)班至少有一个班获得了团体",False,s2_swap_True,20.453125,20.828125,-0.375,decline
+L_056,logic,plain,Qwen/Qwen2.5-7B-Instruct,A,"根据题目给出的信息，我们可以进行逻辑推理：
+
+1. 若A去了外地，则B也去了外地。
+2. C去了外地，而D没有去",True,s2_swap_False,24.21875,20.21875,4.0,commit
+L_056,logic,plain,Qwen/Qwen2.5-7B-Instruct,A,"根据题目给出的信息，我们可以进行逻辑推理：
+
+1. 若A去了外地，则B也去了外地。
+2. C去了外地，而D没有去",True,s2_swap_True,21.78125,21.703125,0.078125,commit
+L_056,logic,markdown,Qwen/Qwen2.5-7B-Instruct,A,"根据题目给出的信息，我们可以逐步推理出答案。
+
+已知条件如下：
+1. 若A去了外地，则B也去了外地。
+2. C去了",True,s2_swap_False,22.203125,20.046875,2.15625,commit
+L_056,logic,markdown,Qwen/Qwen2.5-7B-Instruct,A,"根据题目给出的信息，我们可以逐步推理出答案。
+
+已知条件如下：
+1. 若A去了外地，则B也去了外地。
+2. C去了",True,s2_swap_True,23.015625,20.984375,2.03125,commit
+L_057,logic,plain,Qwen/Qwen2.5-7B-Instruct,A,"我们可以通过逻辑推理来分析这个题目。
+
+已知条件：
+1. 购买洗发水的顾客会获赠一瓶沐浴露。
+2",False,s2_swap_False,27.34375,17.65625,9.6875,commit
+L_057,logic,plain,Qwen/Qwen2.5-7B-Instruct,A,"我们可以通过逻辑推理来分析这个题目。
+
+已知条件：
+1. 购买洗发水的顾客会获赠一瓶沐浴露。
+2",False,s2_swap_True,26.703125,23.59375,3.109375,commit
+L_057,logic,markdown,Qwen/Qwen2.5-7B-Instruct,A,"我们来分析题干中的逻辑关系：
+
+1. **凡是购买洗发水的顾客，都会获赠一瓶沐浴露**。
+2. **凡是",False,s2_swap_False,22.921875,16.921875,6.0,commit
+L_057,logic,markdown,Qwen/Qwen2.5-7B-Instruct,A,"我们来分析题干中的逻辑关系：
+
+1. **凡是购买洗发水的顾客，都会获赠一瓶沐浴露**。
+2. **凡是",False,s2_swap_True,21.71875,20.5625,1.15625,commit
+L_058,logic,plain,Qwen/Qwen2.5-7B-Instruct,C,"根据题目给出的条件进行逻辑推理：
+
+1. 如果开放 A 阅览室，那么 B 阅览室也开放。
+2.",False,s2_swap_False,27.53125,23.21875,4.3125,commit
+L_058,logic,plain,Qwen/Qwen2.5-7B-Instruct,C,"根据题目给出的条件进行逻辑推理：
+
+1. 如果开放 A 阅览室，那么 B 阅览室也开放。
+2.",False,s2_swap_True,23.90625,25.25,-1.34375,decline
+L_058,logic,markdown,Qwen/Qwen2.5-7B-Instruct,C,"根据题目给出的条件进行逻辑推理：
+
+1. 如果开放 A 阅览室，那么 B 阅览室也开放。
+2.",False,s2_swap_False,25.625,22.703125,2.921875,commit
+L_058,logic,markdown,Qwen/Qwen2.5-7B-Instruct,C,"根据题目给出的条件进行逻辑推理：
+
+1. 如果开放 A 阅览室，那么 B 阅览室也开放。
+2.",False,s2_swap_True,21.859375,23.375,-1.515625,decline
+L_059,logic,plain,Qwen/Qwen2.5-7B-Instruct,B,"为了解决这个问题，我们可以使用集合的概念来分析。
+
+设数学及格的学生集合为A，英语及格的学生集合为B。根据题目信息",False,s2_swap_False,25.984375,17.328125,8.65625,commit
+L_059,logic,plain,Qwen/Qwen2.5-7B-Instruct,B,"为了解决这个问题，我们可以使用集合的概念来分析。
+
+设数学及格的学生集合为A，英语及格的学生集合为B。根据题目信息",False,s2_swap_True,26.78125,20.296875,6.484375,commit
+L_059,logic,markdown,Qwen/Qwen2.5-7B-Instruct,B,"为了解决这个问题，我们可以使用集合的概念来分析。
+
+设数学及格的学生集合为A，英语及格的学生集合为B。根据题目信息",False,s2_swap_False,24.78125,17.84375,6.9375,commit
+L_059,logic,markdown,Qwen/Qwen2.5-7B-Instruct,B,"为了解决这个问题，我们可以使用集合的概念来分析。
+
+设数学及格的学生集合为A，英语及格的学生集合为B。根据题目信息",False,s2_swap_True,24.625,20.109375,4.515625,commit
+L_060,logic,plain,Qwen/Qwen2.5-7B-Instruct,D,"我们可以通过逻辑推理来解决这个问题。
+
+首先，假设赵说的是真话，即“钱是标兵”。那么根据题目条件，其他三个人说的话",False,s2_swap_False,25.1875,18.25,6.9375,commit
+L_060,logic,plain,Qwen/Qwen2.5-7B-Instruct,D,"我们可以通过逻辑推理来解决这个问题。
+
+首先，假设赵说的是真话，即“钱是标兵”。那么根据题目条件，其他三个人说的话",False,s2_swap_True,26.578125,20.265625,6.3125,commit
+L_060,logic,markdown,Qwen/Qwen2.5-7B-Instruct,D,"为了解决这个问题，我们可以逐一分析每个人的话，并结合“只有一个人说的是真话”的条件来推理。
+
+1. **假设赵说的是真话**",False,s2_swap_False,20.890625,16.515625,4.375,commit
+L_060,logic,markdown,Qwen/Qwen2.5-7B-Instruct,D,"为了解决这个问题，我们可以逐一分析每个人的话，并结合“只有一个人说的是真话”的条件来推理。
+
+1. **假设赵说的是真话**",False,s2_swap_True,19.796875,17.078125,2.71875,commit
+L_061,logic,plain,Qwen/Qwen2.5-7B-Instruct,B,根据题干中的断定“只有掌握了扎实的专业知识，才能在职场中立于不败之地”，这是一个典型的必要条件命题。其逻辑形式,False,s2_swap_False,28.546875,18.671875,9.875,commit
+L_061,logic,plain,Qwen/Qwen2.5-7B-Instruct,B,根据题干中的断定“只有掌握了扎实的专业知识，才能在职场中立于不败之地”，这是一个典型的必要条件命题。其逻辑形式,False,s2_swap_True,29.640625,22.671875,6.96875,commit
+L_061,logic,markdown,Qwen/Qwen2.5-7B-Instruct,B,根据题意，“只有掌握了扎实的专业知识，才能在职场中立于不败之地”可以理解为一个条件语句，即“掌握了扎实,False,s2_swap_False,26.421875,21.109375,5.3125,commit
+L_061,logic,markdown,Qwen/Qwen2.5-7B-Instruct,B,根据题意，“只有掌握了扎实的专业知识，才能在职场中立于不败之地”可以理解为一个条件语句，即“掌握了扎实,False,s2_swap_True,27.921875,24.140625,3.78125,commit
+L_062,logic,plain,Qwen/Qwen2.5-7B-Instruct,B,"根据题目中的信息，我们可以进行如下逻辑推理：
+
+1. 如果加入辩论社，则必须参加每周三的辩论训练。
+2. 如果不加入辩论",False,s2_swap_False,24.28125,24.5,-0.21875,decline
+L_062,logic,plain,Qwen/Qwen2.5-7B-Instruct,B,"根据题目中的信息，我们可以进行如下逻辑推理：
+
+1. 如果加入辩论社，则必须参加每周三的辩论训练。
+2. 如果不加入辩论",False,s2_swap_True,25.390625,25.953125,-0.5625,decline
+L_062,logic,markdown,Qwen/Qwen2.5-7B-Instruct,B,"根据题目中的信息，我们可以进行如下逻辑推理：
+
+1. 如果加入辩论社，则必须参加每周三的辩论训练。
+2. 如果不加入辩论",False,s2_swap_False,24.328125,21.84375,2.484375,commit
+L_062,logic,markdown,Qwen/Qwen2.5-7B-Instruct,B,"根据题目中的信息，我们可以进行如下逻辑推理：
+
+1. 如果加入辩论社，则必须参加每周三的辩论训练。
+2. 如果不加入辩论",False,s2_swap_True,25.75,23.984375,1.765625,commit
+L_063,logic,plain,Qwen/Qwen2.5-7B-Instruct,B,"根据题目中的条件，我们可以进行如下推理：
+
+1. 蓝球的数量为20个。
+2. 红球的数量是蓝球",False,s2_swap_False,27.109375,19.078125,8.03125,commit
+L_063,logic,plain,Qwen/Qwen2.5-7B-Instruct,B,"根据题目中的条件，我们可以进行如下推理：
+
+1. 蓝球的数量为20个。
+2. 红球的数量是蓝球",False,s2_swap_True,26.140625,23.421875,2.71875,commit
+L_063,logic,markdown,Qwen/Qwen2.5-7B-Instruct,B,"根据题目中的条件，我们可以进行如下推理：
+
+1. 蓝球的数量为20个。
+2. 红球的数量是蓝球",False,s2_swap_False,26.0625,18.71875,7.34375,commit
+L_063,logic,markdown,Qwen/Qwen2.5-7B-Instruct,B,"根据题目中的条件，我们可以进行如下推理：
+
+1. 蓝球的数量为20个。
+2. 红球的数量是蓝球",False,s2_swap_True,23.1875,22.328125,0.859375,commit
+L_064,logic,plain,Qwen/Qwen2.5-7B-Instruct,C,"我们可以通过逻辑推理来解决这个问题。首先，明确每个人说的话：
+
+1. 甲说：“如果资金充足，就会扩大海外市场。”（用符号表示",False,s2_swap_False,22.625,19.78125,2.84375,commit
+L_064,logic,plain,Qwen/Qwen2.5-7B-Instruct,C,"我们可以通过逻辑推理来解决这个问题。首先，明确每个人说的话：
+
+1. 甲说：“如果资金充足，就会扩大海外市场。”（用符号表示",False,s2_swap_True,25.0,20.875,4.125,commit
+L_064,logic,markdown,Qwen/Qwen2.5-7B-Instruct,C,"为了解决这个问题，我们可以通过逻辑推理来分析每个人的话，并结合已知条件（只有一个人说的是真话）来得出结论。
+
+1. **",False,s2_swap_False,24.140625,18.390625,5.75,commit
+L_064,logic,markdown,Qwen/Qwen2.5-7B-Instruct,C,"为了解决这个问题，我们可以通过逻辑推理来分析每个人的话，并结合已知条件（只有一个人说的是真话）来得出结论。
+
+1. **",False,s2_swap_True,23.828125,19.953125,3.875,commit
+L_065,logic,plain,Qwen/Qwen2.5-7B-Instruct,B,根据题目中的信息，“凡是申报高级职称的人员，必须在核心期刊上发表过两篇以上学术论文”，这是一个充分条件命题，即“,False,s2_swap_False,31.3125,25.078125,6.234375,commit
+L_065,logic,plain,Qwen/Qwen2.5-7B-Instruct,B,根据题目中的信息，“凡是申报高级职称的人员，必须在核心期刊上发表过两篇以上学术论文”，这是一个充分条件命题，即“,False,s2_swap_True,34.8125,26.0,8.8125,commit
+L_065,logic,markdown,Qwen/Qwen2.5-7B-Instruct,B,根据题目中的信息，“凡是申报高级职称的人员，必须在核心期刊上发表过两篇以上学术论文。” 这是一个必要条件命题，,False,s2_swap_False,27.0,26.015625,0.984375,commit
+L_065,logic,markdown,Qwen/Qwen2.5-7B-Instruct,B,根据题目中的信息，“凡是申报高级职称的人员，必须在核心期刊上发表过两篇以上学术论文。” 这是一个必要条件命题，,False,s2_swap_True,27.234375,26.875,0.359375,commit
+L_066,logic,plain,Qwen/Qwen2.5-7B-Instruct,D,"我们可以通过逻辑推理来解决这个问题。
+
+首先，假设甲说的是真的，即“A拿得最多”。那么根据丁的说法“B拿得比A少",False,s2_swap_False,25.484375,18.46875,7.015625,commit
+L_066,logic,plain,Qwen/Qwen2.5-7B-Instruct,D,"我们可以通过逻辑推理来解决这个问题。
+
+首先，假设甲说的是真的，即“A拿得最多”。那么根据丁的说法“B拿得比A少",False,s2_swap_True,25.9375,21.296875,4.640625,commit
+L_066,logic,markdown,Qwen/Qwen2.5-7B-Instruct,D,"为了解决这个问题，我们可以根据每个人的说法进行逻辑推理，并结合“只有一个人猜错了”的条件来确定谁是猜错的人。
+
+1.",False,s2_swap_False,23.546875,17.703125,5.84375,commit
+L_066,logic,markdown,Qwen/Qwen2.5-7B-Instruct,D,"为了解决这个问题，我们可以根据每个人的说法进行逻辑推理，并结合“只有一个人猜错了”的条件来确定谁是猜错的人。
+
+1.",False,s2_swap_True,22.828125,19.71875,3.109375,commit
+L_067,logic,plain,Qwen/Qwen2.5-7B-Instruct,C,"我们可以通过逻辑推理来确定哪个科室的排名最后。
+
+根据题目给出的信息：
+
+1. 甲科室的排名在乙科室之前。
+   - �",False,s2_swap_False,24.171875,17.96875,6.203125,commit
+L_067,logic,plain,Qwen/Qwen2.5-7B-Instruct,C,"我们可以通过逻辑推理来确定哪个科室的排名最后。
+
+根据题目给出的信息：
+
+1. 甲科室的排名在乙科室之前。
+   - �",False,s2_swap_True,23.015625,20.015625,3.0,commit
+L_067,logic,markdown,Qwen/Qwen2.5-7B-Instruct,C,"根据题目给出的信息，我们可以进行如下推理：
+
+1. 甲科室的排名在乙科室之前。
+   - 表示甲 < 乙。",False,s2_swap_False,24.421875,20.109375,4.3125,commit
+L_067,logic,markdown,Qwen/Qwen2.5-7B-Instruct,C,"根据题目给出的信息，我们可以进行如下推理：
+
+1. 甲科室的排名在乙科室之前。
+   - 表示甲 < 乙。",False,s2_swap_True,20.609375,19.046875,1.5625,commit
+L_068,logic,plain,Qwen/Qwen2.5-7B-Instruct,B,"这道逻辑推理题的核心在于理解专家的断定，并根据这个断定推导出必然为真的结论。
+
+专家的断定是：“除非",False,s2_swap_False,30.890625,23.15625,7.734375,commit
+L_068,logic,plain,Qwen/Qwen2.5-7B-Instruct,B,"这道逻辑推理题的核心在于理解专家的断定，并根据这个断定推导出必然为真的结论。
+
+专家的断定是：“除非",False,s2_swap_True,33.4375,25.578125,7.859375,commit
+L_068,logic,markdown,Qwen/Qwen2.5-7B-Instruct,B,根据题干信息，“除非突破核心电池技术瓶颈，否则新能源汽车无法在短期内完全替代燃油车”，可以理解为只有当核心电池技术被,False,s2_swap_False,28.890625,20.84375,8.046875,commit
+L_068,logic,markdown,Qwen/Qwen2.5-7B-Instruct,B,根据题干信息，“除非突破核心电池技术瓶颈，否则新能源汽车无法在短期内完全替代燃油车”，可以理解为只有当核心电池技术被,False,s2_swap_True,32.21875,24.625,7.59375,commit
+L_069,logic,plain,Qwen/Qwen2.5-7B-Instruct,A,"我们可以通过逻辑推理来解答这个问题。
+
+根据题目信息：
+
+1. 教古代文学的老师年龄最大。
+2. 张老师的年龄比教外国",False,s2_swap_False,23.4375,20.03125,3.40625,commit
+L_069,logic,plain,Qwen/Qwen2.5-7B-Instruct,A,"我们可以通过逻辑推理来解答这个问题。
+
+根据题目信息：
+
+1. 教古代文学的老师年龄最大。
+2. 张老师的年龄比教外国",False,s2_swap_True,24.09375,21.625,2.46875,commit
+L_069,logic,markdown,Qwen/Qwen2.5-7B-Instruct,A,"我们可以通过逻辑推理来解答这个问题。
+
+首先，根据已知条件：
+1. 教古代文学的老师年龄最大。
+2. 张老师的年龄",False,s2_swap_False,20.625,20.09375,0.53125,commit
+L_069,logic,markdown,Qwen/Qwen2.5-7B-Instruct,A,"我们可以通过逻辑推理来解答这个问题。
+
+首先，根据已知条件：
+1. 教古代文学的老师年龄最大。
+2. 张老师的年龄",False,s2_swap_True,20.6875,20.53125,0.15625,commit
+L_070,logic,plain,Qwen/Qwen2.5-7B-Instruct,A,根据题目中的信息，“凡是单笔消费满 500 元的顾客，可以获得一张抽奖券和一个精美礼品。” 小张单,False,s2_swap_False,32.1875,16.1875,16.0,commit
+L_070,logic,plain,Qwen/Qwen2.5-7B-Instruct,A,根据题目中的信息，“凡是单笔消费满 500 元的顾客，可以获得一张抽奖券和一个精美礼品。” 小张单,False,s2_swap_True,33.21875,19.546875,13.671875,commit
+L_070,logic,markdown,Qwen/Qwen2.5-7B-Instruct,A,根据题目中的信息，“凡是单笔消费满 500 元的顾客，可以获得一张抽奖券和一个精美礼品。” 小张单,False,s2_swap_False,31.390625,16.28125,15.109375,commit
+L_070,logic,markdown,Qwen/Qwen2.5-7B-Instruct,A,根据题目中的信息，“凡是单笔消费满 500 元的顾客，可以获得一张抽奖券和一个精美礼品。” 小张单,False,s2_swap_True,32.28125,19.390625,12.890625,commit
+L_071,logic,plain,Qwen/Qwen2.5-7B-Instruct,A,"根据题目给出的条件，我们可以逐步分析：
+
+1. 若区域1发现稀有矿产，则区域2也会发现。
+2. 区域3",False,s2_swap_False,22.875,21.8125,1.0625,commit
+L_071,logic,plain,Qwen/Qwen2.5-7B-Instruct,A,"根据题目给出的条件，我们可以逐步分析：
+
+1. 若区域1发现稀有矿产，则区域2也会发现。
+2. 区域3",False,s2_swap_True,22.796875,22.953125,-0.15625,decline
+L_071,logic,markdown,Qwen/Qwen2.5-7B-Instruct,A,"根据题目给出的条件，我们可以逐步分析：
+
+1. 若区域1发现稀有矿产，则区域2也会发现。
+2. 区域3",False,s2_swap_False,21.25,21.046875,0.203125,commit
+L_071,logic,markdown,Qwen/Qwen2.5-7B-Instruct,A,"根据题目给出的条件，我们可以逐步分析：
+
+1. 若区域1发现稀有矿产，则区域2也会发现。
+2. 区域3",False,s2_swap_True,21.5625,22.125,-0.5625,decline
+L_072,logic,plain,Qwen/Qwen2.5-7B-Instruct,A,根据题目中的规定：“或者品学兼优，或者科研成果突出”，这是一个逻辑上的“或”关系，意味着只要满足其中一个条件即可。小,False,s2_swap_False,33.4375,18.3125,15.125,commit
+L_072,logic,plain,Qwen/Qwen2.5-7B-Instruct,A,根据题目中的规定：“或者品学兼优，或者科研成果突出”，这是一个逻辑上的“或”关系，意味着只要满足其中一个条件即可。小,False,s2_swap_True,32.125,19.6875,12.4375,commit
+L_072,logic,markdown,Qwen/Qwen2.5-7B-Instruct,A,根据题目中的规定：“或者品学兼优，或者科研成果突出”，这是一个逻辑上的“或”关系，意味着只要满足其中一个条件即可。题目,False,s2_swap_False,30.34375,18.015625,12.328125,commit
+L_072,logic,markdown,Qwen/Qwen2.5-7B-Instruct,A,根据题目中的规定：“或者品学兼优，或者科研成果突出”，这是一个逻辑上的“或”关系，意味着只要满足其中一个条件即可。题目,False,s2_swap_True,29.765625,20.90625,8.859375,commit
+L_073,logic,plain,Qwen/Qwen2.5-7B-Instruct,B,"根据题目中的条件，该岗位要求应聘者必须同时满足以下两个条件之一，并且不能有海外留学背景：
+1. 精通Python",False,s2_swap_False,25.109375,31.21875,-6.109375,decline
+L_073,logic,plain,Qwen/Qwen2.5-7B-Instruct,B,"根据题目中的条件，该岗位要求应聘者必须同时满足以下两个条件之一，并且不能有海外留学背景：
+1. 精通Python",False,s2_swap_True,27.4375,30.734375,-3.296875,decline
+L_073,logic,markdown,Qwen/Qwen2.5-7B-Instruct,B,"根据题目描述的岗位要求：
+
+1. 必须同时具备两个条件中的一个，并且不能有海外留学背景。
+   - 条件一",False,s2_swap_False,25.328125,28.59375,-3.265625,decline
+L_073,logic,markdown,Qwen/Qwen2.5-7B-Instruct,B,"根据题目描述的岗位要求：
+
+1. 必须同时具备两个条件中的一个，并且不能有海外留学背景。
+   - 条件一",False,s2_swap_True,26.8125,29.1875,-2.375,decline
+L_074,logic,plain,Qwen/Qwen2.5-7B-Instruct,D,"根据题目给出的信息进行逻辑推理：
+
+1. 如果甲涉案，则乙也涉案。
+2. 丙和丁两人中至少有一人涉案。
+3",False,s2_swap_False,24.875,19.390625,5.484375,commit
+L_074,logic,plain,Qwen/Qwen2.5-7B-Instruct,D,"根据题目给出的信息进行逻辑推理：
+
+1. 如果甲涉案，则乙也涉案。
+2. 丙和丁两人中至少有一人涉案。
+3",False,s2_swap_True,23.09375,22.84375,0.25,commit
+L_074,logic,markdown,Qwen/Qwen2.5-7B-Instruct,D,"根据题目给出的信息进行逻辑推理：
+
+1. 如果甲涉案，则乙也涉案。
+2. 丙和丁两人中至少有一人涉案。
+3",False,s2_swap_False,23.21875,19.828125,3.390625,commit
+L_074,logic,markdown,Qwen/Qwen2.5-7B-Instruct,D,"根据题目给出的信息进行逻辑推理：
+
+1. 如果甲涉案，则乙也涉案。
+2. 丙和丁两人中至少有一人涉案。
+3",False,s2_swap_True,21.796875,21.9375,-0.140625,decline
+L_075,logic,plain,Qwen/Qwen2.5-7B-Instruct,B,"根据题目中的信息，我们可以知道：
+
+- 本科生最多借阅 10 本，
+- 硕士研究生最多借阅 15",False,s2_swap_False,24.984375,23.46875,1.515625,commit
+L_075,logic,plain,Qwen/Qwen2.5-7B-Instruct,B,"根据题目中的信息，我们可以知道：
+
+- 本科生最多借阅 10 本，
+- 硕士研究生最多借阅 15",False,s2_swap_True,26.703125,25.78125,0.921875,commit
+L_075,logic,markdown,Qwen/Qwen2.5-7B-Instruct,B,"根据题目中的信息，我们可以知道不同类型的研究生借阅图书的最大数量限制分别是：
+- 本科生最多借阅 10 本，
+- �",False,s2_swap_False,27.109375,20.953125,6.15625,commit
+L_075,logic,markdown,Qwen/Qwen2.5-7B-Instruct,B,"根据题目中的信息，我们可以知道不同类型的研究生借阅图书的最大数量限制分别是：
+- 本科生最多借阅 10 本，
+- �",False,s2_swap_True,26.328125,24.296875,2.03125,commit
+L_076,logic,plain,Qwen/Qwen2.5-7B-Instruct,C,"我们可以通过逻辑推理来解决这个问题。
+
+假设甲说的是真话，即“小张不到20岁”，那么乙和丙的话就是假的。",False,s2_swap_False,23.03125,20.0,3.03125,commit
+L_076,logic,plain,Qwen/Qwen2.5-7B-Instruct,C,"我们可以通过逻辑推理来解决这个问题。
+
+假设甲说的是真话，即“小张不到20岁”，那么乙和丙的话就是假的。",False,s2_swap_True,22.390625,20.296875,2.09375,commit
+L_076,logic,markdown,Qwen/Qwen2.5-7B-Instruct,C,"我们可以通过逻辑推理来解决这个问题。
+
+假设甲说的是真话，即“小张不到20岁”，那么乙和丙的话就是假的。",False,s2_swap_False,20.671875,18.78125,1.890625,commit
+L_076,logic,markdown,Qwen/Qwen2.5-7B-Instruct,C,"我们可以通过逻辑推理来解决这个问题。
+
+假设甲说的是真话，即“小张不到20岁”，那么乙和丙的话就是假的。",False,s2_swap_True,20.765625,19.15625,1.609375,commit
+L_077,logic,plain,Qwen/Qwen2.5-7B-Instruct,A,根据题目中的规定：“参加培训的员工必须通过理论考试或者实操演练。”这里的关键在于“或者”这个逻辑连接词，表示只要满足,False,s2_swap_False,32.90625,19.171875,13.734375,commit
+L_077,logic,plain,Qwen/Qwen2.5-7B-Instruct,A,根据题目中的规定：“参加培训的员工必须通过理论考试或者实操演练。”这里的关键在于“或者”这个逻辑连接词，表示只要满足,False,s2_swap_True,33.25,21.59375,11.65625,commit
+L_077,logic,markdown,Qwen/Qwen2.5-7B-Instruct,A,根据题目中的规定：“参加培训的员工必须通过理论考试或者实操演练”，这里的关键在于“或者”这个词，表示只要满足其中一个条件即可,False,s2_swap_False,30.078125,18.078125,12.0,commit
+L_077,logic,markdown,Qwen/Qwen2.5-7B-Instruct,A,根据题目中的规定：“参加培训的员工必须通过理论考试或者实操演练”，这里的关键在于“或者”这个词，表示只要满足其中一个条件即可,False,s2_swap_True,33.59375,22.65625,10.9375,commit
+L_078,logic,plain,Qwen/Qwen2.5-7B-Instruct,B,"为了解决这个问题，我们可以使用集合的概念来分析。
+
+设懂英语的人组成的集合为E，懂法语的人组成的集合为F，那么根据",False,s2_swap_False,22.703125,18.296875,4.40625,commit
+L_078,logic,plain,Qwen/Qwen2.5-7B-Instruct,B,"为了解决这个问题，我们可以使用集合的概念来分析。
+
+设懂英语的人组成的集合为E，懂法语的人组成的集合为F，那么根据",False,s2_swap_True,24.84375,20.140625,4.703125,commit
+L_078,logic,markdown,Qwen/Qwen2.5-7B-Instruct,B,"为了解决这个问题，我们可以使用集合的概念来分析。
+
+设懂英语的人组成的集合为E，懂法语的人组成的集合为F，那么根据",False,s2_swap_False,21.375,17.515625,3.859375,commit
+L_078,logic,markdown,Qwen/Qwen2.5-7B-Instruct,B,"为了解决这个问题，我们可以使用集合的概念来分析。
+
+设懂英语的人组成的集合为E，懂法语的人组成的集合为F，那么根据",False,s2_swap_True,22.171875,19.40625,2.765625,commit
+L_079,logic,plain,Qwen/Qwen2.5-7B-Instruct,A,根据题目中的招聘条件，“或者具备硕士研究生以上学历，或者拥有3年以上数字营销工作经验”，小张虽然只有本科学历，但拥有4年,False,s2_swap_False,33.5,18.265625,15.234375,commit
+L_079,logic,plain,Qwen/Qwen2.5-7B-Instruct,A,根据题目中的招聘条件，“或者具备硕士研究生以上学历，或者拥有3年以上数字营销工作经验”，小张虽然只有本科学历，但拥有4年,False,s2_swap_True,32.5625,20.25,12.3125,commit
+L_079,logic,markdown,Qwen/Qwen2.5-7B-Instruct,A,根据题目中的招聘要求，“或者具备硕士研究生以上学历，或者拥有3年以上数字营销工作经验”，小张虽然只有本科学历，但拥有4年,False,s2_swap_False,31.21875,17.359375,13.859375,commit
+L_079,logic,markdown,Qwen/Qwen2.5-7B-Instruct,A,根据题目中的招聘要求，“或者具备硕士研究生以上学历，或者拥有3年以上数字营销工作经验”，小张虽然只有本科学历，但拥有4年,False,s2_swap_True,31.984375,19.234375,12.75,commit
+L_080,logic,plain,Qwen/Qwen2.5-7B-Instruct,A,"根据题目给出的条件，我们可以逐步推理：
+
+1. 若钻探点1发现优质水源，则钻探点2也会发现。（条件1）
+2",False,s2_swap_False,27.625,20.28125,7.34375,commit
+L_080,logic,plain,Qwen/Qwen2.5-7B-Instruct,A,"根据题目给出的条件，我们可以逐步推理：
+
+1. 若钻探点1发现优质水源，则钻探点2也会发现。（条件1）
+2",False,s2_swap_True,25.96875,23.4375,2.53125,commit
+L_080,logic,markdown,Qwen/Qwen2.5-7B-Instruct,A,"根据题目给出的条件，我们可以逐步推理出答案。
+
+1. 若钻探点1发现优质水源，则钻探点2也会发现。（条件1",False,s2_swap_False,25.640625,21.25,4.390625,commit
+L_080,logic,markdown,Qwen/Qwen2.5-7B-Instruct,A,"根据题目给出的条件，我们可以逐步推理出答案。
+
+1. 若钻探点1发现优质水源，则钻探点2也会发现。（条件1",False,s2_swap_True,24.21875,22.109375,2.109375,commit
+L_081,logic,plain,Qwen/Qwen2.5-7B-Instruct,C,"我们可以通过逻辑推理来解决这个问题。
+
+首先，我们列出每个评委的预测：
+
+- 甲说：“A是第一名，C是第三名。”",False,s2_swap_False,22.8125,20.46875,2.34375,commit
+L_081,logic,plain,Qwen/Qwen2.5-7B-Instruct,C,"我们可以通过逻辑推理来解决这个问题。
+
+首先，我们列出每个评委的预测：
+
+- 甲说：“A是第一名，C是第三名。”",False,s2_swap_True,22.0,19.6875,2.3125,commit
+L_081,logic,markdown,Qwen/Qwen2.5-7B-Instruct,C,"为了解决这个问题，我们可以根据每个评委的说法和条件（每位评委只猜对了一半）来逐步推理。
+
+1. **甲的猜测**",False,s2_swap_False,22.140625,17.109375,5.03125,commit
+L_081,logic,markdown,Qwen/Qwen2.5-7B-Instruct,C,"为了解决这个问题，我们可以根据每个评委的说法和条件（每位评委只猜对了一半）来逐步推理。
+
+1. **甲的猜测**",False,s2_swap_True,22.671875,18.96875,3.703125,commit
+L_082,logic,plain,Qwen/Qwen2.5-7B-Instruct,B,根据题干中的断定：“除非大幅提升互动体验，否则在线教育无法完全替代传统线下课堂”，可以理解为只有在大幅提升互动体验的情况下，,False,s2_swap_False,26.703125,22.4375,4.265625,commit
+L_082,logic,plain,Qwen/Qwen2.5-7B-Instruct,B,根据题干中的断定：“除非大幅提升互动体验，否则在线教育无法完全替代传统线下课堂”，可以理解为只有在大幅提升互动体验的情况下，,False,s2_swap_True,26.640625,26.015625,0.625,commit
+L_082,logic,markdown,Qwen/Qwen2.5-7B-Instruct,B,根据题干中的断定：“除非大幅提升互动体验，否则在线教育无法完全替代传统线下课堂”，可以理解为只有在互动体验大幅提升的情况下，,False,s2_swap_False,27.09375,21.234375,5.859375,commit
+L_082,logic,markdown,Qwen/Qwen2.5-7B-Instruct,B,根据题干中的断定：“除非大幅提升互动体验，否则在线教育无法完全替代传统线下课堂”，可以理解为只有在互动体验大幅提升的情况下，,False,s2_swap_True,28.421875,25.8125,2.609375,commit
+L_083,logic,plain,Qwen/Qwen2.5-7B-Instruct,A,"我们可以通过逻辑推理来解答这个问题。
+
+根据题目信息：
+
+1. 教英语的教授年龄最大。
+2. 张教授的年龄比教德",False,s2_swap_False,26.03125,20.171875,5.859375,commit
+L_083,logic,plain,Qwen/Qwen2.5-7B-Instruct,A,"我们可以通过逻辑推理来解答这个问题。
+
+根据题目信息：
+
+1. 教英语的教授年龄最大。
+2. 张教授的年龄比教德",False,s2_swap_True,26.03125,21.625,4.40625,commit
+L_083,logic,markdown,Qwen/Qwen2.5-7B-Instruct,A,"我们可以通过逻辑推理来解答这个问题。
+
+根据题目信息：
+1. 教英语的教授年龄最大。
+2. 张教授的年龄比教德",False,s2_swap_False,24.4375,20.03125,4.40625,commit
+L_083,logic,markdown,Qwen/Qwen2.5-7B-Instruct,A,"我们可以通过逻辑推理来解答这个问题。
+
+根据题目信息：
+1. 教英语的教授年龄最大。
+2. 张教授的年龄比教德",False,s2_swap_True,23.625,21.6875,1.9375,commit
+L_084,logic,plain,Qwen/Qwen2.5-7B-Instruct,B,根据题干信息，公司的年终绩效考核规定是：只有年度业绩考核获得“S级”的员工，才必须独立主导完成过一项核心产品,False,s2_swap_False,25.140625,28.234375,-3.09375,decline
+L_084,logic,plain,Qwen/Qwen2.5-7B-Instruct,B,根据题干信息，公司的年终绩效考核规定是：只有年度业绩考核获得“S级”的员工，才必须独立主导完成过一项核心产品,False,s2_swap_True,25.25,29.796875,-4.546875,decline
+L_084,logic,markdown,Qwen/Qwen2.5-7B-Instruct,B,根据题目中的信息，公司年终绩效考核的规定是：只有年度业绩考核获得“S级”的员工，才必须独立主导完成过一项核心产品,False,s2_swap_False,26.125,27.03125,-0.90625,decline
+L_084,logic,markdown,Qwen/Qwen2.5-7B-Instruct,B,根据题目中的信息，公司年终绩效考核的规定是：只有年度业绩考核获得“S级”的员工，才必须独立主导完成过一项核心产品,False,s2_swap_True,27.75,27.484375,0.265625,commit
+L_085,logic,plain,Qwen/Qwen2.5-7B-Instruct,C,"我们可以通过逻辑推理来解决这个问题。
+
+根据题意，甲、乙、丙三人的话中只有一句是真的。我们分别分析每个人的话：
+
+1",False,s2_swap_False,26.9375,18.265625,8.671875,commit
+L_085,logic,plain,Qwen/Qwen2.5-7B-Instruct,C,"我们可以通过逻辑推理来解决这个问题。
+
+根据题意，甲、乙、丙三人的话中只有一句是真的。我们分别分析每个人的话：
+
+1",False,s2_swap_True,29.828125,21.28125,8.546875,commit
+L_085,logic,markdown,Qwen/Qwen2.5-7B-Instruct,C,"根据题目条件，我们知道甲、乙、丙三人的话中只有一句是真的。我们可以通过分析每种情况来找出答案。
+
+1. **假设",False,s2_swap_False,20.65625,17.390625,3.265625,commit
+L_085,logic,markdown,Qwen/Qwen2.5-7B-Instruct,C,"根据题目条件，我们知道甲、乙、丙三人的话中只有一句是真的。我们可以通过分析每种情况来找出答案。
+
+1. **假设",False,s2_swap_True,22.515625,19.109375,3.40625,commit
+L_086,logic,plain,Qwen/Qwen2.5-7B-Instruct,A,根据题目中的规定：“参与演练的人员必须通过理论考核或者完成漏洞修复实操”，这是一个逻辑上的“或”关系，即只要满足其中一个,False,s2_swap_False,34.03125,18.65625,15.375,commit
+L_086,logic,plain,Qwen/Qwen2.5-7B-Instruct,A,根据题目中的规定：“参与演练的人员必须通过理论考核或者完成漏洞修复实操”，这是一个逻辑上的“或”关系，即只要满足其中一个,False,s2_swap_True,33.84375,20.765625,13.078125,commit
+L_086,logic,markdown,Qwen/Qwen2.5-7B-Instruct,A,根据题目中的规定：“参与演练的人员必须通过理论考核或者完成漏洞修复实操”，这是一个逻辑上的“或”关系，即只要满足其中一个,False,s2_swap_False,31.40625,17.234375,14.171875,commit
+L_086,logic,markdown,Qwen/Qwen2.5-7B-Instruct,A,根据题目中的规定：“参与演练的人员必须通过理论考核或者完成漏洞修复实操”，这是一个逻辑上的“或”关系，即只要满足其中一个,False,s2_swap_True,33.78125,20.15625,13.625,commit
+L_087,logic,plain,Qwen/Qwen2.5-7B-Instruct,B,"为了解决这个问题，我们可以使用集合的概念来分析。
+
+设总人数为 \(T = 120\) 人。
+- 喜欢",False,s2_swap_False,23.34375,18.671875,4.671875,commit
+L_087,logic,plain,Qwen/Qwen2.5-7B-Instruct,B,"为了解决这个问题，我们可以使用集合的概念来分析。
+
+设总人数为 \(T = 120\) 人。
+- 喜欢",False,s2_swap_True,24.25,19.0625,5.1875,commit
+L_087,logic,markdown,Qwen/Qwen2.5-7B-Instruct,B,"为了解决这个问题，我们可以使用集合的概念来分析。
+
+设：
+- \(A\) 表示喜欢阅读历史类书籍的读者集合。
+- \(",False,s2_swap_False,24.0,18.375,5.625,commit
+L_087,logic,markdown,Qwen/Qwen2.5-7B-Instruct,B,"为了解决这个问题，我们可以使用集合的概念来分析。
+
+设：
+- \(A\) 表示喜欢阅读历史类书籍的读者集合。
+- \(",False,s2_swap_True,23.46875,19.5625,3.90625,commit
+L_088,logic,plain,Qwen/Qwen2.5-7B-Instruct,A,根据题干信息，小王购买了一台标价3500元的电视机，满足了“购买家电满3000元可以,False,s2_swap_False,28.796875,21.53125,7.265625,commit
+L_088,logic,plain,Qwen/Qwen2.5-7B-Instruct,A,根据题干信息，小王购买了一台标价3500元的电视机，满足了“购买家电满3000元可以,False,s2_swap_True,30.015625,23.640625,6.375,commit
+L_088,logic,markdown,Qwen/Qwen2.5-7B-Instruct,A,根据题干信息，小王购买了一台标价3500元的电视机，按照商场的规定，购买家电满3000元,False,s2_swap_False,26.9375,19.9375,7.0,commit
+L_088,logic,markdown,Qwen/Qwen2.5-7B-Instruct,A,根据题干信息，小王购买了一台标价3500元的电视机，按照商场的规定，购买家电满3000元,False,s2_swap_True,26.96875,23.34375,3.625,commit
+L_089,logic,plain,Qwen/Qwen2.5-7B-Instruct,A,"我们可以通过逻辑推理来分析这个题目。
+
+已知条件如下：
+1. 若陈某有作案嫌疑，则刘某也有作案嫌疑。
+2. 周",False,s2_swap_False,24.0,20.921875,3.078125,commit
+L_089,logic,plain,Qwen/Qwen2.5-7B-Instruct,A,"我们可以通过逻辑推理来分析这个题目。
+
+已知条件如下：
+1. 若陈某有作案嫌疑，则刘某也有作案嫌疑。
+2. 周",False,s2_swap_True,25.53125,23.203125,2.328125,commit
+L_089,logic,markdown,Qwen/Qwen2.5-7B-Instruct,A,"我们可以通过逻辑推理来解答这个问题。
+
+已知条件如下：
+1. 若陈某有作案嫌疑，则刘某也有作案嫌疑。
+2. 周某",False,s2_swap_False,19.859375,20.546875,-0.6875,decline
+L_089,logic,markdown,Qwen/Qwen2.5-7B-Instruct,A,"我们可以通过逻辑推理来解答这个问题。
+
+已知条件如下：
+1. 若陈某有作案嫌疑，则刘某也有作案嫌疑。
+2. 周某",False,s2_swap_True,19.234375,19.84375,-0.609375,decline
+L_090,logic,plain,Qwen/Qwen2.5-7B-Instruct,B,"根据题干信息，我们可以进行如下逻辑推理：
+
+1. 如果去乡村支教，则必须提交一份调研报告。
+2. 如果不去乡村支教",False,s2_swap_False,25.03125,23.4375,1.59375,commit
+L_090,logic,plain,Qwen/Qwen2.5-7B-Instruct,B,"根据题干信息，我们可以进行如下逻辑推理：
+
+1. 如果去乡村支教，则必须提交一份调研报告。
+2. 如果不去乡村支教",False,s2_swap_True,21.15625,22.84375,-1.6875,decline
+L_090,logic,markdown,Qwen/Qwen2.5-7B-Instruct,B,"根据题目中的条件：
+
+1. 如果去乡村支教，则必须提交一份调研报告。
+2. 如果不去乡村支教，则可以提交心得体会。
+
+已",False,s2_swap_False,24.859375,20.921875,3.9375,commit
+L_090,logic,markdown,Qwen/Qwen2.5-7B-Instruct,B,"根据题目中的条件：
+
+1. 如果去乡村支教，则必须提交一份调研报告。
+2. 如果不去乡村支教，则可以提交心得体会。
+
+已",False,s2_swap_True,28.5,23.75,4.75,commit
+L_091,logic,plain,Qwen/Qwen2.5-7B-Instruct,C,"我们可以通过逻辑推理来分析这个问题。
+
+首先，明确每个人的说法：
+- 甲说：“如果供应链稳定，就会发布新款手机。”（假设为P",False,s2_swap_False,25.03125,20.09375,4.9375,commit
+L_091,logic,plain,Qwen/Qwen2.5-7B-Instruct,C,"我们可以通过逻辑推理来分析这个问题。
+
+首先，明确每个人的说法：
+- 甲说：“如果供应链稳定，就会发布新款手机。”（假设为P",False,s2_swap_True,21.78125,20.453125,1.328125,commit
+L_091,logic,markdown,Qwen/Qwen2.5-7B-Instruct,C,"为了解决这个问题，我们可以通过逻辑推理来分析每个人的说法，并结合已知条件（只有一个人说的是真话）来得出结论。
+
+1. **",False,s2_swap_False,24.625,18.953125,5.671875,commit
+L_091,logic,markdown,Qwen/Qwen2.5-7B-Instruct,C,"为了解决这个问题，我们可以通过逻辑推理来分析每个人的说法，并结合已知条件（只有一个人说的是真话）来得出结论。
+
+1. **",False,s2_swap_True,23.59375,20.3125,3.28125,commit
+L_092,logic,plain,Qwen/Qwen2.5-7B-Instruct,A,根据题目中的条件：“或者具备硕士研究生以上学历，或者获得过省级以上程序设计竞赛一等奖”，这是一个逻辑上的“或”关系，只要满足其中一个,False,s2_swap_False,31.890625,18.296875,13.59375,commit
+L_092,logic,plain,Qwen/Qwen2.5-7B-Instruct,A,根据题目中的条件：“或者具备硕士研究生以上学历，或者获得过省级以上程序设计竞赛一等奖”，这是一个逻辑上的“或”关系，只要满足其中一个,False,s2_swap_True,32.03125,19.9375,12.09375,commit
+L_092,logic,markdown,Qwen/Qwen2.5-7B-Instruct,A,根据题目中的要求，“或者具备硕士研究生以上学历，或者获得过省级以上程序设计竞赛一等奖”，小李虽然只有本科学历，但获得了省级,False,s2_swap_False,30.578125,17.859375,12.71875,commit
+L_092,logic,markdown,Qwen/Qwen2.5-7B-Instruct,A,根据题目中的要求，“或者具备硕士研究生以上学历，或者获得过省级以上程序设计竞赛一等奖”，小李虽然只有本科学历，但获得了省级,False,s2_swap_True,31.984375,19.578125,12.40625,commit
+L_093,logic,plain,Qwen/Qwen2.5-7B-Instruct,A,"我们可以通过逻辑推理来解答这个问题。
+
+已知条件如下：
+1. 若区域1发现铁矿，则区域2也会发现。
+2. 区域",False,s2_swap_False,24.984375,21.234375,3.75,commit
+L_093,logic,plain,Qwen/Qwen2.5-7B-Instruct,A,"我们可以通过逻辑推理来解答这个问题。
+
+已知条件如下：
+1. 若区域1发现铁矿，则区域2也会发现。
+2. 区域",False,s2_swap_True,25.53125,22.75,2.78125,commit
+L_093,logic,markdown,Qwen/Qwen2.5-7B-Instruct,A,"根据题目给出的条件，我们可以逐步推理得出答案。
+
+1. 若区域1发现铁矿，则区域2也会发现。
+2. 区域3",False,s2_swap_False,20.921875,20.765625,0.15625,commit
+L_093,logic,markdown,Qwen/Qwen2.5-7B-Instruct,A,"根据题目给出的条件，我们可以逐步推理得出答案。
+
+1. 若区域1发现铁矿，则区域2也会发现。
+2. 区域3",False,s2_swap_True,21.265625,21.78125,-0.515625,decline
+L_094,logic,plain,Qwen/Qwen2.5-7B-Instruct,B,"我们可以通过逻辑推理来解决这个问题。
+
+首先，我们列出每个评委的预测：
+
+- 甲说：“A是第一名，C是第三名。”",False,s2_swap_False,21.96875,20.03125,1.9375,commit
+L_094,logic,plain,Qwen/Qwen2.5-7B-Instruct,B,"我们可以通过逻辑推理来解决这个问题。
+
+首先，我们列出每个评委的预测：
+
+- 甲说：“A是第一名，C是第三名。”",False,s2_swap_True,21.21875,19.90625,1.3125,commit
+L_094,logic,markdown,Qwen/Qwen2.5-7B-Instruct,B,"为了解决这个问题，我们可以根据每个评委的说法和条件（每位评委只猜对了一半）来逐一分析。
+
+1. **甲的猜测**",False,s2_swap_False,21.71875,17.1875,4.53125,commit
+L_094,logic,markdown,Qwen/Qwen2.5-7B-Instruct,B,"为了解决这个问题，我们可以根据每个评委的说法和条件（每位评委只猜对了一半）来逐一分析。
+
+1. **甲的猜测**",False,s2_swap_True,21.640625,19.953125,1.6875,commit
+L_095,logic,plain,Qwen/Qwen2.5-7B-Instruct,B,根据题干中的专家断定：“除非大幅提升代码自动生成准确率，否则大模型无法颠覆传统软件工程范式”，可以理解为只有在,False,s2_swap_False,26.875,20.40625,6.46875,commit
+L_095,logic,plain,Qwen/Qwen2.5-7B-Instruct,B,根据题干中的专家断定：“除非大幅提升代码自动生成准确率，否则大模型无法颠覆传统软件工程范式”，可以理解为只有在,False,s2_swap_True,28.421875,24.703125,3.71875,commit
+L_095,logic,markdown,Qwen/Qwen2.5-7B-Instruct,B,根据题干中的专家断定：“除非大幅提升代码自动生成准确率，否则大模型无法颠覆传统软件工程范式”，可以理解为只有在,False,s2_swap_False,27.671875,19.53125,8.140625,commit
+L_095,logic,markdown,Qwen/Qwen2.5-7B-Instruct,B,根据题干中的专家断定：“除非大幅提升代码自动生成准确率，否则大模型无法颠覆传统软件工程范式”，可以理解为只有在,False,s2_swap_True,29.84375,24.46875,5.375,commit
+L_096,logic,plain,Qwen/Qwen2.5-7B-Instruct,A,"我们可以通过逻辑推理来解答这个问题。
+
+根据题目信息：
+
+1. 教操作系统的教授年龄最大。
+2. 张教授的年龄比教数据库",False,s2_swap_False,21.640625,19.171875,2.46875,commit
+L_096,logic,plain,Qwen/Qwen2.5-7B-Instruct,A,"我们可以通过逻辑推理来解答这个问题。
+
+根据题目信息：
+
+1. 教操作系统的教授年龄最大。
+2. 张教授的年龄比教数据库",False,s2_swap_True,21.21875,19.890625,1.328125,commit
+L_096,logic,markdown,Qwen/Qwen2.5-7B-Instruct,A,"我们可以通过逻辑推理来解答这个问题。
+
+根据题目信息：
+1. 教操作系统的教授年龄最大。
+2. 张教授的年龄比教数据库",False,s2_swap_False,20.140625,19.078125,1.0625,commit
+L_096,logic,markdown,Qwen/Qwen2.5-7B-Instruct,A,"我们可以通过逻辑推理来解答这个问题。
+
+根据题目信息：
+1. 教操作系统的教授年龄最大。
+2. 张教授的年龄比教数据库",False,s2_swap_True,18.640625,18.84375,-0.203125,decline
+L_097,logic,plain,Qwen/Qwen2.5-7B-Instruct,B,根据题干信息，公司的年终绩效考核规定是：只有年度业绩考核获得“A级”的员工，才必须独立主导完成过一项重大技术攻关,False,s2_swap_False,25.90625,28.046875,-2.140625,decline
+L_097,logic,plain,Qwen/Qwen2.5-7B-Instruct,B,根据题干信息，公司的年终绩效考核规定是：只有年度业绩考核获得“A级”的员工，才必须独立主导完成过一项重大技术攻关,False,s2_swap_True,25.21875,29.640625,-4.421875,decline
+L_097,logic,markdown,Qwen/Qwen2.5-7B-Instruct,B,根据题目中的信息，公司年终绩效考核的规定是：年度业绩考核获得“A级”的员工必须独立主导完成过一项重大技术攻关。而小,False,s2_swap_False,26.46875,25.359375,1.109375,commit
+L_097,logic,markdown,Qwen/Qwen2.5-7B-Instruct,B,根据题目中的信息，公司年终绩效考核的规定是：年度业绩考核获得“A级”的员工必须独立主导完成过一项重大技术攻关。而小,False,s2_swap_True,29.359375,24.9375,4.421875,commit
+L_098,logic,plain,Qwen/Qwen2.5-7B-Instruct,C,"我们可以通过逻辑推理来解决这个问题。
+
+根据题意，我们知道甲、乙、丙三人的话中只有一句是真的。我们分别分析每个人的话：",False,s2_swap_False,23.671875,18.1875,5.484375,commit
+L_098,logic,plain,Qwen/Qwen2.5-7B-Instruct,C,"我们可以通过逻辑推理来解决这个问题。
+
+根据题意，我们知道甲、乙、丙三人的话中只有一句是真的。我们分别分析每个人的话：",False,s2_swap_True,25.5,20.53125,4.96875,commit
+L_098,logic,markdown,Qwen/Qwen2.5-7B-Instruct,C,"根据题目条件，我们知道甲、乙、丙三人的话中只有一句是真的。我们可以通过分析每种情况来找出答案。
+
+1. �",False,s2_swap_False,22.921875,18.296875,4.625,commit
+L_098,logic,markdown,Qwen/Qwen2.5-7B-Instruct,C,"根据题目条件，我们知道甲、乙、丙三人的话中只有一句是真的。我们可以通过分析每种情况来找出答案。
+
+1. �",False,s2_swap_True,23.546875,19.46875,4.078125,commit
+L_099,logic,plain,Qwen/Qwen2.5-7B-Instruct,A,根据题目中的规定：“参与演练的人员必须通过理论考核或者完成系统漏洞修复实操”，这是一个逻辑上的“或”关系，即只要满足,False,s2_swap_False,34.8125,18.5625,16.25,commit
+L_099,logic,plain,Qwen/Qwen2.5-7B-Instruct,A,根据题目中的规定：“参与演练的人员必须通过理论考核或者完成系统漏洞修复实操”，这是一个逻辑上的“或”关系，即只要满足,False,s2_swap_True,34.0,20.375,13.625,commit
+L_099,logic,markdown,Qwen/Qwen2.5-7B-Instruct,A,根据题目中的规定：“参与演练的人员必须通过理论考核或者完成系统漏洞修复实操”，小李通过了理论考核，即使他没有完成,False,s2_swap_False,32.46875,17.46875,15.0,commit
+L_099,logic,markdown,Qwen/Qwen2.5-7B-Instruct,A,根据题目中的规定：“参与演练的人员必须通过理论考核或者完成系统漏洞修复实操”，小李通过了理论考核，即使他没有完成,False,s2_swap_True,33.03125,20.3125,12.71875,commit
+L_100,logic,plain,Qwen/Qwen2.5-7B-Instruct,C,"为了解决这个问题，我们可以使用集合的概念来分析。
+
+设总人数为 \(N = 150\) 人。
+- 喜欢",False,s2_swap_False,23.109375,18.546875,4.5625,commit
+L_100,logic,plain,Qwen/Qwen2.5-7B-Instruct,C,"为了解决这个问题，我们可以使用集合的概念来分析。
+
+设总人数为 \(N = 150\) 人。
+- 喜欢",False,s2_swap_True,24.65625,19.1875,5.46875,commit
+L_100,logic,markdown,Qwen/Qwen2.5-7B-Instruct,C,"为了解决这个问题，我们可以使用集合的概念来分析。
+
+设：
+- \(A\) 表示喜欢阅读计算机类书籍的读者集合。
+- \(",False,s2_swap_False,23.8125,18.546875,5.265625,commit
+L_100,logic,markdown,Qwen/Qwen2.5-7B-Instruct,C,"为了解决这个问题，我们可以使用集合的概念来分析。
+
+设：
+- \(A\) 表示喜欢阅读计算机类书籍的读者集合。
+- \(",False,s2_swap_True,23.5,19.625,3.875,commit
+F_001,factual,plain,Qwen/Qwen2.5-7B-Instruct,B,"中华人民共和国的最高权力机关是：
+
+B. 全国人民代表大会",True,s2_swap_False,32.59375,24.09375,8.5,commit
+F_001,factual,plain,Qwen/Qwen2.5-7B-Instruct,B,"中华人民共和国的最高权力机关是：
+
+B. 全国人民代表大会",True,s2_swap_True,31.140625,25.25,5.890625,commit
+F_001,factual,markdown,Qwen/Qwen2.5-7B-Instruct,B,正确答案是 B. 全国人民代表大会。中华人民共和国的最高权力机关是全国人民代表大会，它拥有最高的立法权、监督权、决定权,True,s2_swap_False,38.28125,21.484375,16.796875,commit
+F_001,factual,markdown,Qwen/Qwen2.5-7B-Instruct,B,正确答案是 B. 全国人民代表大会。中华人民共和国的最高权力机关是全国人民代表大会，它拥有最高的立法权、监督权、决定权,True,s2_swap_True,36.3125,25.171875,11.140625,commit
+F_002,factual,plain,Qwen/Qwen2.5-7B-Instruct,C,正确答案是 C. 木星。木星是太阳系中体积最大、质量最大的行星。,True,s2_swap_False,36.53125,21.78125,14.75,commit
+F_002,factual,plain,Qwen/Qwen2.5-7B-Instruct,C,正确答案是 C. 木星。木星是太阳系中体积最大、质量最大的行星。,True,s2_swap_True,36.4375,26.4375,10.0,commit
+F_002,factual,markdown,Qwen/Qwen2.5-7B-Instruct,C,"在太阳系的所有行星中，体积和质量最大的是：
+
+C. 木星
+
+木星不仅体积最大，而且质量也远超其他行星",True,s2_swap_False,35.71875,20.1875,15.53125,commit
+F_002,factual,markdown,Qwen/Qwen2.5-7B-Instruct,C,"在太阳系的所有行星中，体积和质量最大的是：
+
+C. 木星
+
+木星不仅体积最大，而且质量也远超其他行星",True,s2_swap_True,35.5,22.125,13.375,commit
+F_003,factual,plain,Qwen/Qwen2.5-7B-Instruct,B,正确答案是 B. 阿尔伯特·爱因斯坦。相对论包括狭义相对论和广义相对论，是由阿尔伯,True,s2_swap_False,33.21875,19.390625,13.828125,commit
+F_003,factual,plain,Qwen/Qwen2.5-7B-Instruct,B,正确答案是 B. 阿尔伯特·爱因斯坦。相对论包括狭义相对论和广义相对论，是由阿尔伯,True,s2_swap_True,35.25,22.671875,12.578125,commit
+F_003,factual,markdown,Qwen/Qwen2.5-7B-Instruct,B,"正确答案是 B. 阿尔伯特·爱因斯坦。
+
+相对论是由阿尔伯特·爱因斯坦提出的，包括狭义相对",True,s2_swap_False,35.03125,21.09375,13.9375,commit
+F_003,factual,markdown,Qwen/Qwen2.5-7B-Instruct,B,"正确答案是 B. 阿尔伯特·爱因斯坦。
+
+相对论是由阿尔伯特·爱因斯坦提出的，包括狭义相对",True,s2_swap_True,34.21875,25.140625,9.078125,commit
+F_004,factual,plain,Qwen/Qwen2.5-7B-Instruct,A,"正确答案是 A. 指南针（司南）。
+
+指南针的前身“司南”最早出现在战国时期的文献中。而造纸",True,s2_swap_False,33.03125,19.765625,13.265625,commit
+F_004,factual,plain,Qwen/Qwen2.5-7B-Instruct,A,"正确答案是 A. 指南针（司南）。
+
+指南针的前身“司南”最早出现在战国时期的文献中。而造纸",True,s2_swap_True,36.15625,22.8125,13.34375,commit
+F_004,factual,markdown,Qwen/Qwen2.5-7B-Instruct,A,"正确答案是 A. 指南针（司南）。
+
+在中国古代四大发明中，指南针的前身“司南”最早出现在战国",True,s2_swap_False,34.03125,20.140625,13.890625,commit
+F_004,factual,markdown,Qwen/Qwen2.5-7B-Instruct,A,"正确答案是 A. 指南针（司南）。
+
+在中国古代四大发明中，指南针的前身“司南”最早出现在战国",True,s2_swap_True,35.65625,22.359375,13.296875,commit
+F_005,factual,plain,Qwen/Qwen2.5-7B-Instruct,C,"细胞内进行有氧呼吸的主要场所是：
+
+C. 线粒体
+
+线粒体是细胞的能量工厂，负责将细胞内的有机物",True,s2_swap_False,32.84375,17.8125,15.03125,commit
+F_005,factual,plain,Qwen/Qwen2.5-7B-Instruct,C,"细胞内进行有氧呼吸的主要场所是：
+
+C. 线粒体
+
+线粒体是细胞的能量工厂，负责将细胞内的有机物",True,s2_swap_True,36.65625,22.46875,14.1875,commit
+F_005,factual,markdown,Qwen/Qwen2.5-7B-Instruct,C,正确答案是 C. 线粒体。线粒体是细胞内的“能量工厂”，主要负责细胞有氧呼吸，产生 ATP（三,True,s2_swap_False,35.59375,20.0,15.59375,commit
+F_005,factual,markdown,Qwen/Qwen2.5-7B-Instruct,C,正确答案是 C. 线粒体。线粒体是细胞内的“能量工厂”，主要负责细胞有氧呼吸，产生 ATP（三,True,s2_swap_True,36.03125,23.28125,12.75,commit
+F_006,factual,plain,Qwen/Qwen2.5-7B-Instruct,A,A. 德国。德国不是联合国安全理事会的常任理事国，而法国、中国和俄罗斯都是联合国安全理事会的常任理事国,True,s2_swap_False,37.40625,20.265625,17.140625,commit
+F_006,factual,plain,Qwen/Qwen2.5-7B-Instruct,A,A. 德国。德国不是联合国安全理事会的常任理事国，而法国、中国和俄罗斯都是联合国安全理事会的常任理事国,True,s2_swap_True,35.8125,19.5,16.3125,commit
+F_006,factual,markdown,Qwen/Qwen2.5-7B-Instruct,A,正确答案是 A. 德国。德国不是联合国安全理事会的常任理事国，而法国、中国和俄罗斯都是联合国安全理事会的常,True,s2_swap_False,34.375,20.1875,14.1875,commit
+F_006,factual,markdown,Qwen/Qwen2.5-7B-Instruct,A,正确答案是 A. 德国。德国不是联合国安全理事会的常任理事国，而法国、中国和俄罗斯都是联合国安全理事会的常,True,s2_swap_True,34.09375,22.84375,11.25,commit
+F_007,factual,plain,Qwen/Qwen2.5-7B-Instruct,B,B. 哥白尼提出了“日心说”，指出太阳是太阳系的中心。,True,s2_swap_False,37.53125,26.765625,10.765625,commit
+F_007,factual,plain,Qwen/Qwen2.5-7B-Instruct,B,B. 哥白尼提出了“日心说”，指出太阳是太阳系的中心。,True,s2_swap_True,38.375,29.53125,8.84375,commit
+F_007,factual,markdown,Qwen/Qwen2.5-7B-Instruct,B,正确答案是 B. 哥白尼。哥白尼提出了日心说，认为太阳而不是地球位于宇宙的中心。,True,s2_swap_False,37.09375,21.96875,15.125,commit
+F_007,factual,markdown,Qwen/Qwen2.5-7B-Instruct,B,正确答案是 B. 哥白尼。哥白尼提出了日心说，认为太阳而不是地球位于宇宙的中心。,True,s2_swap_True,34.3125,25.34375,8.96875,commit
+F_008,factual,plain,Qwen/Qwen2.5-7B-Instruct,B,正确答案是 B. 祖冲之。祖冲之是中国南北朝时期的数学家、天文学家，他首次将圆周率精确,True,s2_swap_False,35.125,20.28125,14.84375,commit
+F_008,factual,plain,Qwen/Qwen2.5-7B-Instruct,B,正确答案是 B. 祖冲之。祖冲之是中国南北朝时期的数学家、天文学家，他首次将圆周率精确,True,s2_swap_True,38.625,23.734375,14.890625,commit
+F_008,factual,markdown,Qwen/Qwen2.5-7B-Instruct,B,"正确答案是 B. 祖冲之。
+
+祖冲之是中国南北朝时期的杰出数学家、天文学家，他首次将圆周率",True,s2_swap_False,35.34375,21.3125,14.03125,commit
+F_008,factual,markdown,Qwen/Qwen2.5-7B-Instruct,B,"正确答案是 B. 祖冲之。
+
+祖冲之是中国南北朝时期的杰出数学家、天文学家，他首次将圆周率",True,s2_swap_True,35.59375,25.46875,10.125,commit
+F_009,factual,plain,Qwen/Qwen2.5-7B-Instruct,B,人体内含有的染色体数目通常是 B. 46条（23对）。人类细胞在进行有丝分裂时，包含46,True,s2_swap_False,30.65625,21.796875,8.859375,commit
+F_009,factual,plain,Qwen/Qwen2.5-7B-Instruct,B,人体内含有的染色体数目通常是 B. 46条（23对）。人类细胞在进行有丝分裂时，包含46,True,s2_swap_True,36.625,25.28125,11.34375,commit
+F_009,factual,markdown,Qwen/Qwen2.5-7B-Instruct,B,正确答案是 B. 46条（23对）。人类的正常体细胞中含有46条染色体，分为23对。,True,s2_swap_False,37.875,20.53125,17.34375,commit
+F_009,factual,markdown,Qwen/Qwen2.5-7B-Instruct,B,正确答案是 B. 46条（23对）。人类的正常体细胞中含有46条染色体，分为23对。,True,s2_swap_True,36.09375,25.671875,10.421875,commit
+F_010,factual,plain,Qwen/Qwen2.5-7B-Instruct,A,"正确答案是 A. 左思的《三都赋》。
+
+“洛阳纸贵”这个成语出自《晋书·左思传》。",True,s2_swap_False,38.0625,20.296875,17.765625,commit
+F_010,factual,plain,Qwen/Qwen2.5-7B-Instruct,A,"正确答案是 A. 左思的《三都赋》。
+
+“洛阳纸贵”这个成语出自《晋书·左思传》。",True,s2_swap_True,38.25,22.09375,16.15625,commit
+F_010,factual,markdown,Qwen/Qwen2.5-7B-Instruct,A,"正确答案是 A. 左思的《三都赋》。
+
+“洛阳纸贵”这个成语出自《晋书·左思传》。",True,s2_swap_False,38.03125,19.546875,18.484375,commit
+F_010,factual,markdown,Qwen/Qwen2.5-7B-Instruct,A,"正确答案是 A. 左思的《三都赋》。
+
+“洛阳纸贵”这个成语出自《晋书·左思传》。",True,s2_swap_True,36.25,21.5625,14.6875,commit
+F_011,factual,plain,Qwen/Qwen2.5-7B-Instruct,B,B. 马里亚纳海沟。马里亚纳海沟位于西太平洋，是已知地球上最深的海洋 trench，其,True,s2_swap_False,36.28125,24.328125,11.953125,commit
+F_011,factual,plain,Qwen/Qwen2.5-7B-Instruct,B,B. 马里亚纳海沟。马里亚纳海沟位于西太平洋，是已知地球上最深的海洋 trench，其,True,s2_swap_True,36.71875,29.65625,7.0625,commit
+F_011,factual,markdown,Qwen/Qwen2.5-7B-Instruct,B,正确答案是 B. 马里亚纳海沟。马里亚纳海沟位于太平洋西部，是已知地球上最深的海洋,True,s2_swap_False,35.84375,21.453125,14.390625,commit
+F_011,factual,markdown,Qwen/Qwen2.5-7B-Instruct,B,正确答案是 B. 马里亚纳海沟。马里亚纳海沟位于太平洋西部，是已知地球上最深的海洋,True,s2_swap_True,34.34375,26.546875,7.796875,commit
+F_012,factual,plain,Qwen/Qwen2.5-7B-Instruct,B,"元素符号为“Fe”的金属是铁，所以正确答案是：
+
+B. 铁",True,s2_swap_False,36.34375,22.390625,13.953125,commit
+F_012,factual,plain,Qwen/Qwen2.5-7B-Instruct,B,"元素符号为“Fe”的金属是铁，所以正确答案是：
+
+B. 铁",True,s2_swap_True,36.4375,26.6875,9.75,commit
+F_012,factual,markdown,Qwen/Qwen2.5-7B-Instruct,B,正确答案是 B. 铁。元素符号“Fe”代表铁（Iron）。,True,s2_swap_False,36.5625,20.375,16.1875,commit
+F_012,factual,markdown,Qwen/Qwen2.5-7B-Instruct,B,正确答案是 B. 铁。元素符号“Fe”代表铁（Iron）。,True,s2_swap_True,34.46875,26.65625,7.8125,commit
+F_013,factual,plain,Qwen/Qwen2.5-7B-Instruct,A,我国现存最早的一部完整的农学著作是《齐民要术》，因此正确答案是 A。《齐民要术》由北魏时期的,True,s2_swap_False,33.40625,18.171875,15.234375,commit
+F_013,factual,plain,Qwen/Qwen2.5-7B-Instruct,A,我国现存最早的一部完整的农学著作是《齐民要术》，因此正确答案是 A。《齐民要术》由北魏时期的,True,s2_swap_True,35.0,22.0625,12.9375,commit
+F_013,factual,markdown,Qwen/Qwen2.5-7B-Instruct,A,"正确答案是 A. 《齐民要术》。
+
+《齐民要术》是中国现存最早、最完整的一部农业科学著作，由",True,s2_swap_False,37.09375,20.0625,17.03125,commit
+F_013,factual,markdown,Qwen/Qwen2.5-7B-Instruct,A,"正确答案是 A. 《齐民要术》。
+
+《齐民要术》是中国现存最早、最完整的一部农业科学著作，由",True,s2_swap_True,38.5625,22.296875,16.265625,commit
+F_014,factual,plain,Qwen/Qwen2.5-7B-Instruct,C,正确答案是 C. 《辛丑条约》。《辛丑条约》签订于1901年，是中国在八国联军侵,True,s2_swap_False,33.40625,18.609375,14.796875,commit
+F_014,factual,plain,Qwen/Qwen2.5-7B-Instruct,C,正确答案是 C. 《辛丑条约》。《辛丑条约》签订于1901年，是中国在八国联军侵,True,s2_swap_True,34.6875,21.484375,13.203125,commit
+F_014,factual,markdown,Qwen/Qwen2.5-7B-Instruct,C,"正确答案是 C. 《辛丑条约》。
+
+《辛丑条约》签订于1901年，是中国近代史上的一个重要里程碑。",True,s2_swap_False,35.5625,20.84375,14.71875,commit
+F_014,factual,markdown,Qwen/Qwen2.5-7B-Instruct,C,"正确答案是 C. 《辛丑条约》。
+
+《辛丑条约》签订于1901年，是中国近代史上的一个重要里程碑。",True,s2_swap_True,33.65625,23.71875,9.9375,commit
+F_015,factual,plain,Qwen/Qwen2.5-7B-Instruct,A,正确答案是 A. 3 × 10^8 米/秒。这是光在真空中的速度，也被称为光速，通常用,True,s2_swap_False,35.25,17.75,17.5,commit
+F_015,factual,plain,Qwen/Qwen2.5-7B-Instruct,A,正确答案是 A. 3 × 10^8 米/秒。这是光在真空中的速度，也被称为光速，通常用,True,s2_swap_True,35.5625,20.96875,14.59375,commit
+F_015,factual,markdown,Qwen/Qwen2.5-7B-Instruct,A,正确答案是 A. 3 × 10^8 米/秒。这是光在真空中传播的近似速度，也常被称为,True,s2_swap_False,33.90625,18.296875,15.609375,commit
+F_015,factual,markdown,Qwen/Qwen2.5-7B-Instruct,A,正确答案是 A. 3 × 10^8 米/秒。这是光在真空中传播的近似速度，也常被称为,True,s2_swap_True,34.59375,21.90625,12.6875,commit
+F_016,factual,plain,Qwen/Qwen2.5-7B-Instruct,A,"被誉为“画圣”的唐代著名画家是：
+
+A. 吴道子",True,s2_swap_False,34.59375,17.21875,17.375,commit
+F_016,factual,plain,Qwen/Qwen2.5-7B-Instruct,A,"被誉为“画圣”的唐代著名画家是：
+
+A. 吴道子",True,s2_swap_True,32.75,18.84375,13.90625,commit
+F_016,factual,markdown,Qwen/Qwen2.5-7B-Instruct,A,正确答案是 A. 吴道子。吴道子被誉为“画圣”，是唐代著名的画家，以擅长人物画著称。,True,s2_swap_False,40.84375,19.609375,21.234375,commit
+F_016,factual,markdown,Qwen/Qwen2.5-7B-Instruct,A,正确答案是 A. 吴道子。吴道子被誉为“画圣”，是唐代著名的画家，以擅长人物画著称。,True,s2_swap_True,35.59375,21.71875,13.875,commit
+F_017,factual,plain,Qwen/Qwen2.5-7B-Instruct,B,地球自转的方向是自西向东，所以正确答案是 B。,True,s2_swap_False,32.75,20.625,12.125,commit
+F_017,factual,plain,Qwen/Qwen2.5-7B-Instruct,B,地球自转的方向是自西向东，所以正确答案是 B。,True,s2_swap_True,33.8125,26.109375,7.703125,commit
+F_017,factual,markdown,Qwen/Qwen2.5-7B-Instruct,B,正确答案是 B. 自西向东。地球自转的方向是从西向东，这也是我们观察到太阳从东方升起、西方落下的原因。,True,s2_swap_False,36.125,19.796875,16.328125,commit
+F_017,factual,markdown,Qwen/Qwen2.5-7B-Instruct,B,正确答案是 B. 自西向东。地球自转的方向是从西向东，这也是我们观察到太阳从东方升起、西方落下的原因。,True,s2_swap_True,32.40625,24.484375,7.921875,commit
+F_018,factual,plain,Qwen/Qwen2.5-7B-Instruct,C,"正确答案是 C. 泰山。
+
+泰山位于中国山东省，是一座著名的山脉，也是中国五岳之首。它不仅以其壮丽的自然",True,s2_swap_False,29.328125,18.9375,10.390625,commit
+F_018,factual,plain,Qwen/Qwen2.5-7B-Instruct,C,"正确答案是 C. 泰山。
+
+泰山位于中国山东省，是一座著名的山脉，也是中国五岳之首。它不仅以其壮丽的自然",True,s2_swap_True,33.09375,24.515625,8.578125,commit
+F_018,factual,markdown,Qwen/Qwen2.5-7B-Instruct,C,"正确答案是 C. 泰山。
+
+泰山位于中国山东省，是一座著名的山脉，不仅因其壮丽的自然景观而闻名，同时也承载着丰富的",True,s2_swap_False,30.046875,20.484375,9.5625,commit
+F_018,factual,markdown,Qwen/Qwen2.5-7B-Instruct,C,"正确答案是 C. 泰山。
+
+泰山位于中国山东省，是一座著名的山脉，不仅因其壮丽的自然景观而闻名，同时也承载着丰富的",True,s2_swap_True,30.421875,23.9375,6.484375,commit
+F_019,factual,plain,Qwen/Qwen2.5-7B-Instruct,C,正确答案是 C. 红细胞（血红蛋白）。红细胞中含有大量的血红蛋白，血红蛋白能够结合氧气并将其运输到,True,s2_swap_False,33.53125,19.984375,13.546875,commit
+F_019,factual,plain,Qwen/Qwen2.5-7B-Instruct,C,正确答案是 C. 红细胞（血红蛋白）。红细胞中含有大量的血红蛋白，血红蛋白能够结合氧气并将其运输到,True,s2_swap_True,37.125,24.421875,12.703125,commit
+F_019,factual,markdown,Qwen/Qwen2.5-7B-Instruct,C,正确答案是 C. 红细胞（血红蛋白）。红细胞中含有大量的血红蛋白，血红蛋白能够结合氧气并将其运输到,True,s2_swap_False,34.1875,20.953125,13.234375,commit
+F_019,factual,markdown,Qwen/Qwen2.5-7B-Instruct,C,正确答案是 C. 红细胞（血红蛋白）。红细胞中含有大量的血红蛋白，血红蛋白能够结合氧气并将其运输到,True,s2_swap_True,35.5,24.546875,10.953125,commit
+F_020,factual,plain,Qwen/Qwen2.5-7B-Instruct,B,B. 加利福尼亚州。硅谷位于美国加利福尼亚州的圣塔克拉拉谷，是全球著名的技术创新中心之一。,True,s2_swap_False,36.4375,24.90625,11.53125,commit
+F_020,factual,plain,Qwen/Qwen2.5-7B-Instruct,B,B. 加利福尼亚州。硅谷位于美国加利福尼亚州的圣塔克拉拉谷，是全球著名的技术创新中心之一。,True,s2_swap_True,37.90625,28.34375,9.5625,commit
+F_020,factual,markdown,Qwen/Qwen2.5-7B-Instruct,B,正确答案是 B. 加利福尼亚州。硅谷位于美国加利福尼亚州的圣塔克拉拉谷，是全球著名的技术创新中心,True,s2_swap_False,35.8125,20.59375,15.21875,commit
+F_020,factual,markdown,Qwen/Qwen2.5-7B-Instruct,B,正确答案是 B. 加利福尼亚州。硅谷位于美国加利福尼亚州的圣塔克拉拉谷，是全球著名的技术创新中心,True,s2_swap_True,34.75,25.0,9.75,commit
+F_021,factual,plain,Qwen/Qwen2.5-7B-Instruct,B,"正确答案是 B. 北京故宫。
+
+北京故宫，又称紫禁城，位于中国北京市中心，是明、清两代的皇宫，",True,s2_swap_False,35.59375,21.28125,14.3125,commit
+F_021,factual,plain,Qwen/Qwen2.5-7B-Instruct,B,"正确答案是 B. 北京故宫。
+
+北京故宫，又称紫禁城，位于中国北京市中心，是明、清两代的皇宫，",True,s2_swap_True,37.625,25.3125,12.3125,commit
+F_021,factual,markdown,Qwen/Qwen2.5-7B-Instruct,B,"正确答案是 B. 北京故宫。
+
+北京故宫，又称紫禁城，位于中国北京市中心，是明、清两代的皇宫，",True,s2_swap_False,35.53125,21.53125,14.0,commit
+F_021,factual,markdown,Qwen/Qwen2.5-7B-Instruct,B,"正确答案是 B. 北京故宫。
+
+北京故宫，又称紫禁城，位于中国北京市中心，是明、清两代的皇宫，",True,s2_swap_True,34.96875,25.8125,9.15625,commit
+F_022,factual,plain,Qwen/Qwen2.5-7B-Instruct,A,"A. 强酸性
+
+pH值为2表示该溶液呈强酸性。在pH值的标度中，0到6",True,s2_swap_False,37.09375,18.03125,19.0625,commit
+F_022,factual,plain,Qwen/Qwen2.5-7B-Instruct,A,"A. 强酸性
+
+pH值为2表示该溶液呈强酸性。在pH值的标度中，0到6",True,s2_swap_True,37.03125,21.6875,15.34375,commit
+F_022,factual,markdown,Qwen/Qwen2.5-7B-Instruct,A,"pH值为2的溶液说明该溶液呈强酸性。因此，正确答案是：
+
+A. 强酸性",True,s2_swap_False,36.0625,18.28125,17.78125,commit
+F_022,factual,markdown,Qwen/Qwen2.5-7B-Instruct,A,"pH值为2的溶液说明该溶液呈强酸性。因此，正确答案是：
+
+A. 强酸性",True,s2_swap_True,32.96875,21.890625,11.078125,commit
+F_023,factual,plain,Qwen/Qwen2.5-7B-Instruct,B,"B. 《奥赛罗》
+
+在莎士比亚的四大悲剧中，《奥赛罗》中的主人公奥赛罗因为过度的猜忌",True,s2_swap_False,34.625,22.3125,12.3125,commit
+F_023,factual,plain,Qwen/Qwen2.5-7B-Instruct,B,"B. 《奥赛罗》
+
+在莎士比亚的四大悲剧中，《奥赛罗》中的主人公奥赛罗因为过度的猜忌",True,s2_swap_True,36.125,26.9375,9.1875,commit
+F_023,factual,markdown,Qwen/Qwen2.5-7B-Instruct,B,"正确答案是 B. 《奥赛罗》。
+
+在莎士比亚的四大悲剧中，《奥赛罗》的故事围绕着主人公奥赛罗",True,s2_swap_False,34.5625,22.015625,12.546875,commit
+F_023,factual,markdown,Qwen/Qwen2.5-7B-Instruct,B,"正确答案是 B. 《奥赛罗》。
+
+在莎士比亚的四大悲剧中，《奥赛罗》的故事围绕着主人公奥赛罗",True,s2_swap_True,36.4375,26.125,10.3125,commit
+F_024,factual,plain,Qwen/Qwen2.5-7B-Instruct,D,D. 体表都被覆羽毛。这是哺乳动物的主要特征之一并不包括在内，因为哺乳动物的体表被毛发覆盖，而不是,True,s2_swap_False,29.8125,21.96875,7.84375,commit
+F_024,factual,plain,Qwen/Qwen2.5-7B-Instruct,D,D. 体表都被覆羽毛。这是哺乳动物的主要特征之一并不包括在内，因为哺乳动物的体表被毛发覆盖，而不是,True,s2_swap_True,31.84375,23.453125,8.390625,commit
+F_024,factual,markdown,Qwen/Qwen2.5-7B-Instruct,D,"选项 D ""体表都被覆羽毛"" 不是哺乳动物的主要特征。哺乳动物的体表通常被毛发覆盖，而不是羽毛。正确答案",True,s2_swap_False,33.5,20.578125,12.921875,commit
+F_024,factual,markdown,Qwen/Qwen2.5-7B-Instruct,D,"选项 D ""体表都被覆羽毛"" 不是哺乳动物的主要特征。哺乳动物的体表通常被毛发覆盖，而不是羽毛。正确答案",True,s2_swap_True,32.9375,23.15625,9.78125,commit
+F_025,factual,plain,Qwen/Qwen2.5-7B-Instruct,B,"正确答案是 A. 勾股定理及田亩测量。
+
+《九章算术》是中国古代重要的数学经典之一，成书于",False,s2_swap_False,27.296875,22.796875,4.5,commit
+F_025,factual,plain,Qwen/Qwen2.5-7B-Instruct,B,"正确答案是 A. 勾股定理及田亩测量。
+
+《九章算术》是中国古代重要的数学经典之一，成书于",False,s2_swap_True,31.3125,24.5,6.8125,commit
+F_025,factual,markdown,Qwen/Qwen2.5-7B-Instruct,B,"正确答案是 A. 勾股定理及田亩测量。
+
+《九章算术》是中国古代重要的数学经典之一，成书于",False,s2_swap_False,32.625,21.828125,10.796875,commit
+F_025,factual,markdown,Qwen/Qwen2.5-7B-Instruct,B,"正确答案是 A. 勾股定理及田亩测量。
+
+《九章算术》是中国古代重要的数学经典之一，成书于",False,s2_swap_True,35.21875,23.640625,11.578125,commit
+F_026,factual,plain,Qwen/Qwen2.5-7B-Instruct,C,正确答案是 C. 《本草纲目》。李时珍所著的《本草纲目》是一部综合性的药物学著作，,True,s2_swap_False,34.84375,19.328125,15.515625,commit
+F_026,factual,plain,Qwen/Qwen2.5-7B-Instruct,C,正确答案是 C. 《本草纲目》。李时珍所著的《本草纲目》是一部综合性的药物学著作，,True,s2_swap_True,37.40625,23.65625,13.75,commit
+F_026,factual,markdown,Qwen/Qwen2.5-7B-Instruct,C,"正确答案是 C. 《本草纲目》。
+
+李时珍是明代杰出的医药学家，他花费了27年的时间编纂",True,s2_swap_False,35.71875,20.515625,15.203125,commit
+F_026,factual,markdown,Qwen/Qwen2.5-7B-Instruct,C,"正确答案是 C. 《本草纲目》。
+
+李时珍是明代杰出的医药学家，他花费了27年的时间编纂",True,s2_swap_True,36.09375,24.796875,11.296875,commit
+F_027,factual,plain,Qwen/Qwen2.5-7B-Instruct,B,"在地球的大气层中，含量最高的气体是：
+
+B. 氮气
+
+氮气大约占大气体积的78%，氧气约占2",True,s2_swap_False,35.0,24.046875,10.953125,commit
+F_027,factual,plain,Qwen/Qwen2.5-7B-Instruct,B,"在地球的大气层中，含量最高的气体是：
+
+B. 氮气
+
+氮气大约占大气体积的78%，氧气约占2",True,s2_swap_True,36.15625,26.359375,9.796875,commit
+F_027,factual,markdown,Qwen/Qwen2.5-7B-Instruct,B,"在地球的大气层中，含量最高的气体是：
+
+B. 氮气
+
+氮气大约占大气体积的78%，氧气约占2",True,s2_swap_False,33.5,22.375,11.125,commit
+F_027,factual,markdown,Qwen/Qwen2.5-7B-Instruct,B,"在地球的大气层中，含量最高的气体是：
+
+B. 氮气
+
+氮气大约占大气体积的78%，氧气约占2",True,s2_swap_True,32.21875,25.4375,6.78125,commit
+F_028,factual,plain,Qwen/Qwen2.5-7B-Instruct,B,"B. 约翰·冯·诺依曼
+
+约翰·冯·诺依曼是20世纪最伟大的数学家之一，他对计算机",True,s2_swap_False,31.75,24.265625,7.484375,commit
+F_028,factual,plain,Qwen/Qwen2.5-7B-Instruct,B,"B. 约翰·冯·诺依曼
+
+约翰·冯·诺依曼是20世纪最伟大的数学家之一，他对计算机",True,s2_swap_True,32.5625,25.21875,7.34375,commit
+F_028,factual,markdown,Qwen/Qwen2.5-7B-Instruct,B,"正确答案是 B. 约翰·冯·诺依曼。
+
+约翰·冯·诺依曼（John von Neumann）对计算机科学",True,s2_swap_False,32.4375,22.984375,9.453125,commit
+F_028,factual,markdown,Qwen/Qwen2.5-7B-Instruct,B,"正确答案是 B. 约翰·冯·诺依曼。
+
+约翰·冯·诺依曼（John von Neumann）对计算机科学",True,s2_swap_True,34.6875,25.234375,9.453125,commit
+F_029,factual,plain,Qwen/Qwen2.5-7B-Instruct,D,E. 以上选项中，A、B、C、D 都属于中国古代“文房四宝”。因此，本题实际上没有一个正确,False,s2_swap_False,26.4375,22.359375,4.078125,commit
+F_029,factual,plain,Qwen/Qwen2.5-7B-Instruct,D,E. 以上选项中，A、B、C、D 都属于中国古代“文房四宝”。因此，本题实际上没有一个正确,False,s2_swap_True,27.671875,19.390625,8.28125,commit
+F_029,factual,markdown,Qwen/Qwen2.5-7B-Instruct,D,"E. 不属于“文房四宝”的选项。
+
+中国古代的“文房四宝”指的是书写工具和辅助材料，具体包括：
+
+A.",False,s2_swap_False,25.9375,19.28125,6.65625,commit
+F_029,factual,markdown,Qwen/Qwen2.5-7B-Instruct,D,"E. 不属于“文房四宝”的选项。
+
+中国古代的“文房四宝”指的是书写工具和辅助材料，具体包括：
+
+A.",False,s2_swap_True,28.359375,20.9375,7.421875,commit
+F_030,factual,plain,Qwen/Qwen2.5-7B-Instruct,C,"遗传物质DNA复制发生在细胞周期的间期（S期），因此正确答案是：
+
+C. 间期（S期）",True,s2_swap_False,37.0625,19.8125,17.25,commit
+F_030,factual,plain,Qwen/Qwen2.5-7B-Instruct,C,"遗传物质DNA复制发生在细胞周期的间期（S期），因此正确答案是：
+
+C. 间期（S期）",True,s2_swap_True,36.53125,23.484375,13.046875,commit
+F_030,factual,markdown,Qwen/Qwen2.5-7B-Instruct,C,"正确答案是 C. 间期（S期）。
+
+在细胞周期中，DNA复制发生在间期的S期。这个时期细胞完成DNA",True,s2_swap_False,36.15625,20.53125,15.625,commit
+F_030,factual,markdown,Qwen/Qwen2.5-7B-Instruct,C,"正确答案是 C. 间期（S期）。
+
+在细胞周期中，DNA复制发生在间期的S期。这个时期细胞完成DNA",True,s2_swap_True,36.0,23.90625,12.09375,commit
+F_031,factual,plain,Qwen/Qwen2.5-7B-Instruct,C,"中国第一颗人造地球卫星发射成功的时间是：
+
+C. 1970年
+
+具体来说，1970年4月24",True,s2_swap_False,33.1875,19.0625,14.125,commit
+F_031,factual,plain,Qwen/Qwen2.5-7B-Instruct,C,"中国第一颗人造地球卫星发射成功的时间是：
+
+C. 1970年
+
+具体来说，1970年4月24",True,s2_swap_True,37.90625,23.671875,14.234375,commit
+F_031,factual,markdown,Qwen/Qwen2.5-7B-Instruct,C,正确答案是 C. 1970年。中国第一颗人造地球卫星“东方红一号”于1970年4月2,True,s2_swap_False,34.5,19.265625,15.234375,commit
+F_031,factual,markdown,Qwen/Qwen2.5-7B-Instruct,C,正确答案是 C. 1970年。中国第一颗人造地球卫星“东方红一号”于1970年4月2,True,s2_swap_True,34.65625,22.75,11.90625,commit
+F_032,factual,plain,Qwen/Qwen2.5-7B-Instruct,C,正确答案是 C. 麦哲伦海峡。麦哲伦海峡位于南美洲最南端的火地岛与智利南端之间,True,s2_swap_False,29.375,26.421875,2.953125,commit
+F_032,factual,plain,Qwen/Qwen2.5-7B-Instruct,C,正确答案是 C. 麦哲伦海峡。麦哲伦海峡位于南美洲最南端的火地岛与智利南端之间,True,s2_swap_True,29.15625,30.328125,-1.171875,decline
+F_032,factual,markdown,Qwen/Qwen2.5-7B-Instruct,C,正确答案是 B. 直布罗陀海峡。直布罗陀海峡连接地中海和大西洋，但更准确地说，它也是连接太平洋,False,s2_swap_False,20.359375,25.703125,-5.34375,decline
+F_032,factual,markdown,Qwen/Qwen2.5-7B-Instruct,C,正确答案是 B. 直布罗陀海峡。直布罗陀海峡连接地中海和大西洋，但更准确地说，它也是连接太平洋,False,s2_swap_True,22.390625,28.078125,-5.6875,decline
+F_033,factual,plain,Qwen/Qwen2.5-7B-Instruct,B,"B. 《史记》
+
+《史记》是由西汉时期的司马迁所著，它是中国历史上第一部纪传体通史，对",True,s2_swap_False,35.8125,23.390625,12.421875,commit
+F_033,factual,plain,Qwen/Qwen2.5-7B-Instruct,B,"B. 《史记》
+
+《史记》是由西汉时期的司马迁所著，它是中国历史上第一部纪传体通史，对",True,s2_swap_True,37.21875,26.0,11.21875,commit
+F_033,factual,markdown,Qwen/Qwen2.5-7B-Instruct,B,"正确答案是 B. 《史记》。
+
+《史记》是由西汉时期的司马迁所著，是中国历史上第一部纪传体通史",True,s2_swap_False,37.34375,21.546875,15.796875,commit
+F_033,factual,markdown,Qwen/Qwen2.5-7B-Instruct,B,"正确答案是 B. 《史记》。
+
+《史记》是由西汉时期的司马迁所著，是中国历史上第一部纪传体通史",True,s2_swap_True,37.03125,26.359375,10.671875,commit
+F_034,factual,plain,Qwen/Qwen2.5-7B-Instruct,C,正确答案是 C. 化合物。水是由氢和氧两种元素组成的化合物，其化学式为H₂O。,True,s2_swap_False,35.84375,20.15625,15.6875,commit
+F_034,factual,plain,Qwen/Qwen2.5-7B-Instruct,C,正确答案是 C. 化合物。水是由氢和氧两种元素组成的化合物，其化学式为H₂O。,True,s2_swap_True,37.96875,24.640625,13.328125,commit
+F_034,factual,markdown,Qwen/Qwen2.5-7B-Instruct,C,"正确答案是 C. 化合物。
+
+解释：水（H₂O）是由氢和氧两种元素组成的纯净物质，因此它是一种化合物",True,s2_swap_False,36.15625,20.78125,15.375,commit
+F_034,factual,markdown,Qwen/Qwen2.5-7B-Instruct,C,"正确答案是 C. 化合物。
+
+解释：水（H₂O）是由氢和氧两种元素组成的纯净物质，因此它是一种化合物",True,s2_swap_True,32.96875,23.265625,9.703125,commit
+F_035,factual,plain,Qwen/Qwen2.5-7B-Instruct,B,"B. 瑞士洛桑。国际奥林匹克委员会的总部确实位于瑞士洛桑，地址是Chemin des Mailles 8, CH-",True,s2_swap_False,36.96875,24.0625,12.90625,commit
+F_035,factual,plain,Qwen/Qwen2.5-7B-Instruct,B,"B. 瑞士洛桑。国际奥林匹克委员会的总部确实位于瑞士洛桑，地址是Chemin des Mailles 8, CH-",True,s2_swap_True,37.21875,29.0,8.21875,commit
+F_035,factual,markdown,Qwen/Qwen2.5-7B-Instruct,B,正确答案是 B. 瑞士洛桑。国际奥林匹克委员会的总部位于瑞士的洛桑市。,True,s2_swap_False,36.8125,20.921875,15.890625,commit
+F_035,factual,markdown,Qwen/Qwen2.5-7B-Instruct,B,正确答案是 B. 瑞士洛桑。国际奥林匹克委员会的总部位于瑞士的洛桑市。,True,s2_swap_True,34.40625,26.875,7.53125,commit
+F_036,factual,plain,Qwen/Qwen2.5-7B-Instruct,D,正确答案是 D. 太阳能。太阳能是一种可再生能源，而石油、煤炭和天然气都是化石燃料，不属于可再生能源。,True,s2_swap_False,37.78125,21.03125,16.75,commit
+F_036,factual,plain,Qwen/Qwen2.5-7B-Instruct,D,正确答案是 D. 太阳能。太阳能是一种可再生能源，而石油、煤炭和天然气都是化石燃料，不属于可再生能源。,True,s2_swap_True,37.375,24.46875,12.90625,commit
+F_036,factual,markdown,Qwen/Qwen2.5-7B-Instruct,D,正确答案是 D. 太阳能。太阳能是一种可再生能源，而石油、煤炭和天然气都是化石燃料，属于非可再生能源。,True,s2_swap_False,36.84375,19.578125,17.265625,commit
+F_036,factual,markdown,Qwen/Qwen2.5-7B-Instruct,D,正确答案是 D. 太阳能。太阳能是一种可再生能源，而石油、煤炭和天然气都是化石燃料，属于非可再生能源。,True,s2_swap_True,33.0625,23.671875,9.390625,commit
+F_037,factual,plain,Qwen/Qwen2.5-7B-Instruct,B,正确答案是 B. 司马光。他在北宋时期主持编纂了我国古代最大的编年体通史《资治通鉴》。,True,s2_swap_False,37.1875,22.203125,14.984375,commit
+F_037,factual,plain,Qwen/Qwen2.5-7B-Instruct,B,正确答案是 B. 司马光。他在北宋时期主持编纂了我国古代最大的编年体通史《资治通鉴》。,True,s2_swap_True,37.125,26.078125,11.046875,commit
+F_037,factual,markdown,Qwen/Qwen2.5-7B-Instruct,B,正确答案是 B. 司马光。他在北宋时期主持编纂了我国古代最大的编年体通史《资治通鉴》。,True,s2_swap_False,38.65625,22.015625,16.640625,commit
+F_037,factual,markdown,Qwen/Qwen2.5-7B-Instruct,B,正确答案是 B. 司马光。他在北宋时期主持编纂了我国古代最大的编年体通史《资治通鉴》。,True,s2_swap_True,35.25,25.453125,9.796875,commit
+F_038,factual,plain,Qwen/Qwen2.5-7B-Instruct,B,正确答案是 B. 《狂人日记》。这是中国现代文学史上第一篇白话文小说，由鲁迅创作。,True,s2_swap_False,37.8125,21.890625,15.921875,commit
+F_038,factual,plain,Qwen/Qwen2.5-7B-Instruct,B,正确答案是 B. 《狂人日记》。这是中国现代文学史上第一篇白话文小说，由鲁迅创作。,True,s2_swap_True,37.59375,27.03125,10.5625,commit
+F_038,factual,markdown,Qwen/Qwen2.5-7B-Instruct,B,"正确答案是 B. 《狂人日记》。
+
+《狂人日记》是中国现代文学史上第一篇白话文小说，由鲁迅创作，",True,s2_swap_False,37.21875,20.71875,16.5,commit
+F_038,factual,markdown,Qwen/Qwen2.5-7B-Instruct,B,"正确答案是 B. 《狂人日记》。
+
+《狂人日记》是中国现代文学史上第一篇白话文小说，由鲁迅创作，",True,s2_swap_True,35.6875,25.84375,9.84375,commit
+F_039,factual,plain,Qwen/Qwen2.5-7B-Instruct,B,"太阳系中唯一一颗逆向自转的行星是：
+
+B. 金星
+
+金星的自转方向是从东向西，这与",True,s2_swap_False,32.71875,25.125,7.59375,commit
+F_039,factual,plain,Qwen/Qwen2.5-7B-Instruct,B,"太阳系中唯一一颗逆向自转的行星是：
+
+B. 金星
+
+金星的自转方向是从东向西，这与",True,s2_swap_True,33.125,27.40625,5.71875,commit
+F_039,factual,markdown,Qwen/Qwen2.5-7B-Instruct,B,正确答案是 B. 金星。金星的自转方向是从东向西，这与大多数其他行星从西向东的自转方向,True,s2_swap_False,34.15625,20.828125,13.328125,commit
+F_039,factual,markdown,Qwen/Qwen2.5-7B-Instruct,B,正确答案是 B. 金星。金星的自转方向是从东向西，这与大多数其他行星从西向东的自转方向,True,s2_swap_True,35.125,24.5625,10.5625,commit
+F_040,factual,plain,Qwen/Qwen2.5-7B-Instruct,B,B. 孙武。《孙子兵法》是春秋时期著名的军事家孙武所著，是中国古代军事文化遗产中的璀璨瑰宝，也是,True,s2_swap_False,35.375,23.375,12.0,commit
+F_040,factual,plain,Qwen/Qwen2.5-7B-Instruct,B,B. 孙武。《孙子兵法》是春秋时期著名的军事家孙武所著，是中国古代军事文化遗产中的璀璨瑰宝，也是,True,s2_swap_True,37.71875,27.203125,10.515625,commit
+F_040,factual,markdown,Qwen/Qwen2.5-7B-Instruct,B,正确答案是 B. 孙武。《孙子兵法》是中国古代著名的军事著作，作者是春秋时期的孙武。孙武是齐国人,True,s2_swap_False,37.625,21.03125,16.59375,commit
+F_040,factual,markdown,Qwen/Qwen2.5-7B-Instruct,B,正确答案是 B. 孙武。《孙子兵法》是中国古代著名的军事著作，作者是春秋时期的孙武。孙武是齐国人,True,s2_swap_True,37.375,25.953125,11.421875,commit
+F_041,factual,plain,Qwen/Qwen2.5-7B-Instruct,C,"正确答案是 C. 核糖体和中心体。这两者都是细胞中的重要无膜结构细胞器。
+
+- 核糖体负责蛋白质",True,s2_swap_False,32.71875,20.625,12.09375,commit
+F_041,factual,plain,Qwen/Qwen2.5-7B-Instruct,C,"正确答案是 C. 核糖体和中心体。这两者都是细胞中的重要无膜结构细胞器。
+
+- 核糖体负责蛋白质",True,s2_swap_True,35.5,24.046875,11.453125,commit
+F_041,factual,markdown,Qwen/Qwen2.5-7B-Instruct,C,正确答案是 C. 核糖体和中心体。核糖体和中心体都是细胞中的无膜结构细胞器，而线粒体,True,s2_swap_False,31.703125,20.1875,11.515625,commit
+F_041,factual,markdown,Qwen/Qwen2.5-7B-Instruct,C,正确答案是 C. 核糖体和中心体。核糖体和中心体都是细胞中的无膜结构细胞器，而线粒体,True,s2_swap_True,32.375,24.8125,7.5625,commit
+F_042,factual,plain,Qwen/Qwen2.5-7B-Instruct,B,国际标准的马拉松赛跑全程距离是 B. 42.195公里。,True,s2_swap_False,35.59375,21.390625,14.203125,commit
+F_042,factual,plain,Qwen/Qwen2.5-7B-Instruct,B,国际标准的马拉松赛跑全程距离是 B. 42.195公里。,True,s2_swap_True,33.9375,26.390625,7.546875,commit
+F_042,factual,markdown,Qwen/Qwen2.5-7B-Instruct,B,正确答案是 B. 42.195公里。国际标准的马拉松赛跑全程距离是42.195公里。,True,s2_swap_False,36.28125,20.0,16.28125,commit
+F_042,factual,markdown,Qwen/Qwen2.5-7B-Instruct,B,正确答案是 B. 42.195公里。国际标准的马拉松赛跑全程距离是42.195公里。,True,s2_swap_True,31.875,27.078125,4.796875,commit
+F_043,factual,plain,Qwen/Qwen2.5-7B-Instruct,D,D. 桂林。桂林不是我国的四大古都，而西安、南京和洛阳都是我国的四大古都之一。,True,s2_swap_False,38.78125,20.96875,17.8125,commit
+F_043,factual,plain,Qwen/Qwen2.5-7B-Instruct,D,D. 桂林。桂林不是我国的四大古都，而西安、南京和洛阳都是我国的四大古都之一。,True,s2_swap_True,37.96875,23.78125,14.1875,commit
+F_043,factual,markdown,Qwen/Qwen2.5-7B-Instruct,D,"正确答案是 D. 桂林。
+
+中国的四大古都是指历史上曾经作为朝代首都的城市，分别是西安（古称长安、镐京",True,s2_swap_False,33.75,20.703125,13.046875,commit
+F_043,factual,markdown,Qwen/Qwen2.5-7B-Instruct,D,"正确答案是 D. 桂林。
+
+中国的四大古都是指历史上曾经作为朝代首都的城市，分别是西安（古称长安、镐京",True,s2_swap_True,34.46875,24.40625,10.0625,commit
+F_044,factual,plain,Qwen/Qwen2.5-7B-Instruct,C,人体内最大的消化腺是肝脏，因此正确答案是 C. 肝脏。肝脏不仅负责产生胆汁帮助脂肪的消化，还参与,True,s2_swap_False,32.65625,18.453125,14.203125,commit
+F_044,factual,plain,Qwen/Qwen2.5-7B-Instruct,C,人体内最大的消化腺是肝脏，因此正确答案是 C. 肝脏。肝脏不仅负责产生胆汁帮助脂肪的消化，还参与,True,s2_swap_True,34.53125,23.28125,11.25,commit
+F_044,factual,markdown,Qwen/Qwen2.5-7B-Instruct,C,正确答案是 C. 肝脏。肝脏是人体内最大的消化腺，它分泌的胆汁对于脂肪的消化非常重要。,True,s2_swap_False,38.5,19.9375,18.5625,commit
+F_044,factual,markdown,Qwen/Qwen2.5-7B-Instruct,C,正确答案是 C. 肝脏。肝脏是人体内最大的消化腺，它分泌的胆汁对于脂肪的消化非常重要。,True,s2_swap_True,35.1875,23.8125,11.375,commit
+F_045,factual,plain,Qwen/Qwen2.5-7B-Instruct,B,"B. 《巴黎圣母院》
+
+《巴黎圣母院》是法国作家维克多·雨果的代表作之一，该小说",True,s2_swap_False,35.21875,25.203125,10.015625,commit
+F_045,factual,plain,Qwen/Qwen2.5-7B-Instruct,B,"B. 《巴黎圣母院》
+
+《巴黎圣母院》是法国作家维克多·雨果的代表作之一，该小说",True,s2_swap_True,37.21875,29.78125,7.4375,commit
+F_045,factual,markdown,Qwen/Qwen2.5-7B-Instruct,B,正确答案是 B. 《巴黎圣母院》。这部作品是法国作家维克多·雨果的代表作之一，讲述了15,True,s2_swap_False,33.875,23.671875,10.203125,commit
+F_045,factual,markdown,Qwen/Qwen2.5-7B-Instruct,B,正确答案是 B. 《巴黎圣母院》。这部作品是法国作家维克多·雨果的代表作之一，讲述了15,True,s2_swap_True,34.6875,27.125,7.5625,commit
+F_046,factual,plain,Qwen/Qwen2.5-7B-Instruct,C,声音在固体中的传播速度最快，因此正确答案是 C. 钢铁（固体）。声音的传播速度受介质的密度和弹性的影响,True,s2_swap_False,31.65625,19.40625,12.25,commit
+F_046,factual,plain,Qwen/Qwen2.5-7B-Instruct,C,声音在固体中的传播速度最快，因此正确答案是 C. 钢铁（固体）。声音的传播速度受介质的密度和弹性的影响,True,s2_swap_True,32.46875,24.15625,8.3125,commit
+F_046,factual,markdown,Qwen/Qwen2.5-7B-Instruct,C,"正确答案是 C. 钢铁（固体）。
+
+声音的传播速度取决于介质的性质。一般来说，声音在固体中的传播速度最快，在",True,s2_swap_False,31.484375,18.65625,12.828125,commit
+F_046,factual,markdown,Qwen/Qwen2.5-7B-Instruct,C,"正确答案是 C. 钢铁（固体）。
+
+声音的传播速度取决于介质的性质。一般来说，声音在固体中的传播速度最快，在",True,s2_swap_True,31.984375,23.71875,8.265625,commit
+F_047,factual,plain,Qwen/Qwen2.5-7B-Instruct,B,"被尊称为“诗圣”的唐代伟大诗人是：
+
+B. 杜甫",True,s2_swap_False,36.1875,23.1875,13.0,commit
+F_047,factual,plain,Qwen/Qwen2.5-7B-Instruct,B,"被尊称为“诗圣”的唐代伟大诗人是：
+
+B. 杜甫",True,s2_swap_True,33.53125,28.734375,4.796875,commit
+F_047,factual,markdown,Qwen/Qwen2.5-7B-Instruct,B,正确答案是 B. 杜甫。杜甫被后世尊称为“诗圣”，他的诗歌深刻反映了唐代社会的现实，具有很高的艺术,True,s2_swap_False,37.9375,20.6875,17.25,commit
+F_047,factual,markdown,Qwen/Qwen2.5-7B-Instruct,B,正确答案是 B. 杜甫。杜甫被后世尊称为“诗圣”，他的诗歌深刻反映了唐代社会的现实，具有很高的艺术,True,s2_swap_True,36.15625,24.640625,11.515625,commit
+F_048,factual,plain,Qwen/Qwen2.5-7B-Instruct,C,正确答案是 C. 365天5小时48分。这是地球绕太阳公转一周的周期，也就是一个回归年的长度。,True,s2_swap_False,36.03125,20.71875,15.3125,commit
+F_048,factual,plain,Qwen/Qwen2.5-7B-Instruct,C,正确答案是 C. 365天5小时48分。这是地球绕太阳公转一周的周期，也就是一个回归年的长度。,True,s2_swap_True,37.875,25.203125,12.671875,commit
+F_048,factual,markdown,Qwen/Qwen2.5-7B-Instruct,C,正确答案是 C. 365天5小时48分。这是地球绕太阳公转一周的大致周期，即一个回归年。,True,s2_swap_False,37.0,20.75,16.25,commit
+F_048,factual,markdown,Qwen/Qwen2.5-7B-Instruct,C,正确答案是 C. 365天5小时48分。这是地球绕太阳公转一周的大致周期，即一个回归年。,True,s2_swap_True,33.53125,23.984375,9.546875,commit
+F_049,factual,plain,Qwen/Qwen2.5-7B-Instruct,B,正确答案是 B. 京剧。京剧是中国的国粹之一，被列入了国家级非物质文化遗产名录。而芭蕾舞、交响乐和华尔,True,s2_swap_False,34.71875,20.328125,14.390625,commit
+F_049,factual,plain,Qwen/Qwen2.5-7B-Instruct,B,正确答案是 B. 京剧。京剧是中国的国粹之一，被列入了国家级非物质文化遗产名录。而芭蕾舞、交响乐和华尔,True,s2_swap_True,36.5625,24.015625,12.546875,commit
+F_049,factual,markdown,Qwen/Qwen2.5-7B-Instruct,B,"正确答案是 B. 京剧。
+
+京剧是中国传统的戏曲剧种之一，被列入了国家级非物质文化遗产名录。其他选项如芭蕾舞、交响",True,s2_swap_False,35.84375,21.828125,14.015625,commit
+F_049,factual,markdown,Qwen/Qwen2.5-7B-Instruct,B,"正确答案是 B. 京剧。
+
+京剧是中国传统的戏曲剧种之一，被列入了国家级非物质文化遗产名录。其他选项如芭蕾舞、交响",True,s2_swap_True,34.21875,25.375,8.84375,commit
+F_050,factual,plain,Qwen/Qwen2.5-7B-Instruct,C,C. 孙思邈。孙思邈是中国古代著名的医药学家，被后人誉为“药王”。他在医学上的贡献非常大，,True,s2_swap_False,36.8125,19.953125,16.859375,commit
+F_050,factual,plain,Qwen/Qwen2.5-7B-Instruct,C,C. 孙思邈。孙思邈是中国古代著名的医药学家，被后人誉为“药王”。他在医学上的贡献非常大，,True,s2_swap_True,37.875,23.703125,14.171875,commit
+F_050,factual,markdown,Qwen/Qwen2.5-7B-Instruct,C,正确答案是 C. 孙思邈。孙思邈是中国古代著名的医药学家，被誉为“药王”，他对中医药学的发展做出了巨大贡献。,True,s2_swap_False,39.3125,20.4375,18.875,commit
+F_050,factual,markdown,Qwen/Qwen2.5-7B-Instruct,C,正确答案是 C. 孙思邈。孙思邈是中国古代著名的医药学家，被誉为“药王”，他对中医药学的发展做出了巨大贡献。,True,s2_swap_True,36.34375,23.859375,12.484375,commit
+F_051,factual,plain,Qwen/Qwen2.5-7B-Instruct,B,正确答案是 B. 线粒体和叶绿体。这两者都是具有双层膜结构的细胞器，线粒体负责细胞,True,s2_swap_False,33.15625,21.734375,11.421875,commit
+F_051,factual,plain,Qwen/Qwen2.5-7B-Instruct,B,正确答案是 B. 线粒体和叶绿体。这两者都是具有双层膜结构的细胞器，线粒体负责细胞,True,s2_swap_True,35.03125,25.359375,9.671875,commit
+F_051,factual,markdown,Qwen/Qwen2.5-7B-Instruct,B,正确答案是 B. 线粒体和叶绿体。这两者都是具有双层膜结构的细胞器，其中外膜和平滑,True,s2_swap_False,32.59375,22.9375,9.65625,commit
+F_051,factual,markdown,Qwen/Qwen2.5-7B-Instruct,B,正确答案是 B. 线粒体和叶绿体。这两者都是具有双层膜结构的细胞器，其中外膜和平滑,True,s2_swap_True,32.8125,28.0625,4.75,commit
+F_052,factual,plain,Qwen/Qwen2.5-7B-Instruct,B,"B. 南非
+
+南非确实是金砖国家的成员之一，但不是创始成员国。金砖国家（BRICS）的创始成员国包括中国",True,s2_swap_False,26.625,21.140625,5.484375,commit
+F_052,factual,plain,Qwen/Qwen2.5-7B-Instruct,B,"B. 南非
+
+南非确实是金砖国家的成员之一，但不是创始成员国。金砖国家（BRICS）的创始成员国包括中国",True,s2_swap_True,31.078125,23.84375,7.234375,commit
+F_052,factual,markdown,Qwen/Qwen2.5-7B-Instruct,B,"E. 巴西
+
+选项E，巴西是“金砖国家（BRICS）”的创始成员国之一。而选项中的中国、南非、",False,s2_swap_False,29.78125,25.0625,4.71875,commit
+F_052,factual,markdown,Qwen/Qwen2.5-7B-Instruct,B,"E. 巴西
+
+选项E，巴西是“金砖国家（BRICS）”的创始成员国之一。而选项中的中国、南非、",False,s2_swap_True,29.0625,25.8125,3.25,commit
+F_053,factual,plain,Qwen/Qwen2.5-7B-Instruct,B,正确答案是 A. 《狂人日记》。这是中国现代文学史上第一部现代长篇白话小说，由鲁迅创作。,False,s2_swap_False,36.875,22.0,14.875,commit
+F_053,factual,plain,Qwen/Qwen2.5-7B-Instruct,B,正确答案是 A. 《狂人日记》。这是中国现代文学史上第一部现代长篇白话小说，由鲁迅创作。,False,s2_swap_True,37.9375,23.03125,14.90625,commit
+F_053,factual,markdown,Qwen/Qwen2.5-7B-Instruct,B,"正确答案是 A. 《狂人日记》。
+
+《狂人日记》是中国现代文学史上第一部现代意义上的白话文短篇小说集，",False,s2_swap_False,32.46875,26.546875,5.921875,commit
+F_053,factual,markdown,Qwen/Qwen2.5-7B-Instruct,B,"正确答案是 A. 《狂人日记》。
+
+《狂人日记》是中国现代文学史上第一部现代意义上的白话文短篇小说集，",False,s2_swap_True,35.1875,25.421875,9.765625,commit
+F_054,factual,plain,Qwen/Qwen2.5-7B-Instruct,B,正确答案是 A. 雷暴。雷暴时产生的雷声是地球上所能发出的最强声音之一，其声级可以达到12,False,s2_swap_False,33.0625,19.53125,13.53125,commit
+F_054,factual,plain,Qwen/Qwen2.5-7B-Instruct,B,正确答案是 A. 雷暴。雷暴时产生的雷声是地球上所能发出的最强声音之一，其声级可以达到12,False,s2_swap_True,33.9375,22.359375,11.578125,commit
+F_054,factual,markdown,Qwen/Qwen2.5-7B-Instruct,B,正确答案是 A. 雷暴。雷暴时产生的雷声是地球上所能发出的最强声音之一，其声级可以达到12,False,s2_swap_False,34.125,19.875,14.25,commit
+F_054,factual,markdown,Qwen/Qwen2.5-7B-Instruct,B,正确答案是 A. 雷暴。雷暴时产生的雷声是地球上所能发出的最强声音之一，其声级可以达到12,False,s2_swap_True,34.21875,22.71875,11.5,commit
+F_055,factual,plain,Qwen/Qwen2.5-7B-Instruct,B,正确答案是 B. 王羲之。王羲之是中国东晋时期的书法家，被后世尊称为“书圣”。,True,s2_swap_False,37.09375,21.546875,15.546875,commit
+F_055,factual,plain,Qwen/Qwen2.5-7B-Instruct,B,正确答案是 B. 王羲之。王羲之是中国东晋时期的书法家，被后世尊称为“书圣”。,True,s2_swap_True,38.84375,26.578125,12.265625,commit
+F_055,factual,markdown,Qwen/Qwen2.5-7B-Instruct,B,正确答案是 B. 王羲之。王羲之是中国东晋时期的书法家，被后世尊称为“书圣”。,True,s2_swap_False,39.625,21.125,18.5,commit
+F_055,factual,markdown,Qwen/Qwen2.5-7B-Instruct,B,正确答案是 B. 王羲之。王羲之是中国东晋时期的书法家，被后世尊称为“书圣”。,True,s2_swap_True,36.65625,26.453125,10.203125,commit
+F_056,factual,plain,Qwen/Qwen2.5-7B-Instruct,B,"正确答案是 B. 蒸馏水。
+
+解析如下：
+
+- A. 碘酒是由碘和酒精组成的混合物。
+- B.",True,s2_swap_False,27.78125,19.953125,7.828125,commit
+F_056,factual,plain,Qwen/Qwen2.5-7B-Instruct,B,"正确答案是 B. 蒸馏水。
+
+解析如下：
+
+- A. 碘酒是由碘和酒精组成的混合物。
+- B.",True,s2_swap_True,28.15625,23.765625,4.390625,commit
+F_056,factual,markdown,Qwen/Qwen2.5-7B-Instruct,B,"正确答案是 B. 蒸馏水。
+
+解析：
+- A. 碘酒是由碘和酒精组成的混合物。
+- B. �",True,s2_swap_False,30.21875,20.734375,9.484375,commit
+F_056,factual,markdown,Qwen/Qwen2.5-7B-Instruct,B,"正确答案是 B. 蒸馏水。
+
+解析：
+- A. 碘酒是由碘和酒精组成的混合物。
+- B. �",True,s2_swap_True,28.109375,25.0625,3.046875,commit
+F_057,factual,plain,Qwen/Qwen2.5-7B-Instruct,B,B. 苏联。1957年10月4日，苏联成功发射了世界上第一颗人造地球卫星，名为“斯普,True,s2_swap_False,37.375,22.828125,14.546875,commit
+F_057,factual,plain,Qwen/Qwen2.5-7B-Instruct,B,B. 苏联。1957年10月4日，苏联成功发射了世界上第一颗人造地球卫星，名为“斯普,True,s2_swap_True,38.5625,26.953125,11.609375,commit
+F_057,factual,markdown,Qwen/Qwen2.5-7B-Instruct,B,正确答案是 B. 苏联。1957年10月4日，苏联成功发射了世界上第一颗人造地球卫星——斯,True,s2_swap_False,36.0625,19.96875,16.09375,commit
+F_057,factual,markdown,Qwen/Qwen2.5-7B-Instruct,B,正确答案是 B. 苏联。1957年10月4日，苏联成功发射了世界上第一颗人造地球卫星——斯,True,s2_swap_True,36.65625,24.21875,12.4375,commit
+F_058,factual,plain,Qwen/Qwen2.5-7B-Instruct,D,正确答案是 D. 重檐庑殿顶。这是中国古代建筑中屋顶形式等级最高的形式，通常用于最重要的宫殿和庙宇建筑。,True,s2_swap_False,36.125,21.171875,14.953125,commit
+F_058,factual,plain,Qwen/Qwen2.5-7B-Instruct,D,正确答案是 D. 重檐庑殿顶。这是中国古代建筑中屋顶形式等级最高的形式，通常用于最重要的宫殿和庙宇建筑。,True,s2_swap_True,37.75,26.421875,11.328125,commit
+F_058,factual,markdown,Qwen/Qwen2.5-7B-Instruct,D,"正确答案是 D. 重檐庑殿顶。
+
+在中国古代建筑中，屋顶的形式不仅体现了建筑的艺术美感，还反映了建筑物的等级和用途",True,s2_swap_False,33.5625,20.015625,13.546875,commit
+F_058,factual,markdown,Qwen/Qwen2.5-7B-Instruct,D,"正确答案是 D. 重檐庑殿顶。
+
+在中国古代建筑中，屋顶的形式不仅体现了建筑的艺术美感，还反映了建筑物的等级和用途",True,s2_swap_True,33.21875,23.78125,9.4375,commit
+F_059,factual,plain,Qwen/Qwen2.5-7B-Instruct,B,"人体内胰岛素的主要生理功能是：
+
+B. 促进糖原合成，降低血糖
+
+胰岛素是由胰腺中的胰岛β细胞",True,s2_swap_False,30.53125,25.34375,5.1875,commit
+F_059,factual,plain,Qwen/Qwen2.5-7B-Instruct,B,"人体内胰岛素的主要生理功能是：
+
+B. 促进糖原合成，降低血糖
+
+胰岛素是由胰腺中的胰岛β细胞",True,s2_swap_True,34.84375,29.03125,5.8125,commit
+F_059,factual,markdown,Qwen/Qwen2.5-7B-Instruct,B,"正确答案是 B. 促进糖原合成，降低血糖。
+
+胰岛素是由胰腺中的胰岛β细胞分泌的一种激素，主要生理功能",True,s2_swap_False,33.0625,21.1875,11.875,commit
+F_059,factual,markdown,Qwen/Qwen2.5-7B-Instruct,B,"正确答案是 B. 促进糖原合成，降低血糖。
+
+胰岛素是由胰腺中的胰岛β细胞分泌的一种激素，主要生理功能",True,s2_swap_True,36.0625,26.9375,9.125,commit
+F_060,factual,plain,Qwen/Qwen2.5-7B-Instruct,B,B. 司汤达是法国作家，他的代表作之一就是《红与黑》。,True,s2_swap_False,38.84375,24.671875,14.171875,commit
+F_060,factual,plain,Qwen/Qwen2.5-7B-Instruct,B,B. 司汤达是法国作家，他的代表作之一就是《红与黑》。,True,s2_swap_True,38.75,29.578125,9.171875,commit
+F_060,factual,markdown,Qwen/Qwen2.5-7B-Instruct,B,正确答案是 B. 司汤达。他的代表作《红与黑》是一部重要的现实主义小说。,True,s2_swap_False,37.8125,21.640625,16.171875,commit
+F_060,factual,markdown,Qwen/Qwen2.5-7B-Instruct,B,正确答案是 B. 司汤达。他的代表作《红与黑》是一部重要的现实主义小说。,True,s2_swap_True,37.125,25.59375,11.53125,commit
+F_061,factual,plain,Qwen/Qwen2.5-7B-Instruct,D,"我国的四大海区中，南海的面积最大。因此正确答案是：
+
+D. 南海",True,s2_swap_False,36.125,20.234375,15.890625,commit
+F_061,factual,plain,Qwen/Qwen2.5-7B-Instruct,D,"我国的四大海区中，南海的面积最大。因此正确答案是：
+
+D. 南海",True,s2_swap_True,34.90625,24.421875,10.484375,commit
+F_061,factual,markdown,Qwen/Qwen2.5-7B-Instruct,D,"正确答案是 D. 南海。
+
+南海是中国的内海之一，其面积约为350万平方公里，是中国乃至世界上面积最大的边缘海",True,s2_swap_False,35.96875,21.03125,14.9375,commit
+F_061,factual,markdown,Qwen/Qwen2.5-7B-Instruct,D,"正确答案是 D. 南海。
+
+南海是中国的内海之一，其面积约为350万平方公里，是中国乃至世界上面积最大的边缘海",True,s2_swap_True,33.8125,23.5625,10.25,commit
+F_062,factual,plain,Qwen/Qwen2.5-7B-Instruct,A,正确答案是 A. 《海国图志》。这部著作由魏源编写，提出了“师夷长技以制夷”的主张，,True,s2_swap_False,37.3125,18.640625,18.671875,commit
+F_062,factual,plain,Qwen/Qwen2.5-7B-Instruct,A,正确答案是 A. 《海国图志》。这部著作由魏源编写，提出了“师夷长技以制夷”的主张，,True,s2_swap_True,37.09375,20.421875,16.671875,commit
+F_062,factual,markdown,Qwen/Qwen2.5-7B-Instruct,A,"正确答案是 A. 《海国图志》。
+
+“师夷长技以制夷”的主张是由魏源在19世纪上半",True,s2_swap_False,36.0,20.765625,15.234375,commit
+F_062,factual,markdown,Qwen/Qwen2.5-7B-Instruct,A,"正确答案是 A. 《海国图志》。
+
+“师夷长技以制夷”的主张是由魏源在19世纪上半",True,s2_swap_True,37.40625,21.671875,15.734375,commit
+F_063,factual,plain,Qwen/Qwen2.5-7B-Instruct,C,"在物理学中，电阻的国际单位是：
+
+C. 欧姆",True,s2_swap_False,36.75,18.90625,17.84375,commit
+F_063,factual,plain,Qwen/Qwen2.5-7B-Instruct,C,"在物理学中，电阻的国际单位是：
+
+C. 欧姆",True,s2_swap_True,36.625,21.6875,14.9375,commit
+F_063,factual,markdown,Qwen/Qwen2.5-7B-Instruct,C,正确答案是 C. 欧姆。在物理学中，电阻的国际单位是欧姆（Ω）。,True,s2_swap_False,38.15625,19.75,18.40625,commit
+F_063,factual,markdown,Qwen/Qwen2.5-7B-Instruct,C,正确答案是 C. 欧姆。在物理学中，电阻的国际单位是欧姆（Ω）。,True,s2_swap_True,34.0,24.203125,9.796875,commit
+F_064,factual,plain,Qwen/Qwen2.5-7B-Instruct,A,"正确答案是 A. 造纸术和印刷术。
+
+造纸术的发明使得书籍的生产成本大大降低，促进了知识的传播。而印刷术",True,s2_swap_False,33.78125,19.140625,14.640625,commit
+F_064,factual,plain,Qwen/Qwen2.5-7B-Instruct,A,"正确答案是 A. 造纸术和印刷术。
+
+造纸术的发明使得书籍的生产成本大大降低，促进了知识的传播。而印刷术",True,s2_swap_True,35.59375,21.984375,13.609375,commit
+F_064,factual,markdown,Qwen/Qwen2.5-7B-Instruct,A,"正确答案是 A. 造纸术和印刷术。
+
+造纸术的发明使得书籍的大量复制成为可能，降低了书籍的成本，促进了知识的传播",True,s2_swap_False,36.1875,20.90625,15.28125,commit
+F_064,factual,markdown,Qwen/Qwen2.5-7B-Instruct,A,"正确答案是 A. 造纸术和印刷术。
+
+造纸术的发明使得书籍的大量复制成为可能，降低了书籍的成本，促进了知识的传播",True,s2_swap_True,36.53125,22.8125,13.71875,commit
+F_065,factual,plain,Qwen/Qwen2.5-7B-Instruct,B,绿色植物的光合作用可以分为光反应和暗反应两个阶段。光反应主要在叶绿体的类囊体膜上进行，需要,False,s2_swap_False,23.515625,25.015625,-1.5,decline
+F_065,factual,plain,Qwen/Qwen2.5-7B-Instruct,B,绿色植物的光合作用可以分为光反应和暗反应两个阶段。光反应主要在叶绿体的类囊体膜上进行，需要,False,s2_swap_True,29.234375,25.5,3.734375,commit
+F_065,factual,markdown,Qwen/Qwen2.5-7B-Instruct,B,绿色植物的光合作用可以分为光反应和暗反应两个阶段。光反应主要在叶绿体的类囊体膜上进行，需要,False,s2_swap_False,21.296875,21.390625,-0.09375,decline
+F_065,factual,markdown,Qwen/Qwen2.5-7B-Instruct,B,绿色植物的光合作用可以分为光反应和暗反应两个阶段。光反应主要在叶绿体的类囊体膜上进行，需要,False,s2_swap_True,23.984375,23.65625,0.328125,commit
+F_066,factual,plain,Qwen/Qwen2.5-7B-Instruct,B,正确答案是 B. 尤里·加加林。他是世界上第一位进入太空的宇航员，于1961年4月1,True,s2_swap_False,34.21875,19.421875,14.796875,commit
+F_066,factual,plain,Qwen/Qwen2.5-7B-Instruct,B,正确答案是 B. 尤里·加加林。他是世界上第一位进入太空的宇航员，于1961年4月1,True,s2_swap_True,36.59375,24.125,12.46875,commit
+F_066,factual,markdown,Qwen/Qwen2.5-7B-Instruct,B,正确答案是 B. 尤里·加加林。他是世界上第一位进入太空的宇航员，于1961年4月1,True,s2_swap_False,35.375,20.34375,15.03125,commit
+F_066,factual,markdown,Qwen/Qwen2.5-7B-Instruct,B,正确答案是 B. 尤里·加加林。他是世界上第一位进入太空的宇航员，于1961年4月1,True,s2_swap_True,35.78125,24.9375,10.84375,commit
+F_067,factual,plain,Qwen/Qwen2.5-7B-Instruct,B,"B. 《孙子兵法》
+
+《孙子兵法》是中国古代军事思想的杰出代表作，也是世界上最早的兵书之一，被誉为“",True,s2_swap_False,37.78125,23.34375,14.4375,commit
+F_067,factual,plain,Qwen/Qwen2.5-7B-Instruct,B,"B. 《孙子兵法》
+
+《孙子兵法》是中国古代军事思想的杰出代表作，也是世界上最早的兵书之一，被誉为“",True,s2_swap_True,38.96875,26.765625,12.203125,commit
+F_067,factual,markdown,Qwen/Qwen2.5-7B-Instruct,B,"正确答案是 B. 《孙子兵法》。
+
+《孙子兵法》是中国古代著名的军事著作，由孙武所著，成书于",True,s2_swap_False,35.8125,21.90625,13.90625,commit
+F_067,factual,markdown,Qwen/Qwen2.5-7B-Instruct,B,"正确答案是 B. 《孙子兵法》。
+
+《孙子兵法》是中国古代著名的军事著作，由孙武所著，成书于",True,s2_swap_True,37.25,26.484375,10.765625,commit
+F_068,factual,plain,Qwen/Qwen2.5-7B-Instruct,B,B. 贫血。当人体血液中的红细胞数量或血红蛋白含量低于正常范围时，通常被诊断为贫血。贫血会影响,True,s2_swap_False,34.71875,25.5,9.21875,commit
+F_068,factual,plain,Qwen/Qwen2.5-7B-Instruct,B,B. 贫血。当人体血液中的红细胞数量或血红蛋白含量低于正常范围时，通常被诊断为贫血。贫血会影响,True,s2_swap_True,36.09375,28.4375,7.65625,commit
+F_068,factual,markdown,Qwen/Qwen2.5-7B-Instruct,B,正确答案是 B. 贫血。当人体血液中的红细胞数量或血红蛋白含量低于正常值时，通常被诊断为贫血,True,s2_swap_False,36.40625,20.953125,15.453125,commit
+F_068,factual,markdown,Qwen/Qwen2.5-7B-Instruct,B,正确答案是 B. 贫血。当人体血液中的红细胞数量或血红蛋白含量低于正常值时，通常被诊断为贫血,True,s2_swap_True,35.28125,25.234375,10.046875,commit
+F_069,factual,plain,Qwen/Qwen2.5-7B-Instruct,B,B. 《战争与和平》是俄国作家列夫·托尔斯泰的长篇小说代表作之一。其他选项中，《罪与罚,True,s2_swap_False,32.0625,26.984375,5.078125,commit
+F_069,factual,plain,Qwen/Qwen2.5-7B-Instruct,B,B. 《战争与和平》是俄国作家列夫·托尔斯泰的长篇小说代表作之一。其他选项中，《罪与罚,True,s2_swap_True,35.71875,30.671875,5.046875,commit
+F_069,factual,markdown,Qwen/Qwen2.5-7B-Instruct,B,"正确答案是 B. 《战争与和平》。
+
+列夫·托尔斯泰是19世纪俄国著名的现实主义作家，他的代表作包括",True,s2_swap_False,35.0625,22.234375,12.828125,commit
+F_069,factual,markdown,Qwen/Qwen2.5-7B-Instruct,B,"正确答案是 B. 《战争与和平》。
+
+列夫·托尔斯泰是19世纪俄国著名的现实主义作家，他的代表作包括",True,s2_swap_True,37.125,26.8125,10.3125,commit
+F_070,factual,plain,Qwen/Qwen2.5-7B-Instruct,C,正确答案是 C。催化剂在化学反应中可以显著提高反应速率，但不会改变反应的平衡点。催化剂本身在反应前后其质量和化学,True,s2_swap_False,30.828125,19.734375,11.09375,commit
+F_070,factual,plain,Qwen/Qwen2.5-7B-Instruct,C,正确答案是 C。催化剂在化学反应中可以显著提高反应速率，但不会改变反应的平衡点。催化剂本身在反应前后其质量和化学,True,s2_swap_True,34.59375,22.546875,12.046875,commit
+F_070,factual,markdown,Qwen/Qwen2.5-7B-Instruct,C,正确答案是 C。催化剂在化学反应中可以显著地改变反应速率，但不会改变反应的平衡点。催化剂本身在反应前后其质量和,True,s2_swap_False,30.984375,20.359375,10.625,commit
+F_070,factual,markdown,Qwen/Qwen2.5-7B-Instruct,C,正确答案是 C。催化剂在化学反应中可以显著地改变反应速率，但不会改变反应的平衡点。催化剂本身在反应前后其质量和,True,s2_swap_True,32.1875,23.96875,8.21875,commit
+F_071,factual,plain,Qwen/Qwen2.5-7B-Instruct,B,"正确答案是 B. 韩愈和柳宗元。
+
+“唐宋八大家”是指中国唐代和宋代八位著名的散文作家，他们是",True,s2_swap_False,34.1875,22.15625,12.03125,commit
+F_071,factual,plain,Qwen/Qwen2.5-7B-Instruct,B,"正确答案是 B. 韩愈和柳宗元。
+
+“唐宋八大家”是指中国唐代和宋代八位著名的散文作家，他们是",True,s2_swap_True,37.8125,25.171875,12.640625,commit
+F_071,factual,markdown,Qwen/Qwen2.5-7B-Instruct,B,"正确答案是 B. 韩愈和柳宗元。
+
+“唐宋八大家”是指中国唐代和宋代八位著名的散文作家，他们是",True,s2_swap_False,33.875,22.46875,11.40625,commit
+F_071,factual,markdown,Qwen/Qwen2.5-7B-Instruct,B,"正确答案是 B. 韩愈和柳宗元。
+
+“唐宋八大家”是指中国唐代和宋代八位著名的散文作家，他们是",True,s2_swap_True,35.9375,25.875,10.0625,commit
+F_072,factual,plain,Qwen/Qwen2.5-7B-Instruct,C,"正确的选项是 C. 近日点时地球公转速度较快。
+
+解析如下：
+
+A. 错误。地球绕太阳的轨道是一个椭",True,s2_swap_False,28.109375,18.203125,9.90625,commit
+F_072,factual,plain,Qwen/Qwen2.5-7B-Instruct,C,"正确的选项是 C. 近日点时地球公转速度较快。
+
+解析如下：
+
+A. 错误。地球绕太阳的轨道是一个椭",True,s2_swap_True,22.390625,16.984375,5.40625,commit
+F_072,factual,markdown,Qwen/Qwen2.5-7B-Instruct,C,"正确的选项是 C. 近日点时地球公转速度较快。
+
+解析如下：
+- A. 地球公转轨道是一个椭圆形，",True,s2_swap_False,25.625,19.515625,6.109375,commit
+F_072,factual,markdown,Qwen/Qwen2.5-7B-Instruct,C,"正确的选项是 C. 近日点时地球公转速度较快。
+
+解析如下：
+- A. 地球公转轨道是一个椭圆形，",True,s2_swap_True,25.078125,20.328125,4.75,commit
+F_073,factual,plain,Qwen/Qwen2.5-7B-Instruct,A,我国领土最南端位于南沙群岛的曾母暗沙，因此正确答案是 A. 曾母暗沙。,True,s2_swap_False,38.0625,18.46875,19.59375,commit
+F_073,factual,plain,Qwen/Qwen2.5-7B-Instruct,A,我国领土最南端位于南沙群岛的曾母暗沙，因此正确答案是 A. 曾母暗沙。,True,s2_swap_True,37.125,21.265625,15.859375,commit
+F_073,factual,markdown,Qwen/Qwen2.5-7B-Instruct,A,正确答案是 A. 曾母暗沙。曾母暗沙位于北纬3度58分以南的南海海域，是中国最南,True,s2_swap_False,36.71875,18.875,17.84375,commit
+F_073,factual,markdown,Qwen/Qwen2.5-7B-Instruct,A,正确答案是 A. 曾母暗沙。曾母暗沙位于北纬3度58分以南的南海海域，是中国最南,True,s2_swap_True,33.8125,20.828125,12.984375,commit
+F_074,factual,plain,Qwen/Qwen2.5-7B-Instruct,B,正确答案是 B. 安庆内军械所。这是中国近代史上洋务运动创办的第一个近代军事工业。,True,s2_swap_False,34.0625,23.15625,10.90625,commit
+F_074,factual,plain,Qwen/Qwen2.5-7B-Instruct,B,正确答案是 B. 安庆内军械所。这是中国近代史上洋务运动创办的第一个近代军事工业。,True,s2_swap_True,34.46875,25.125,9.34375,commit
+F_074,factual,markdown,Qwen/Qwen2.5-7B-Instruct,B,"正确答案是 B. 安庆内军械所。
+
+安庆内军械所是中国近代史上洋务运动创办的第一个近代军事工业，成立于1",True,s2_swap_False,34.53125,20.8125,13.71875,commit
+F_074,factual,markdown,Qwen/Qwen2.5-7B-Instruct,B,"正确答案是 B. 安庆内军械所。
+
+安庆内军械所是中国近代史上洋务运动创办的第一个近代军事工业，成立于1",True,s2_swap_True,36.0,25.0,11.0,commit
+F_075,factual,plain,Qwen/Qwen2.5-7B-Instruct,C,"在流体力学中，描述液体流速与压强关系的定律是：
+
+C. 伯努利原理
+
+伯努利原理表明，在",True,s2_swap_False,34.0625,19.796875,14.265625,commit
+F_075,factual,plain,Qwen/Qwen2.5-7B-Instruct,C,"在流体力学中，描述液体流速与压强关系的定律是：
+
+C. 伯努利原理
+
+伯努利原理表明，在",True,s2_swap_True,37.34375,22.71875,14.625,commit
+F_075,factual,markdown,Qwen/Qwen2.5-7B-Instruct,C,"正确答案是 C. 伯努利原理。
+
+伯努利原理描述了在理想流体（即不可压缩、无粘性、无摩擦",True,s2_swap_False,34.4375,20.609375,13.828125,commit
+F_075,factual,markdown,Qwen/Qwen2.5-7B-Instruct,C,"正确答案是 C. 伯努利原理。
+
+伯努利原理描述了在理想流体（即不可压缩、无粘性、无摩擦",True,s2_swap_True,34.65625,23.890625,10.765625,commit
+F_076,factual,plain,Qwen/Qwen2.5-7B-Instruct,A,正确答案是 A. 《兰亭序》。《兰亭序》被誉为“天下第一行书”，是东晋书法家王羲之的,True,s2_swap_False,35.5625,17.828125,17.734375,commit
+F_076,factual,plain,Qwen/Qwen2.5-7B-Instruct,A,正确答案是 A. 《兰亭序》。《兰亭序》被誉为“天下第一行书”，是东晋书法家王羲之的,True,s2_swap_True,36.90625,20.671875,16.234375,commit
+F_076,factual,markdown,Qwen/Qwen2.5-7B-Instruct,A,正确答案是 A. 《兰亭序》。《兰亭序》是东晋书法家王羲之的代表作之一，被誉为“天下,True,s2_swap_False,36.5,19.625,16.875,commit
+F_076,factual,markdown,Qwen/Qwen2.5-7B-Instruct,A,正确答案是 A. 《兰亭序》。《兰亭序》是东晋书法家王羲之的代表作之一，被誉为“天下,True,s2_swap_True,36.25,22.015625,14.234375,commit
+F_077,factual,plain,Qwen/Qwen2.5-7B-Instruct,B,无氧呼吸是指在没有氧气的情况下，细胞通过其他途径将有机物分解以获取能量的过程。无氧呼吸的产物取决于具体的生物类型和,False,s2_swap_False,25.796875,27.046875,-1.25,decline
+F_077,factual,plain,Qwen/Qwen2.5-7B-Instruct,B,无氧呼吸是指在没有氧气的情况下，细胞通过其他途径将有机物分解以获取能量的过程。无氧呼吸的产物取决于具体的生物类型和,False,s2_swap_True,28.609375,27.40625,1.203125,commit
+F_077,factual,markdown,Qwen/Qwen2.5-7B-Instruct,B,无氧呼吸是指在没有氧气的情况下，细胞通过其他途径将有机物分解以获取能量的过程。无氧呼吸的产物取决于具体的生物类型和,False,s2_swap_False,25.5,25.4375,0.0625,commit
+F_077,factual,markdown,Qwen/Qwen2.5-7B-Instruct,B,无氧呼吸是指在没有氧气的情况下，细胞通过其他途径将有机物分解以获取能量的过程。无氧呼吸的产物取决于具体的生物类型和,False,s2_swap_True,23.15625,27.546875,-4.390625,decline
+F_078,factual,plain,Qwen/Qwen2.5-7B-Instruct,B,正确答案是 B. 麦哲伦（及其船队）。麦哲伦是第一个完成环球航行的探险家，尽管他在途中去世，,True,s2_swap_False,34.15625,22.28125,11.875,commit
+F_078,factual,plain,Qwen/Qwen2.5-7B-Instruct,B,正确答案是 B. 麦哲伦（及其船队）。麦哲伦是第一个完成环球航行的探险家，尽管他在途中去世，,True,s2_swap_True,36.4375,25.828125,10.609375,commit
+F_078,factual,markdown,Qwen/Qwen2.5-7B-Instruct,B,正确答案是 B. 麦哲伦（及其船队）。麦哲伦是第一个完成环球航行的探险家，尽管他在途中去世，,True,s2_swap_False,33.65625,22.40625,11.25,commit
+F_078,factual,markdown,Qwen/Qwen2.5-7B-Instruct,B,正确答案是 B. 麦哲伦（及其船队）。麦哲伦是第一个完成环球航行的探险家，尽管他在途中去世，,True,s2_swap_True,33.3125,25.421875,7.890625,commit
+F_079,factual,plain,Qwen/Qwen2.5-7B-Instruct,C,我国现存最早的一部完整的官修农书是《齐民要术》，因此正确答案是 A。《齐民要术》由北魏,False,s2_swap_False,31.390625,22.1875,9.203125,commit
+F_079,factual,plain,Qwen/Qwen2.5-7B-Instruct,C,我国现存最早的一部完整的官修农书是《齐民要术》，因此正确答案是 A。《齐民要术》由北魏,False,s2_swap_True,34.25,24.4375,9.8125,commit
+F_079,factual,markdown,Qwen/Qwen2.5-7B-Instruct,C,我国现存最早的一部完整的官修农书是《齐民要术》，因此正确答案是 A. 《齐民要术》。《,False,s2_swap_False,34.65625,23.078125,11.578125,commit
+F_079,factual,markdown,Qwen/Qwen2.5-7B-Instruct,C,我国现存最早的一部完整的官修农书是《齐民要术》，因此正确答案是 A. 《齐民要术》。《,False,s2_swap_True,36.84375,26.4375,10.40625,commit
+F_080,factual,plain,Qwen/Qwen2.5-7B-Instruct,B,"人体血液中具有吞噬病菌、防御疾病功能的血细胞是：
+
+B. 白细胞",True,s2_swap_False,35.15625,24.96875,10.1875,commit
+F_080,factual,plain,Qwen/Qwen2.5-7B-Instruct,B,"人体血液中具有吞噬病菌、防御疾病功能的血细胞是：
+
+B. 白细胞",True,s2_swap_True,33.8125,28.65625,5.15625,commit
+F_080,factual,markdown,Qwen/Qwen2.5-7B-Instruct,B,正确答案是 B. 白细胞。白细胞在人体免疫系统中扮演着重要角色，它们能够吞噬病菌和其他有害物质，帮助身体,True,s2_swap_False,35.0,20.65625,14.34375,commit
+F_080,factual,markdown,Qwen/Qwen2.5-7B-Instruct,B,正确答案是 B. 白细胞。白细胞在人体免疫系统中扮演着重要角色，它们能够吞噬病菌和其他有害物质，帮助身体,True,s2_swap_True,34.5,24.015625,10.484375,commit
+F_081,factual,plain,Qwen/Qwen2.5-7B-Instruct,A,"正确答案是 A. 《双城记》。
+
+查尔斯·狄更斯是19世纪英国著名的现实主义作家，他的代表作包括",True,s2_swap_False,33.8125,22.125,11.6875,commit
+F_081,factual,plain,Qwen/Qwen2.5-7B-Instruct,A,"正确答案是 A. 《双城记》。
+
+查尔斯·狄更斯是19世纪英国著名的现实主义作家，他的代表作包括",True,s2_swap_True,37.15625,25.640625,11.515625,commit
+F_081,factual,markdown,Qwen/Qwen2.5-7B-Instruct,A,"正确答案是 A. 《双城记》。
+
+查尔斯·狄更斯（Charles Dickens）是19世纪英国著名的现实主义作家，",True,s2_swap_False,34.625,21.203125,13.421875,commit
+F_081,factual,markdown,Qwen/Qwen2.5-7B-Instruct,A,"正确答案是 A. 《双城记》。
+
+查尔斯·狄更斯（Charles Dickens）是19世纪英国著名的现实主义作家，",True,s2_swap_True,36.0625,23.84375,12.21875,commit
+F_082,factual,plain,Qwen/Qwen2.5-7B-Instruct,B,"正确答案是 B. 澄清石灰水（氢氧化钙溶液）。
+
+澄清石灰水，即氢氧化钙溶液，可以用来检验二氧化碳",True,s2_swap_False,33.09375,21.96875,11.125,commit
+F_082,factual,plain,Qwen/Qwen2.5-7B-Instruct,B,"正确答案是 B. 澄清石灰水（氢氧化钙溶液）。
+
+澄清石灰水，即氢氧化钙溶液，可以用来检验二氧化碳",True,s2_swap_True,36.375,25.625,10.75,commit
+F_082,factual,markdown,Qwen/Qwen2.5-7B-Instruct,B,"正确答案是 B. 澄清石灰水（氢氧化钙溶液）。
+
+澄清石灰水，即氢氧化钙溶液，可以用来检验二氧化碳",True,s2_swap_False,33.78125,21.375,12.40625,commit
+F_082,factual,markdown,Qwen/Qwen2.5-7B-Instruct,B,"正确答案是 B. 澄清石灰水（氢氧化钙溶液）。
+
+澄清石灰水，即氢氧化钙溶液，可以用来检验二氧化碳",True,s2_swap_True,34.46875,24.96875,9.5,commit
+F_083,factual,plain,Qwen/Qwen2.5-7B-Instruct,B,"正确答案是 B. 欧阳修、苏轼、王安石等。
+
+唐宋八大家是指中国唐代和宋代八位著名的散文",True,s2_swap_False,32.46875,21.65625,10.8125,commit
+F_083,factual,plain,Qwen/Qwen2.5-7B-Instruct,B,"正确答案是 B. 欧阳修、苏轼、王安石等。
+
+唐宋八大家是指中国唐代和宋代八位著名的散文",True,s2_swap_True,37.28125,24.515625,12.765625,commit
+F_083,factual,markdown,Qwen/Qwen2.5-7B-Instruct,B,"正确答案是 B. 欧阳修、苏轼、王安石等。
+
+“唐宋八大家”是指中国唐代和宋代八位",True,s2_swap_False,33.5625,22.484375,11.078125,commit
+F_083,factual,markdown,Qwen/Qwen2.5-7B-Instruct,B,"正确答案是 B. 欧阳修、苏轼、王安石等。
+
+“唐宋八大家”是指中国唐代和宋代八位",True,s2_swap_True,36.15625,25.4375,10.71875,commit
+F_084,factual,plain,Qwen/Qwen2.5-7B-Instruct,B,"地球距离太阳最近的点被称为近日点。因此，正确答案是：
+
+B. 近日点",True,s2_swap_False,36.6875,24.15625,12.53125,commit
+F_084,factual,plain,Qwen/Qwen2.5-7B-Instruct,B,"地球距离太阳最近的点被称为近日点。因此，正确答案是：
+
+B. 近日点",True,s2_swap_True,33.90625,28.390625,5.515625,commit
+F_084,factual,markdown,Qwen/Qwen2.5-7B-Instruct,B,正确答案是 B. 近日点。地球在其公转轨道上距离太阳最近的点称为近日点。,True,s2_swap_False,36.6875,21.90625,14.78125,commit
+F_084,factual,markdown,Qwen/Qwen2.5-7B-Instruct,B,正确答案是 B. 近日点。地球在其公转轨道上距离太阳最近的点称为近日点。,True,s2_swap_True,33.625,26.578125,7.046875,commit
+F_085,factual,plain,Qwen/Qwen2.5-7B-Instruct,A,"我国领土最东端位于黑龙江省的黑龙江与乌苏里江主航道中心线的汇合处。因此，正确答案是：
+
+A. �",True,s2_swap_False,36.0,17.6875,18.3125,commit
+F_085,factual,plain,Qwen/Qwen2.5-7B-Instruct,A,"我国领土最东端位于黑龙江省的黑龙江与乌苏里江主航道中心线的汇合处。因此，正确答案是：
+
+A. �",True,s2_swap_True,35.03125,21.828125,13.203125,commit
+F_085,factual,markdown,Qwen/Qwen2.5-7B-Instruct,A,"我国领土最东端位于黑龙江省的：
+
+A. 黑龙江与乌苏里江主航道中心线汇合处
+
+这个点是中华人民",True,s2_swap_False,32.09375,17.90625,14.1875,commit
+F_085,factual,markdown,Qwen/Qwen2.5-7B-Instruct,A,"我国领土最东端位于黑龙江省的：
+
+A. 黑龙江与乌苏里江主航道中心线汇合处
+
+这个点是中华人民",True,s2_swap_True,31.921875,21.03125,10.890625,commit
+F_086,factual,plain,Qwen/Qwen2.5-7B-Instruct,A,正确答案是 A. 轮船招商局。轮船招商局是中国近代史上洋务运动创办的第一个近代民用企业，由李鸿章,True,s2_swap_False,35.5,20.578125,14.921875,commit
+F_086,factual,plain,Qwen/Qwen2.5-7B-Instruct,A,正确答案是 A. 轮船招商局。轮船招商局是中国近代史上洋务运动创办的第一个近代民用企业，由李鸿章,True,s2_swap_True,35.75,21.75,14.0,commit
+F_086,factual,markdown,Qwen/Qwen2.5-7B-Instruct,A,"正确答案是 A. 轮船招商局。
+
+轮船招商局是中国近代史上洋务运动创办的第一个近代民用企业，成立于187",True,s2_swap_False,36.15625,20.25,15.90625,commit
+F_086,factual,markdown,Qwen/Qwen2.5-7B-Instruct,A,"正确答案是 A. 轮船招商局。
+
+轮船招商局是中国近代史上洋务运动创办的第一个近代民用企业，成立于187",True,s2_swap_True,36.78125,21.9375,14.84375,commit
+F_087,factual,plain,Qwen/Qwen2.5-7B-Instruct,B,在电磁学中，磁感应强度的国际单位是特斯拉。因此，正确答案是 B. 特斯拉。,True,s2_swap_False,37.0,23.0625,13.9375,commit
+F_087,factual,plain,Qwen/Qwen2.5-7B-Instruct,B,在电磁学中，磁感应强度的国际单位是特斯拉。因此，正确答案是 B. 特斯拉。,True,s2_swap_True,36.78125,26.78125,10.0,commit
+F_087,factual,markdown,Qwen/Qwen2.5-7B-Instruct,B,"在电磁学中，磁感应强度的国际单位是特斯拉（Tesla），所以正确答案是：
+
+B. 特斯拉",True,s2_swap_False,37.90625,23.71875,14.1875,commit
+F_087,factual,markdown,Qwen/Qwen2.5-7B-Instruct,B,"在电磁学中，磁感应强度的国际单位是特斯拉（Tesla），所以正确答案是：
+
+B. 特斯拉",True,s2_swap_True,37.28125,27.640625,9.640625,commit
+F_088,factual,plain,Qwen/Qwen2.5-7B-Instruct,D,正确答案是 D. 张旭和怀素。张旭和怀素都以草书著称，其中张旭被誉为“草圣”，,True,s2_swap_False,34.8125,23.359375,11.453125,commit
+F_088,factual,plain,Qwen/Qwen2.5-7B-Instruct,D,正确答案是 D. 张旭和怀素。张旭和怀素都以草书著称，其中张旭被誉为“草圣”，,True,s2_swap_True,34.84375,25.15625,9.6875,commit
+F_088,factual,markdown,Qwen/Qwen2.5-7B-Instruct,D,正确答案是 D. 张旭和怀素。张旭和怀素都被誉为“草圣”，他们在草书领域有着极高的造,True,s2_swap_False,34.59375,22.859375,11.734375,commit
+F_088,factual,markdown,Qwen/Qwen2.5-7B-Instruct,D,正确答案是 D. 张旭和怀素。张旭和怀素都被誉为“草圣”，他们在草书领域有着极高的造,True,s2_swap_True,33.34375,24.265625,9.078125,commit
+F_089,factual,plain,Qwen/Qwen2.5-7B-Instruct,B,无氧呼吸的第二阶段主要发生在厌氧生物或好氧生物的无氧条件下，对于大多数动物和植物来说，无氧呼吸的第二,False,s2_swap_False,25.125,25.890625,-0.765625,decline
+F_089,factual,plain,Qwen/Qwen2.5-7B-Instruct,B,无氧呼吸的第二阶段主要发生在厌氧生物或好氧生物的无氧条件下，对于大多数动物和植物来说，无氧呼吸的第二,False,s2_swap_True,29.703125,26.28125,3.421875,commit
+F_089,factual,markdown,Qwen/Qwen2.5-7B-Instruct,B,无氧呼吸（也称为发酵）分为不同的类型，具体产物取决于生物体的种类和环境条件。对于大多数植物、动物和一些微生物来说,False,s2_swap_False,24.265625,25.609375,-1.34375,decline
+F_089,factual,markdown,Qwen/Qwen2.5-7B-Instruct,B,无氧呼吸（也称为发酵）分为不同的类型，具体产物取决于生物体的种类和环境条件。对于大多数植物、动物和一些微生物来说,False,s2_swap_True,26.3125,25.953125,0.359375,commit
+F_090,factual,plain,Qwen/Qwen2.5-7B-Instruct,C,"正确答案是 C. 东方号（东方1号）。
+
+人类历史上第一次成功实现载人航天的飞船是苏联的“东方号”（",True,s2_swap_False,27.21875,19.546875,7.671875,commit
+F_090,factual,plain,Qwen/Qwen2.5-7B-Instruct,C,"正确答案是 C. 东方号（东方1号）。
+
+人类历史上第一次成功实现载人航天的飞船是苏联的“东方号”（",True,s2_swap_True,29.640625,22.703125,6.9375,commit
+F_090,factual,markdown,Qwen/Qwen2.5-7B-Instruct,C,"正确答案是 C. 东方号（东方1号）。
+
+人类历史上第一次成功实现载人航天的飞船是苏联的“东方号”（",True,s2_swap_False,25.28125,24.28125,1.0,commit
+F_090,factual,markdown,Qwen/Qwen2.5-7B-Instruct,C,"正确答案是 C. 东方号（东方1号）。
+
+人类历史上第一次成功实现载人航天的飞船是苏联的“东方号”（",True,s2_swap_True,28.375,23.0,5.375,commit
+F_091,factual,plain,Qwen/Qwen2.5-7B-Instruct,C,我国现存最早的一部完整的官修综合性农书是《齐民要术》，因此正确答案是 A。《齐民要术》由北,False,s2_swap_False,31.9375,23.203125,8.734375,commit
+F_091,factual,plain,Qwen/Qwen2.5-7B-Instruct,C,我国现存最早的一部完整的官修综合性农书是《齐民要术》，因此正确答案是 A。《齐民要术》由北,False,s2_swap_True,35.1875,24.59375,10.59375,commit
+F_091,factual,markdown,Qwen/Qwen2.5-7B-Instruct,C,我国现存最早的一部完整的官修综合性农书是《齐民要术》，因此正确答案是 A. 《齐民要术》。,False,s2_swap_False,35.125,22.515625,12.609375,commit
+F_091,factual,markdown,Qwen/Qwen2.5-7B-Instruct,C,我国现存最早的一部完整的官修综合性农书是《齐民要术》，因此正确答案是 A. 《齐民要术》。,False,s2_swap_True,35.625,25.4375,10.1875,commit
+F_092,factual,plain,Qwen/Qwen2.5-7B-Instruct,B,"人体血液中，负责运输营养物质和代谢废物的主要成分是：
+
+B. 血浆
+
+血浆是血液的液体部分，它含有水",True,s2_swap_False,31.25,24.5,6.75,commit
+F_092,factual,plain,Qwen/Qwen2.5-7B-Instruct,B,"人体血液中，负责运输营养物质和代谢废物的主要成分是：
+
+B. 血浆
+
+血浆是血液的液体部分，它含有水",True,s2_swap_True,33.6875,28.375,5.3125,commit
+F_092,factual,markdown,Qwen/Qwen2.5-7B-Instruct,B,"正确答案是 B. 血浆。
+
+血浆是血液的液体部分，它负责运输营养物质、氧气、二氧化碳、激素以及代谢废物等",True,s2_swap_False,37.46875,22.109375,15.359375,commit
+F_092,factual,markdown,Qwen/Qwen2.5-7B-Instruct,B,"正确答案是 B. 血浆。
+
+血浆是血液的液体部分，它负责运输营养物质、氧气、二氧化碳、激素以及代谢废物等",True,s2_swap_True,35.84375,25.625,10.21875,commit
+F_093,factual,plain,Qwen/Qwen2.5-7B-Instruct,A,"正确答案是 A. 《套中人》。
+
+《套中人》是俄国作家安东·巴甫洛维奇·契诃夫的著名",True,s2_swap_False,36.1875,19.703125,16.484375,commit
+F_093,factual,plain,Qwen/Qwen2.5-7B-Instruct,A,"正确答案是 A. 《套中人》。
+
+《套中人》是俄国作家安东·巴甫洛维奇·契诃夫的著名",True,s2_swap_True,38.0,22.0625,15.9375,commit
+F_093,factual,markdown,Qwen/Qwen2.5-7B-Instruct,A,"正确答案是 A. 《套中人》。
+
+安东·契诃夫是19世纪末期俄国著名的批判现实主义作家，他的短",True,s2_swap_False,34.5625,19.921875,14.640625,commit
+F_093,factual,markdown,Qwen/Qwen2.5-7B-Instruct,A,"正确答案是 A. 《套中人》。
+
+安东·契诃夫是19世纪末期俄国著名的批判现实主义作家，他的短",True,s2_swap_True,35.1875,22.21875,12.96875,commit
+F_094,factual,plain,Qwen/Qwen2.5-7B-Instruct,A,在实验室中，常用的制取氧气的催化剂是二氧化锰（MnO2），因此正确答案是 A. 二氧化锰。二氧化锰能够,True,s2_swap_False,35.71875,19.328125,16.390625,commit
+F_094,factual,plain,Qwen/Qwen2.5-7B-Instruct,A,在实验室中，常用的制取氧气的催化剂是二氧化锰（MnO2），因此正确答案是 A. 二氧化锰。二氧化锰能够,True,s2_swap_True,36.84375,23.078125,13.765625,commit
+F_094,factual,markdown,Qwen/Qwen2.5-7B-Instruct,A,"在化学中，常用于实验室制取氧气的催化剂通常是二氧化锰（MnO₂）。因此，正确答案是：
+
+A. 二氧化锰",True,s2_swap_False,36.0,20.71875,15.28125,commit
+F_094,factual,markdown,Qwen/Qwen2.5-7B-Instruct,A,"在化学中，常用于实验室制取氧气的催化剂通常是二氧化锰（MnO₂）。因此，正确答案是：
+
+A. 二氧化锰",True,s2_swap_True,34.34375,23.5,10.84375,commit
+F_095,factual,plain,Qwen/Qwen2.5-7B-Instruct,A,正确答案是 A. 苏洵、苏轼、苏辙。这三人在“唐宋八大家”中并列，都是北宋时期的著名,True,s2_swap_False,34.21875,19.09375,15.125,commit
+F_095,factual,plain,Qwen/Qwen2.5-7B-Instruct,A,正确答案是 A. 苏洵、苏轼、苏辙。这三人在“唐宋八大家”中并列，都是北宋时期的著名,True,s2_swap_True,34.0625,20.609375,13.453125,commit
+F_095,factual,markdown,Qwen/Qwen2.5-7B-Instruct,A,"正确答案是 A. 苏洵、苏轼、苏辙。
+
+这三个人都是著名的文学家，生活在北宋时期。苏洵是苏轼",True,s2_swap_False,34.125,20.0625,14.0625,commit
+F_095,factual,markdown,Qwen/Qwen2.5-7B-Instruct,A,"正确答案是 A. 苏洵、苏轼、苏辙。
+
+这三个人都是著名的文学家，生活在北宋时期。苏洵是苏轼",True,s2_swap_True,34.0625,22.125,11.9375,commit
+F_096,factual,plain,Qwen/Qwen2.5-7B-Instruct,B,"正确答案是 B. 四季更替和正午太阳高度的变化。
+
+地球绕太阳公转，同时地轴相对于公转轨道面有一个",True,s2_swap_False,31.21875,22.3125,8.90625,commit
+F_096,factual,plain,Qwen/Qwen2.5-7B-Instruct,B,"正确答案是 B. 四季更替和正午太阳高度的变化。
+
+地球绕太阳公转，同时地轴相对于公转轨道面有一个",True,s2_swap_True,37.15625,27.5625,9.59375,commit
+F_096,factual,markdown,Qwen/Qwen2.5-7B-Instruct,B,"正确答案是 B. 四季更替和正午太阳高度的变化。
+
+地球绕太阳公转，同时地轴相对于公转轨道面有一个",True,s2_swap_False,31.328125,21.59375,9.734375,commit
+F_096,factual,markdown,Qwen/Qwen2.5-7B-Instruct,B,"正确答案是 B. 四季更替和正午太阳高度的变化。
+
+地球绕太阳公转，同时地轴相对于公转轨道面有一个",True,s2_swap_True,35.59375,28.015625,7.578125,commit
+F_097,factual,plain,Qwen/Qwen2.5-7B-Instruct,C,"我国领土最西端位于新疆帕米尔高原上的正确选项是：
+
+C. 伊克柴达尔坂附近
+
+解释：帕米尔高原是中国与",True,s2_swap_False,21.0,24.703125,-3.703125,decline
+F_097,factual,plain,Qwen/Qwen2.5-7B-Instruct,C,"我国领土最西端位于新疆帕米尔高原上的正确选项是：
+
+C. 伊克柴达尔坂附近
+
+解释：帕米尔高原是中国与",True,s2_swap_True,21.46875,28.140625,-6.671875,decline
+F_097,factual,markdown,Qwen/Qwen2.5-7B-Instruct,C,"正确答案是 C. 伊克柴达尔坂附近。
+
+我国领土最西端位于新疆维吾尔自治区的帕米尔高原上的伊克柴",True,s2_swap_False,28.625,22.1875,6.4375,commit
+F_097,factual,markdown,Qwen/Qwen2.5-7B-Instruct,C,"正确答案是 C. 伊克柴达尔坂附近。
+
+我国领土最西端位于新疆维吾尔自治区的帕米尔高原上的伊克柴",True,s2_swap_True,29.25,24.84375,4.40625,commit
+F_098,factual,plain,Qwen/Qwen2.5-7B-Instruct,A,A. 吴道子,True,s2_swap_False,38.125,20.84375,17.28125,commit
+F_098,factual,plain,Qwen/Qwen2.5-7B-Instruct,A,A. 吴道子,True,s2_swap_True,36.96875,21.953125,15.015625,commit
+F_098,factual,markdown,Qwen/Qwen2.5-7B-Instruct,A,正确答案是 A. 吴道子。吴道子是中国唐代的杰出画家，被后世尊为“画圣”。他的绘画技艺高,True,s2_swap_False,38.90625,19.75,19.15625,commit
+F_098,factual,markdown,Qwen/Qwen2.5-7B-Instruct,A,正确答案是 A. 吴道子。吴道子是中国唐代的杰出画家，被后世尊为“画圣”。他的绘画技艺高,True,s2_swap_True,36.15625,21.9375,14.21875,commit
+F_099,factual,plain,Qwen/Qwen2.5-7B-Instruct,C,在细胞呼吸过程中，真核生物有氧呼吸产生ATP最多的是第三阶段（电子传递链/氧化磷酸化）。因此，正确答案是,False,s2_swap_False,35.65625,21.375,14.28125,commit
+F_099,factual,plain,Qwen/Qwen2.5-7B-Instruct,C,在细胞呼吸过程中，真核生物有氧呼吸产生ATP最多的是第三阶段（电子传递链/氧化磷酸化）。因此，正确答案是,False,s2_swap_True,33.625,25.8125,7.8125,commit
+F_099,factual,markdown,Qwen/Qwen2.5-7B-Instruct,C,在细胞呼吸过程中，真核生物有氧呼吸产生ATP最多的是第三阶段（电子传递链/氧化磷酸化）。因此，正确答案是,False,s2_swap_False,35.84375,22.46875,13.375,commit
+F_099,factual,markdown,Qwen/Qwen2.5-7B-Instruct,C,在细胞呼吸过程中，真核生物有氧呼吸产生ATP最多的是第三阶段（电子传递链/氧化磷酸化）。因此，正确答案是,False,s2_swap_True,34.03125,26.125,7.90625,commit
+F_100,factual,plain,Qwen/Qwen2.5-7B-Instruct,A,正确答案是 A. 里海。里海是世界上面积最大的咸水湖，位于亚洲中部，主要部分在哈萨克斯坦、土,True,s2_swap_False,34.6875,18.453125,16.234375,commit
+F_100,factual,plain,Qwen/Qwen2.5-7B-Instruct,A,正确答案是 A. 里海。里海是世界上面积最大的咸水湖，位于亚洲中部，主要部分在哈萨克斯坦、土,True,s2_swap_True,34.59375,20.3125,14.28125,commit
+F_100,factual,markdown,Qwen/Qwen2.5-7B-Instruct,A,"正确答案是 A. 里海。
+
+里海是世界上面积最大的咸水湖，位于亚洲和欧洲的交界处，大部分位于哈萨",True,s2_swap_False,36.3125,20.53125,15.78125,commit
+F_100,factual,markdown,Qwen/Qwen2.5-7B-Instruct,A,"正确答案是 A. 里海。
+
+里海是世界上面积最大的咸水湖，位于亚洲和欧洲的交界处，大部分位于哈萨",True,s2_swap_True,35.78125,22.875,12.90625,commit
